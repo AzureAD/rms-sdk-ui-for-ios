@@ -1,0 +1,232 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "ОК";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "Скасувати";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ надає вам доступ до цього файлу. Очікується, що ви належно використовуватимете такі дозволи:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "На вашому пристрої не інстальовано програму, яка може відкрити файл %@";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Цей файл не можна відкрити, бо власник не дозволив відкривати файл у будь-якій програмі, крім програми RMS-доступу";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "Облікові записи пошти не знайдено. Відкрийте розділ \"Настройки->Пошта\" й додайте свій обліковий запис пошти";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "Схоже, файл пошкоджено. Можна попросити відправника захистити його й надіслати знову";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "Дозволи";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "Доступ захищено";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "Варіанти спільного доступу до файлу";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "Електронна пошта";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "Відкрити в іншій програмі";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "Вам надано захищений доступ";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Вам надано захищений доступ до вкладення.</p><p><a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">Тут</a> можна безкоштовно зареєструватись у службі Microsoft Rights Management.<br />Перш ніж відкривати вкладення, інсталюйте <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">звідси</a> програму для спільного використання вмісту, що захищений Microsoft Rights Management.</p><p>Щоб отримати додаткову допомогу, натисніть <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">тут</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Захищений доступ до файлів за допомогою </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "Ваші дозволи:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Текст задовгий, тому його завантажено не повністю. Щоб переглянути повний текст, відкрийте файл на ПК за допомогою програми RMS-доступу.";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Помилка пакета SDK для Microsoft Azure AD Rights Management";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Скасувати";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Надіслати електронний лист";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Ви виявили проблему в пакеті SDK для Microsoft Azure AD Rights Management. Допоможіть нам удосконалити наш продукт, надіславши цей електронний лист.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "На жаль, сталася помилка. Надішліть нам журнали помилок, щоб ми могли усунути проблему.";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "ОК";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Якщо ви натиснете кнопку \"Надіслати журнали помилок\", журнали помилок із даними діагностики буде надіслано до Майкрософт.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Надіслати журнали помилок";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Без захисту";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "Немає дозволів";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Користувацькі дозволи…";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Вилучити";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Виберіть дозвіл:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Вибрати захист";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Застосувати";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "додати захист";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Користувачі:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "Указані нижче адреси електронної пошти недійсні, або їх обслуговують постачальники послуг електронної пошти, які не підтримуються";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "Укажіть хоча б одного користувача";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Дозволити споживання за допомогою пристроїв";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Для перегляду файлів користувачі мобільних пристроїв мають інсталювати програму Microsoft RMS";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Дозволи:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Користувачі мають входити в систему щоразу, коли відкривають цей файл";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Термін чинності вмісту минає";
+
+/* Links */
+"PrivacyLink" = "Конфіденційність";
+"HelpLink" = "Довідка";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Без захисту";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Цей вміст не захищено.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "ОБМЕЖЕНИЙ ДОСТУП";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Дозволи зараз обмежені. Доступ до цього вмісту дозволено лише зазначеним користувачам.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Права на використання";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Ваші дозволи";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Надано";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Змінити дозволи";
+
+/* The label for the 'edit' button */
+"EditButton" = "Змінити";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "Ви маєте такі дозволи доступу до цього файлу:";
+"OwnerContent" = "Ви вказали такі дозволи для роботи з цим файлом:";
+"RoleContent" = "Ваша роль для цього файлу: %@. Ви маєте такі дозволи:";
+
+/* Role names */
+"ViewerRole" = "читач";
+"ReviewerRole" = "рецензент";
+"CoAuthorRole" = "співавтор";
+"CoOwnerRole" = "співвласник";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "Ви маєте такі дозволи:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Повний доступ";
+
+"View" = "Перегляд";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Змінити";
+
+"Export" = "Зберегти як";
+
+"Extract" = "Копіювати";
+
+"Print" = "Друк";
+
+"Comment" = "Коментар";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Відповісти";
+
+"ReplyAll" = "Відповісти всім";
+
+"Forward" = "Переслати";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Недійсна адреса електронної пошти.";

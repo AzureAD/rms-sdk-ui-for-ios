@@ -1,0 +1,26 @@
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "7hD-IT-TzB"; */
+"7hD-IT-TzB.title" = "アクセス許可";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "E9u-4k-I8g"; */
+"E9u-4k-I8g.title" = "アクセス許可";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "BOc-te-8vA"; */
+"BOc-te-8vA.title" = "戻る";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "dJj-kD-yMs"; */
+"dJj-kD-yMs.text" = "タイトル";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "gwk-7Q-LwK"; */
+"gwk-7Q-LwK.text" = "タイトル";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "jK7-iI-n6h"; */
+"jK7-iI-n6h.title" = "適用";
+
+"hOy-kG-IDD.text" = "組織のメール アドレスを入力してください";
+
+"Hnt-id-gaS.normalTitle" = "続行";
+
+"Fq6-1K-i8c.normalTitle" = "プライバシー";
+
+"LZK-jW-Eiy.normalTitle" = "ヘルプ";

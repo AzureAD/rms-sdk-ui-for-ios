@@ -1,0 +1,232 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "ตกลง";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "ยกเลิก";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ ได้แชร์ไฟล์นี้กับคุณ โดยมีความคาดหมายให้คุณปฏิบัติตามสิทธิ์การอนุญาตเหล่านี้:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "ไม่มีโปรแกรมประยุกต์ที่ติดตั้งในอุปกรณ์ของคุณและสามารถเปิด %@";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "ไม่สามารถเปิดไฟล์นี้ เนื่องจากเจ้าของไม่ได้อนุญาตให้เปิดไฟล์ในโปรแกรมประยุกต์นอกเหนือจากโปรแกรมประยุกต์การแชร์ RMS";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "ไม่พบบัญชีอีเมล โปรดไปที่การตั้งค่า -> อีเมลและเพิ่มบัญชีอีเมลของคุณ";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "ดูเหมือนไฟล์จะเสียหาย คุณสามารถขอให้ผู้ส่งป้องกันไฟล์และส่งอีกครั้ง";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "การอนุญาต";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "แชร์แบบป้องกัน";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "คุณต้องการแชร์ไฟล์นี้อย่างไร";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "อีเมล";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "เปิดในแอปอื่น";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "ฉันแชร์ไฟล์แบบปลอดภัยกับคุณ";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>ฉันได้แชร์ไฟล์ที่แนบมานี้แบบปลอดภัยกับคุณ</p><p>ลงทะเบียนใช้ Microsoft Rights Management <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">ที่นี่</a> ได้ฟรี<br />ก่อนที่จะเปิดสิ่งที่แนบมา ให้ติดตั้งแอปการแชร์ Microsoft Rights Management จาก <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">ที่นี่</a></p><p>ถ้าต้องการความช่วยเหลือเพิ่มเติม คลิก <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">ที่นี่</a></p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">แชร์ไฟล์ของคุณแบบปลอดภัยด้วย </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "การอนุญาตของคุณ:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "โหลดข้อความไม่สมบูรณ์เนื่องจากข้อความยาวเกินไป เมื่อต้องการดูข้อความทั้งหมด โปรดเปิดไฟล์บนคอมพิวเตอร์พีซีโดยใช้แอปการแชร์ RMS";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "ข้อผิดพลาดของ Windows Azure AD Rights Management SDK";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "ยกเลิก";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "ส่งอีเมล";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "คุณได้ประสบปัญหาในการใช้ Windows Azure AD Rights Management SDK โปรดช่วยเราปรับปรุงผลิตภัณฑ์โดยส่งอีเมลนี้";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "ขออภัย เกิดข้อผิดพลาด โปรดส่งบันทึกข้อผิดพลาดให้เรา เพื่อที่เราจะได้แก้ไขปัญหาดังกล่าว";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "ตกลง";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "หากคุณเลือก \"ส่งบันทึกข้อผิดพลาด\" บันทึกข้อผิดพลาดที่มีข้อมูลการวินิจฉัยปัญหาจะถูกส่งไปยัง Microsoft";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "ส่งบันทึกข้อผิดพลาด";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "ไม่มีการป้องกัน";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "ไม่มีสิทธิ์";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "สิทธิ์ที่กำหนดเอง...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "นำออก";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "เลือกสิทธิ์:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "เลือกการป้องกัน";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "ใช้";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "เพิ่มการปกป้อง";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "ผู้ใช้:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "ที่อยู่อีเมลต่อไปนี้ไม่ถูกต้องหรือใช้ผู้ให้บริการอีเมลที่ไม่ได้รับการสนับสนุน";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "โปรดระบุผู้ใช้อย่างน้อยหนึ่งราย";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "อนุญาตปริมาณการใช้กับอุปกรณ์";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "ผู้ใช้อุปกรณ์มือถือจะต้องติดตั้งโปรแกรมประยุกต์ Microsoft RMS เพื่อดูไฟล์";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "การอนุญาต:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "ผู้ใช้ต้องเข้าสู่ระบบทุกครั้งที่พวกเขาเปิดไฟล์นี้";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "เนื้อหาหมดอายุใน";
+
+/* Links */
+"PrivacyLink" = "ความเป็นส่วนตัว";
+"HelpLink" = "วิธีใช้";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "ไม่มีการป้องกัน";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "เนื้อหานี้ไม่ได้รับการป้องกัน";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "การเข้าถึงที่จำกัด";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "สิทธิ์ถูกจำกัดอยู่ในขณะนี้ มีเพียงผู้ใช้ที่ระบุเท่านั้นที่จะสามารถเข้าถึงเนื้อหานี้";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "ใช้สิทธิ์";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "การอนุญาตของคุณ";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "อนุมัติโดย";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "แก้ไขสิทธิ์";
+
+/* The label for the 'edit' button */
+"EditButton" = "แก้ไข";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "คุณมีสิทธิ์ต่อไปนี้สำหรับไฟล์นี้:";
+"OwnerContent" = "คุณได้ตั้งค่าสิทธิ์ต่อไปนี้ในไฟล์นี้:";
+"RoleContent" = "คุณคือ %@ สำหรับไฟล์นี้ สิทธิ์ของคุณคือ:";
+
+/* Role names */
+"ViewerRole" = "ผู้ดู";
+"ReviewerRole" = "ผู้ตรวจสอบ";
+"CoAuthorRole" = "ผู้เขียนร่วม";
+"CoOwnerRole" = "เจ้าของร่วม";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "สิทธิ์ของคุณคือ:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "ควบคุมทั้งหมด";
+
+"View" = "ดู";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "แก้ไข";
+
+"Export" = "บันทึกเป็น";
+
+"Extract" = "คัดลอก";
+
+"Print" = "พิมพ์";
+
+"Comment" = "ความคิดเห็น";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "ตอบกลับ";
+
+"ReplyAll" = "ตอบกลับทั้งหมด";
+
+"Forward" = "ส่งต่อ";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "ที่อยู่อีเมลไม่ถูกต้อง";

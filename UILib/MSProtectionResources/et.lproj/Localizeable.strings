@@ -1,0 +1,216 @@
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Windows Azure AD Rights Management SDK tõrge";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Tühista";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Saada meil";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Leidsite probleemi Windows Azure AD Rights Management SDK-ga. Aidake meil toodet parandada, saates selle meili.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "Kahjuks ilmnes tõrge. Kas võiksite meile saata tõrkelogid, et saaksime probleemi lahendada?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "OK";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Kui valite käsu Saada tõrkelogid, saadetakse Microsoftile diagnostikateavet sisaldavad tõrkelogid.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Saada tõrkelogid";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Kaitse puudub";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "Õigusi ei ole";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Kohandatud õigused ...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Eemalda";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Valige õigus:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Valige kaitse";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Rakenda";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "lisa kaitse";
+
+/* The users’ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Kasutajad:";
+
+/* Invalid input error message for the users’ email input field */
+"CustomPolicyInvalidInputLabel" = "Järgmised meiliaadressid on valed või kasutatakse toetuseta meiliteenuse pakkujaid";
+
+/* Empty input error message for the users’ email input field */
+"CustomPolicyEmptyInputLabel" = "Määrake vähemalt üks kasutaja";
+
+/* The label for the ‘Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Luba tarbimine seadmetega";
+
+/* The help tooltip for the ‘Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Mobiiliseadme kasutajad peavad failide vaatamiseks installima Microsoft RMS-i rakenduse";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Load:";
+
+/* The label for the ‘Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Kasutajad peavad sisse logima iga kord, kui nad selle faili avavad";
+
+/* The label for the ‘Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Sisu aegub";
+
+/* Links */
+"PrivacyLink" = "Privaatsus";
+"HelpLink" = "Spikker";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Kaitse puudub";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Sisu ei ole kaitstud.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "PIIRATUD JUURDEPÄÄS";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Õigused on praegu piiratud. Sisu juurde pääsevad vaid teatud kasutajad.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Kasutusõigused";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Teie load";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Andja:";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Redigeeri õigusi";
+
+/* The label for the 'edit' button */
+"EditButton" = "Redigeeri";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "Teil on sellele failile järgmised õigused:";
+"OwnerContent" = "Määrasite sellele failile järgmised õigused:";
+"RoleContent" = "Olete selle faili %@. Teie õigused on:";
+
+/* Role names */
+"ViewerRole" = "Vaataja";
+"ReviewerRole" = "Läbivaataja";
+"CoAuthorRole" = "Kaasautor";
+"CoOwnerRole" = "Kaasomanik";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "Teie õigused on:";
+
+/******************
+ * Error messages
+ ******************/
+
+"Error_General" = "Midagi läks Windows Azure AD Rights Managementiga ühenduse loomisel valesti. Probleemi püsimisel pöörduge administraatori poole.";
+
+"Error_CommunicationIssue" = "Sisselogimisel ilmnes probleem. Kontrollige Interneti-ühendust ja proovige uuesti.";
+
+"Error_DeviceRejected" = "Teie seadmel pole lubatud Windows Azure AD Rights Managementi kasutada. Lisateabe saamiseks pöörduge administraatori poole.";
+
+"Error_ConsumptionRights" = "Teil pole selle sisu vaatamiseks luba. Loa taotlemiseks pöörduge sisu omaniku poole.";
+
+"Error_ConsumptionRightsEmailURL" = "Teil pole selle sisu vaatamiseks luba. Loa taotlemiseks pöörduge isiku %@ poole.";
+
+"Error_ConsumptionRightsGeneralURL" = "Teil pole selle sisu vaatamiseks luba. Loa taotlemiseks külastage lehte %@.";
+
+"Error_RMS_OnPremServersNotSupported" = "Teie kohalik AD RMS-i server ei toeta teie seadet, seega ei saa seda sisu krüptida. Lsateabe saamiseks pöörduge administraatori poole.";
+
+"Error_UnsupportedSdkVersion" = "Rakenduse kasutatav RMS-i tarkvara vajab värskendamist. Värskenduse taotlemiseks pöörduge rakenduse tehnilise toe või oma administraatori poole.";
+
+"Error_InvalidParameter" = "Windows Azure AD Rights Managementi kasutatav rakendus käitus ootamatult. Pöörduge rakenduse tehnilise toe poole.";
+
+"Error_InvalidPL" = "Windows Azure AD Rights Managementi kasutatav rakendus käitus ootamatult. Pöörduge rakenduse tehnilise toe poole.";
+
+"Error_ServiceUnavailability" = "Midagi läks Windows Azure AD Rights Managementiga ühenduse loomisel valesti. Probleemi püsimisel pöörduge administraatori poole.";
+
+"Error_PublishingLicenseExpired" = "Te ei saa seda sisu vaadata, kuna ajalimiit on täis. Sisu uuendamiseks pöörduge selle omaniku või oma administraatori poole.";
+
+"Error_PublishingLicenseExpiredEmailURL" = "Te ei saa sisu vaadata ajapiirangu tõttu. Sisu värskendamiseks võtke ühendust administraatoriga või kasutajaga, kelle roll on %@.";
+
+"Error_PublishingLicenseExpiredGeneralURL" = "Te ei saa sisu vaadata ajapiirangu tõttu. Sisu värskendamiseks võtke ühendust administraatoriga või vt %@.";
+
+"Error_NoPublishingRights" = "Kahjuks pole teil õigust luua selle organisatsiooni jaoks uut kaitstud sisu. Proovige logida sisse teise kasutajana või võtke ühendust administraatoriga täiendavate õiguste saamiseks.";
+
+"Error_REST_ServiceNotEnabled" = "Windows Azure AD Rights Management pole teie organisatsiooni jaoks lubatud. Teabe saamiseks võtke ühendust administraatoriga.";
+
+"Error_Auth_Already_In_Progress" = "Vabandage, tundub, et te juba proovite sisse logida, lõpetage oma eelmine katse, enne kui uuesti proovite.";
+
+"Error_Auth_Failed_Bad_Token" = "Autentimine ebaõnnestus, halb pääsutõend.";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Täielik juhtimine";
+
+"View" = "Kuva";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Redigeeri";
+
+"Export" = "Salvesta nimega";
+
+"Extract" = "Kopeeri";
+
+"Print" = "Prindi";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Vasta";
+
+"ReplyAll" = "Vasta kõigile";
+
+"Forward" = "Suuna ümber";
+

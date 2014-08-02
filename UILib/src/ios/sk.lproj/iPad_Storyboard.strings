@@ -1,0 +1,20 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ZyZ-gL-gLR"; */
+"ZyZ-gL-gLR.text" = "Názov";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "zx6-iM-rZM"; */
+"zx6-iM-rZM.title" = "Povolenia";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "liz-BH-xy4"; */
+"liz-BH-xy4.text" = "Názov";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "vJT-pf-bmP"; */
+"vJT-pf-bmP.title" = "Použiť";
+
+"UG3-sj-cQ9.text" = "Zadajte e-mailovú adresu pridelenú vašou organizáciou";
+
+"204-IO-9u5.normalTitle" = "Pokračovať";
+
+"BwA-6L-n6t.normalTitle" = "Ochrana osobných údajov";
+
+"ifn-78-8ea.normalTitle" = "Pomocník";

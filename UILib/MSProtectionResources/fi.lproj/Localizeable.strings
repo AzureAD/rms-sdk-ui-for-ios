@@ -1,0 +1,232 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "OK";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "Peruuta";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ on jakanut tämän tiedoston kanssasi. Sinun odotetaan noudattavan näitä käyttöoikeuksia:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "Laitteessasi ei ole saennettuna sovellusta, joka pystyy avaamaan kohteen %@";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Tätä tiedostoa ei voi avata, koska omistaja ei ole sallinut tiedoston avaamista sovelluksessa, joka on muu kuin RMS-jakosovellus";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "Sähköpostitilejä ei löytynyt. Valitse Asetukset->Sähköposti ja lisää sähköpostitilisi";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "Tiedosto vaikuttaa olevan vioittunut. Voit pyytää lähettäjää suojaamaan sen ja lähettämään uudelleen";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "Käyttöoikeudet";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "Suojattu jako";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "Miten haluat jakaa tämän tiedoston?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "Sähköposti";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "Avaa toisessa sovelluksessa";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "Olen jakanut jaettuja tiedostoja kanssasi turvallisesti";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Olen jakanut liitetyt tiedostot kanssasi turvallisesti.</p><p>Rekisteröidy Microsoft Rights Managementiin <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">täällä</a> ilmaiseksi.<br />Ennen kuin avaat liitteen, asenna Microsoft Rights Management -jakosovellus <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">täältä</a>.</p><p>Tarvitsetko lisää apua? Napsauta <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">tätä</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Tiedostojen turvallinen jakaminen </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Managementilla</a></p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "Käyttöoikeutesi:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Tekstisi ladattiin osittain, koska se on liian pitkä. Jos haluat tarkastella koko tekstiä, avaa tiedosto tietokoneessasi RMS-jakosovelluksen avulla.";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Windows Azure AD Rights Management SDK:n virhe";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Peruuta";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Lähetä sähköpostia";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Olet löytänyt ongelman Windows Azure AD Rights Management SDK:stä. Auta meitä parantamaan tuotettamme lähettämällä tämä sähköpostiviesti.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "Tapahtui valitettavasti virhe. Voisitko lähettää meille virhelokit, jotta voimme korjata ongelman?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "OK";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Jos valitset Lähetä virhelokit, Microsoftille lähetetään virhelokit, joissa on vianmääritystietoja.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Lähetä virhelokit";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Ei suojausta";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "Ei käyttöoikeuksia";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Mukautetut käyttöoikeudet...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Poista";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Valitse käyttöoikeus:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Valitse suojaus";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Käytä";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "lisää suojaus";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Käyttäjät:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "Seuraavat sähköpostiosoitteet eivät kelpaa tai käyttävät sähköpostipalveluja, joita ei tueta";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "Määritä vähintään yksi käyttäjä";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Salli kulutus laitteilla";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Mobiililaitteiden käyttäjien on asennettava Microsoft RMS -sovellus, jos he haluavat tarkastella tiedostoja";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Käyttöoikeudet:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Käyttäjien on kirjauduttava sisään aina, kun he avaavat tämän tiedoston";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Sisällön vanhentumispäivä";
+
+/* Links */
+"PrivacyLink" = "Tietosuoja";
+"HelpLink" = "Ohje";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Ei suojausta";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Tätä sisältöä ei ole suojattu.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "RAJOITETUT KÄYTTÖOIKEUDET";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Käyttöoikeus on rajoitettu. Vain määritetyt käyttäjät voivat käsitellä tätä sisältöä.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Käyttöoikeudet";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Käyttöoikeutesi";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Myöntäjä";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Muokkaa käyttöoikeuksia";
+
+/* The label for the 'edit' button */
+"EditButton" = "Muokkaa";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "Sinulla on seuraavat oikeudet tähän tiedostoon:";
+"OwnerContent" = "Olet asettanut seuraavat käyttöoikeudet tähän tiedostoon:";
+"RoleContent" = "Olet tämän tiedoston %@. Käyttöoikeutesi:";
+
+/* Role names */
+"ViewerRole" = "Lukija";
+"ReviewerRole" = "Tarkistaja";
+"CoAuthorRole" = "Kirjoittaja (mm.)";
+"CoOwnerRole" = "Omistaja (mm.)";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "Käyttöoikeutesi:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Täydet oikeudet";
+
+"View" = "Näytä";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Muokkaa";
+
+"Export" = "Tallenna nimellä";
+
+"Extract" = "Kopioi";
+
+"Print" = "Tulosta";
+
+"Comment" = "Kommentoi";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Vastaa";
+
+"ReplyAll" = "Vastaa kaikille";
+
+"Forward" = "Välitä";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Sähköpostiosoite on virheellinen.";

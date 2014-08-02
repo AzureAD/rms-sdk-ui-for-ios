@@ -1,0 +1,20 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ZyZ-gL-gLR"; */
+"ZyZ-gL-gLR.text" = "Tajuk";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "zx6-iM-rZM"; */
+"zx6-iM-rZM.title" = "Keizinan";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "liz-BH-xy4"; */
+"liz-BH-xy4.text" = "Tajuk";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "vJT-pf-bmP"; */
+"vJT-pf-bmP.title" = "Mohon";
+
+"UG3-sj-cQ9.text" = "Masukkan alamat e-mel organisasi anda";
+
+"204-IO-9u5.normalTitle" = "Teruskan";
+
+"BwA-6L-n6t.normalTitle" = "Privasi";
+
+"ifn-78-8ea.normalTitle" = "Bantuan";

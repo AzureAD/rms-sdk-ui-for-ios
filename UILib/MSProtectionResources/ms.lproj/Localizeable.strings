@@ -1,0 +1,233 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "OK";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "Batal";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ telah mengkongsikan fail ini bersama anda. Anda diminta untuk menghargai keizinan ini:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "Tiada aplikasi dipasang dalam peranti anda yang boleh membuka %@";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Fail ini tidak dapat dibuka disebabkan pemilik belum membenarkan anda membuka fail ini dalam aplikasi selain daripada aplikasi perkongsian RMS";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "Tiada akaun e-mel ditemui. Sila pergi ke Seting->Mel dan tambah akaun e-mel anda";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "Nampaknya fail ini telah rosak. Anda boleh mendapatkan pengirim untuk melindunginya dan hantar semula";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "Keizinan";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "Perkongsian Dilindungi";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "Bagaimana anda ingin mengkongsikan fail ini?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "E-mel";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "Buka dalam Apl yang Lain";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "Saya telah mengkongsikan fail bersama anda secara selamat";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Saya telah mengkongsikan fail lampiran bersama anda secara selamat.</p><p>Daftar baharu untuk Microsoft Rights Management <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">di sini</a> secara percuma.<br />Sebelum membuka lampiran ini, pasangkan apl perkongsian Microsoft Rights Management dari <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">di sini</a>.</p><p>Perlukan bantuan lanjutan? Klik <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">di sini</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Kongsikan fail anda secara selamat bersama </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "Keizinan anda:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Teks dimuatkan separa keera ia terlalu panjang. Untuk melihat teks penuh, sila buka fail pada PC anda dengan menggunakan apl perkongsian RMS.";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Ralat Windows Azure AD Rights Management SDK";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Batal";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Hantar e-mel";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Anda telah menemui masalah pada Windows Azure AD Rights Management SDK. Sila bantu kami memperbaik produk kami dengan menghantar e-mel ini.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "Harap maaf. Ralat telah berlaku. Bolehkah anda menghantarkan log ralat tersebut kepada kami supaya kami dapat membetulkan masalah itu?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "OK";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Jika anda memilih Hantar Log Ralat, log ralat yang mengandungi maklumat diagnostik akan dihantar kepada Microsoft.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Hantar Log Ralat";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Tiada perlindungan";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "Tiada Keizinan";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Keizinan Tersuai...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Alih Keluar";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Pilih Keizinan:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Pilih Perlindungan";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Mohon";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "tambah perlindungan";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Pengguna:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "Alamat e-mel berikut tidak sah atau menggunakan penyedia e-mel yang tidak disokong";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "Sila tetapkan sekurang-kurangnya seorang pengguna";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Benarkan penggunaan dengan peranti";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Pengguna peranti mudah alih perlu memasang aplikasi Microsoft RMS untuk melihat fail";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Keizinan:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Pengguna perlu melog masuk setiap kali mereka membuka fail ini";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Kandungan tamat tempoh pada";
+
+/* Links */
+"PrivacyLink" = "Privasi";
+"HelpLink" = "Bantuan";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Tiada perlindungan";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Kandungan ini tidak dilindungi.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "AKSES TERHAD";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Keizinan adalah terhad pada masa ini. Hanya pengguna yang ditentukan boleh mengakses kandungan ini.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Hak Penggunaan";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Keizinan anda";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Diberikan oleh";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Edit Keizinan";
+
+/* The label for the 'edit' button */
+"EditButton" = "Edit";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "Anda mempunyai keizinan berikut untuk fail ini:";
+"OwnerContent" = "Anda telah menetapkan keizinan berikut untuk fail ini:";
+"RoleContent" = "Anda ialah %@ untuk fail ini. Keizinan anda ialah:";
+
+/* Role names */
+"ViewerRole" = "Alat Lihat";
+"ReviewerRole" = "Pengulas";
+"CoAuthorRole" = "Penulis bersama";
+"CoOwnerRole" = "Pemilik bersama";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "Keizinan anda ialah:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Kawalan Penuh";
+
+"View" = "Lihat";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Edit";
+
+"Export" = "Simpan Sebagai";
+
+"Extract" = "Salin";
+
+"Print" = "Cetak";
+
+"Comment" = "Komen";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Balas";
+
+"ReplyAll" = "Balas Semua";
+
+"Forward" = "Kirim Semula";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Alamat e-mel tidak sah.";
+

@@ -1,0 +1,232 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "Tamam";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "İptal";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ sizinle bir dosya paylaştı. Bu izinleri karşılamanız bekleniyor:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "Cihazınızda %@ açabilecek bir uygulama yüklü değil";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Sahibi, dosyanın RMS paylaşma uygulaması dışında bir uygulamada açılmasına izin vermediğinden bu dosya açılamıyor";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "Posta hesabı bulunamadı. Lütfen Ayarlar->Posta sayfasına gidip posta hesabınızı ekleyin";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "Dosya bozulmuş gibi görünüyor. Gönderenden korumaya alarak tekrar göndermesini isteyebilirsiniz";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "İzinler";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "Paylaşma Korumalı";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "Bu dosyayı nasıl paylaşmak istiyorsunuz?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "E-posta";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "Başka Bir Uygulamada Aç";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "Sizinle güvenli bir şekilde dosya paylaştım";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Ekli dosyaları sizinle güvenli bir şekilde paylaştım.</p><p>Microsoft Rights Management için <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">buradan</a> ücretsiz kaydolun.<br />Eki açmadan önce Microsoft Rights Management paylaşım uygulamasını <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">buradan</a> indirin.</p><p>Yardıma mı ihtiyacınız var? <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">Burayı</a> tıklayın.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\"></span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a> ile dosyalarınızı güvenli bir şekilde paylaşın</p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "İzinleriniz:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Çok uzun olduğundan metnin bir kısmı yüklendi. Metnin tamamını görüntülemek için lütfen dosyayı bilgisayarınızda RMS paylaşım uygulamasıyla açın.";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Microsoft Azure AD Rights Management SDK Hatası";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "İptal";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "E-posta gönder";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Microsoft Azure AD Rights Management SDK ile ilgili bir sorun buldunuz. Lütfen bize e-posta göndererek ürünümüzü geliştirmemize yardımcı olun.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "Maalesef bir hata oluştu. Sorunu giderebilmemiz için hata günlüklerini gönderebilir misiniz?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "Tamam";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Hata Günlüklerini Gönder'i seçerseniz, tanılama bilgilerini içeren hata günlükleri Microsoft'a gönderilir.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Hata Günlüklerini Gönder";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Koruma yok";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "İzin yok";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Özel İzinler...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Kaldır";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "İzin Seç:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Koruma Seç";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Uygula";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "koruma ekle";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Kullanıcılar:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "Aşağıdaki e-posta adresleri geçersiz veya desteklenmeyen e-posta sağlayıcısı kullanılıyor";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "Lütfen en az bir kullanıcı belirtin";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Cihazla tüketime izin ver";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Mobil cihaz kullanıcılarının dosyaları görüntülemek için Microsoft RMS uygulamasını yüklemesi gerekir";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "İzinler:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Kullanıcıların bu dosyayı her açışlarında oturum açmaları gerekir";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "İçeriğin süresi";
+
+/* Links */
+"PrivacyLink" = "Gizlilik";
+"HelpLink" = "Yardım";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Koruma yok";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Bu içerik korunmuyor.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "KISITLANMIŞ ERİŞİM";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "İzin şu anda kısıtlanmış durumda. Yalnızca belirli kullanıcılar bu içeriğe erişebilir.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Kullanım Hakları";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "İzinleriniz";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "İzni veren";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "İzinleri Düzenle";
+
+/* The label for the 'edit' button */
+"EditButton" = "Düzenle";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "Bu dosya için şu izinlere sahipsiniz:";
+"OwnerContent" = "Bu dosya için şu izinleri ayarladınız:";
+"RoleContent" = "Bu dosya için bir %@ rolünüz var. İzinleriniz şunlardır:";
+
+/* Role names */
+"ViewerRole" = "Görüntüleyici";
+"ReviewerRole" = "Gözden geçiren";
+"CoAuthorRole" = "Ortak yazar";
+"CoOwnerRole" = "İkincil sahip";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "İzinleriniz şunlardır:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Tam Denetim";
+
+"View" = "Görüntüle";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Düzenle";
+
+"Export" = "Farklı Kaydet";
+
+"Extract" = "Kopyala";
+
+"Print" = "Yazdır";
+
+"Comment" = "Yorum";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Yanıtla";
+
+"ReplyAll" = "Tümünü Yanıtla";
+
+"Forward" = "İlet";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "E-posta adresi geçersiz.";

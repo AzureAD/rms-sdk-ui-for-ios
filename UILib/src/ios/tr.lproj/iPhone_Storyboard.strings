@@ -1,0 +1,26 @@
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "7hD-IT-TzB"; */
+"7hD-IT-TzB.title" = "İzinler";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "E9u-4k-I8g"; */
+"E9u-4k-I8g.title" = "İzinler";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "BOc-te-8vA"; */
+"BOc-te-8vA.title" = "Geri";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "dJj-kD-yMs"; */
+"dJj-kD-yMs.text" = "Başlık";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "gwk-7Q-LwK"; */
+"gwk-7Q-LwK.text" = "Başlık";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "jK7-iI-n6h"; */
+"jK7-iI-n6h.title" = "Uygula";
+
+"hOy-kG-IDD.text" = "Kurumsal e-posta adresinizi girin";
+
+"Hnt-id-gaS.normalTitle" = "Devam";
+
+"Fq6-1K-i8c.normalTitle" = "Gizlilik";
+
+"LZK-jW-Eiy.normalTitle" = "Yardım";

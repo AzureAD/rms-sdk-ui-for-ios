@@ -1,0 +1,20 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ZyZ-gL-gLR"; */
+"ZyZ-gL-gLR.text" = "標題";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "zx6-iM-rZM"; */
+"zx6-iM-rZM.title" = "權限";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "liz-BH-xy4"; */
+"liz-BH-xy4.text" = "標題";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "vJT-pf-bmP"; */
+"vJT-pf-bmP.title" = "套用";
+
+"UG3-sj-cQ9.text" = "輸入您的組織電子郵件地址";
+
+"204-IO-9u5.normalTitle" = "繼續";
+
+"BwA-6L-n6t.normalTitle" = "隱私權";
+
+"ifn-78-8ea.normalTitle" = "說明";

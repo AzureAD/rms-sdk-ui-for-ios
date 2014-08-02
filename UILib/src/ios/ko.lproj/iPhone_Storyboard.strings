@@ -1,0 +1,26 @@
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "7hD-IT-TzB"; */
+"7hD-IT-TzB.title" = "사용 권한";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "E9u-4k-I8g"; */
+"E9u-4k-I8g.title" = "사용 권한";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "BOc-te-8vA"; */
+"BOc-te-8vA.title" = "뒤로";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "dJj-kD-yMs"; */
+"dJj-kD-yMs.text" = "제목";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "gwk-7Q-LwK"; */
+"gwk-7Q-LwK.text" = "제목";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "jK7-iI-n6h"; */
+"jK7-iI-n6h.title" = "적용";
+
+"hOy-kG-IDD.text" = "회사 전자 메일 주소 입력";
+
+"Hnt-id-gaS.normalTitle" = "계속";
+
+"Fq6-1K-i8c.normalTitle" = "개인정보취급방침";
+
+"LZK-jW-Eiy.normalTitle" = "도움말";

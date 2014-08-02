@@ -1,0 +1,232 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "확인";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "취소";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@이(가) 이 파일을 사용자와 공유했습니다. 다음 사용 권한을 부여받아야 합니다.";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "장치에 %@을(를) 열 수 있는 응용 프로그램이 설치되어 있지 않습니다.";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "소유자가 RMS 공유 응용 프로그램이 아닌 다른 응용 프로그램에서는 이 파일을 열도록 허용하지 않았으므로 파일을 열 수 없습니다.";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "메일 계정을 찾지 못했습니다. 설정->메일로 이동하고 메일 계정을 추가하세요.";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "파일이 손상된 것 같습니다. 보낸 사람에게 파일을 안전하게 보호한 후 다시 보내 달라고 요청할 수 있습니다.";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "사용 권한";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "보호된 항목 공유";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "이 파일을 어떻게 공유하시겠습니까?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "전자 메일";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "다른 앱에서 열기";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "파일이 안전하게 공유되었습니다.";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>첨부한 파일은 안전하게 공유되었습니다.</p><p><a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">여기를 클릭</a>하여 Microsoft Rights Management에 무료로 등록하세요.<br />첨부 파일을 열기 전에 <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">여기</a>에서 Microsoft Rights Management 공유 앱을 설치하세요.</p><p>도움이 추가로 필요하면 <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">여기</a>를 클릭하세요.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\"></span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a>를 통한 안전한 파일 공유</p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "사용자의 권한:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "텍스트의 길이가 너무 길어 일부만 로드되었습니다. 전체 텍스트를 보려면 PC에서 RMS 공유 앱을 사용하여 파일을 여세요.";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Windows Azure AD Rights Management SDK 오류";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "취소";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "전자 메일 보내기";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Windows Azure AD Rights Management SDK에서 문제가 발생했습니다. 이 전자 메일을 보내면 Microsoft에서 제품을 개선하는 데 많은 도움이 됩니다.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "죄송합니다. 오류가 발생했습니다. 문제를 수정할 수 있도록 오류 로그를 보내 주시겠습니까?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "확인";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "[오류 로그 보내기]를 선택하면 진단 정보가 포함된 오류 로그가 Microsoft로 전송됩니다.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "오류 로그 보내기";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "보호 안 함";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "권한 없음";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "사용자 지정 권한...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "제거";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "권한 선택:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "보호 선택";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "적용";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "보호 추가";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "사용자:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "다음 전자 메일 주소가 잘못되었거나 지원되지 않는 전자 메일 공급자를 사용합니다.";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "사용자를 한 명 이상 지정하세요.";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "장치에서 사용 허용";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "모바일 장치 사용자가 파일을 볼 수 있는 Microsoft RMS 응용 프로그램을 설치해야 합니다.";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "사용 권한:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "사용자가 이 파일을 열 때마다 로그인해야 함";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "콘텐츠 만료 날짜";
+
+/* Links */
+"PrivacyLink" = "개인정보취급방침";
+"HelpLink" = "도움말";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "보호 안 함";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "콘텐츠가 보호되지 않습니다.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "제한된 권한";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "사용 권한이 현재 제한되어 있습니다. 지정된 사용자만 이 콘텐츠에 액세스할 수 있습니다.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "사용자 권한";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "사용자의 권한";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "권한 부여자";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "권한 편집";
+
+/* The label for the 'edit' button */
+"EditButton" = "편집";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "이 파일에 대한 사용자의 권한:";
+"OwnerContent" = "이 파일에 대해 사용자가 설정한 권한:";
+"RoleContent" = "사용자는 이 파일의 %@입니다. 사용자의 권한:";
+
+/* Role names */
+"ViewerRole" = "보기 권한자";
+"ReviewerRole" = "검토자";
+"CoAuthorRole" = "공동 저자";
+"CoOwnerRole" = "공동 소유자";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "사용자의 권한:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "모든 권한";
+
+"View" = "보기";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "편집";
+
+"Export" = "다른 이름으로 저장";
+
+"Extract" = "복사";
+
+"Print" = "인쇄";
+
+"Comment" = "설명";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "회신";
+
+"ReplyAll" = "전체 회신";
+
+"Forward" = "전달";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "잘못된 전자 메일 주소입니다.";

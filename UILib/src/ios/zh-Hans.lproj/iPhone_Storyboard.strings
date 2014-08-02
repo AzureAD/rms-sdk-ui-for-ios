@@ -1,0 +1,26 @@
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "7hD-IT-TzB"; */
+"7hD-IT-TzB.title" = "权限";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "E9u-4k-I8g"; */
+"E9u-4k-I8g.title" = "权限";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "BOc-te-8vA"; */
+"BOc-te-8vA.title" = "返回";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "dJj-kD-yMs"; */
+"dJj-kD-yMs.text" = "标题";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "gwk-7Q-LwK"; */
+"gwk-7Q-LwK.text" = "标题";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "jK7-iI-n6h"; */
+"jK7-iI-n6h.title" = "应用";
+
+"hOy-kG-IDD.text" = "输入您组织的电子邮件地址";
+
+"Hnt-id-gaS.normalTitle" = "继续";
+
+"Fq6-1K-i8c.normalTitle" = "隐私声明";
+
+"LZK-jW-Eiy.normalTitle" = "帮助";

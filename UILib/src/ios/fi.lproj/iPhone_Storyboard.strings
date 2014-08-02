@@ -1,0 +1,26 @@
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "7hD-IT-TzB"; */
+"7hD-IT-TzB.title" = "Käyttöoikeudet";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "E9u-4k-I8g"; */
+"E9u-4k-I8g.title" = "Käyttöoikeudet";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "BOc-te-8vA"; */
+"BOc-te-8vA.title" = "Takaisin";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "dJj-kD-yMs"; */
+"dJj-kD-yMs.text" = "Otsikko";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "gwk-7Q-LwK"; */
+"gwk-7Q-LwK.text" = "Otsikko";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "jK7-iI-n6h"; */
+"jK7-iI-n6h.title" = "Käytä";
+
+"hOy-kG-IDD.text" = "Anna organisaatiosi mukainen sähköpostiosoite";
+
+"Hnt-id-gaS.normalTitle" = "Jatka";
+
+"Fq6-1K-i8c.normalTitle" = "Tietosuoja";
+
+"LZK-jW-Eiy.normalTitle" = "Ohje";

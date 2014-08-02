@@ -1,0 +1,233 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "OK";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "Avbryt";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ har delt denne filen med deg. Det forventes at du respekterer disse tillatelsene:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "Det er ikke installert noe program på enheten som kan åpne %@";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Kan ikke åpne denne filen fordi eieren ikke har gitt tillatelse til at den åpnes i andre programmer enn RMS-delingsapplikasjonen";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "Finner ingen e-postkontoer. Gå til Innstillinger->E-post, og legg til e-postkontoen din";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "Filen ser ut til å være skadet. Du kan be avsender om å beskytte den og sende den på nytt";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "Tillatelser";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "Del beskyttet";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "Hvordan vil du dele denne filen?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "E-post";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "Åpne i en annen app";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "Jeg har delt filene med deg på en sikker måte";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Jeg har delt de vedlagte filene med deg på en sikker måte.</p><p>Registrer deg for Microsoft Rights Management gratis <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">her</a>.<br />Før du åpner et vedlegg, må du installere Microsoft Rights Management-delingsappen <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">herfra</a>.</p><p>Trenger du mer hjelp? Klikk <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">her</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Del filer på en sikker måte med </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "Dine tillatelser:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Teksten ble bare delvis lastet inn fordi den er for lang. Åpne filen på PCen med RMS-delingsappen hvis du vil se hele teksten.";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Windows Azure AD Rights Management SDK-feil";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Avbryt";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Send e-post";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Du har oppdaget et problem med Azure AD Rights Management SDK. Hjelp oss å forbedre produktet vårt ved å sende denne e-posten.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "Vi beklager. Det har oppstått en feil. Kan du sende oss feilloggene, slik at vi kan løse problemet?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "OK";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Hvis du velger Send feillogger, sendes feillogger som inneholder diagnoseinformasjon, til Microsoft.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Send feillogger";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Ingen beskyttelse";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "Ingen tillatelser";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Tilpassede tillatelser...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Fjern";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Velg tillatelse:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Velg beskyttelse";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Bruk";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "legg til beskyttelse";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Brukere:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "Følgende e-postadresser er ugyldige eller bruker e-postleverandører som ikke støttes";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "Angi minst én bruker";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Tillat forbruk med enheter";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Brukere av mobile enheter må installere Microsoft RMS-programmet for å vise filer";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Tillatelser:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Brukere må logge på hver gang de åpner denne filen";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Innhold utløper";
+
+/* Links */
+"PrivacyLink" = "Personvern";
+"HelpLink" = "Hjelp";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Ingen beskyttelse";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Dette innholdet er ikke beskyttet.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "BEGRENSET TILGANG";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Tillatelsen er for øyeblikket begrenset. Bare angitte brukere har tilgang til dette innholdet.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Bruk rettigheter";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Dine tillatelser";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Gitt av";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Rediger tillatelser";
+
+/* The label for the 'edit' button */
+"EditButton" = "Rediger";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "Du har følgende tillatelser til denne filen:";
+"OwnerContent" = "Du har angitt følgende tillatelser til denne filen:";
+"RoleContent" = "Du er %@ for denne filen. Tillatelsene dine er:";
+
+/* Role names */
+"ViewerRole" = "Leser";
+"ReviewerRole" = "Kontrollør";
+"CoAuthorRole" = "Medforfatter";
+"CoOwnerRole" = "Medeier";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "Tillatelsene dine er:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Alle tillatelser";
+
+"View" = "Vis";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Rediger";
+
+"Export" = "Lagre som";
+
+"Extract" = "Kopier";
+
+"Print" = "Skriv ut";
+
+"Comment" = "Kommentar";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Svar";
+
+"ReplyAll" = "Svar alle";
+
+"Forward" = "Videresend";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Ugyldig e-postadresse.";
+

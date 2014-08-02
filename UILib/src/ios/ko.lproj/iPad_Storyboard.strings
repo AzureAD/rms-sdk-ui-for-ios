@@ -1,0 +1,20 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ZyZ-gL-gLR"; */
+"ZyZ-gL-gLR.text" = "제목";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "zx6-iM-rZM"; */
+"zx6-iM-rZM.title" = "사용 권한";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "liz-BH-xy4"; */
+"liz-BH-xy4.text" = "제목";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "vJT-pf-bmP"; */
+"vJT-pf-bmP.title" = "적용";
+
+"UG3-sj-cQ9.text" = "회사 전자 메일 주소 입력";
+
+"204-IO-9u5.normalTitle" = "계속";
+
+"BwA-6L-n6t.normalTitle" = "개인정보취급방침";
+
+"ifn-78-8ea.normalTitle" = "도움말";

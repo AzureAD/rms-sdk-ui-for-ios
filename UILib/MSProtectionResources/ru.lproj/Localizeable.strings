@@ -1,0 +1,232 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "ОК";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "Отмена";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ делится с вами этим файлом. Вам нужно выполнять следующие разрешения:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "На вашем устройстве нет приложения, позволяющего открыть %@";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Файл невозможно открыть, так как владелец запретил открывать его в приложениях, отличных от приложения RMS";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "Учетные записи почты не найдены. Добавьте свою учетную запись почты в разделе \"Настройки\" -> \"Почта\"";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "Вероятно, файл поврежден. Попросите отправителя защитить его и повторить отправку";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "Разрешения";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "Поделиться с защитой";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "Как бы вы хотели поделиться этим файлом?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "Электронная почта";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "Открыть в другом приложении";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "Делюсь с вами защищенными файлами";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Делюсь с Вами защищенными файлами.</p><p>Зарегистрируйтесь в службе Microsoft Rights Management <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">на этом сайте</a> бесплатно.<br />Прежде чем открывать вложение, установите приложение Microsoft Rights Management <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">с этой страницы</a>.</p><p>Нужна помощь? Щелкните <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">здесь</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Безопасная отправка файлов благодаря службе </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "Ваши разрешения:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Текст загружен частично из-за слишком большой длины. Чтобы просмотреть текст целиком, откройте файл на ПК в приложении RMS.";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Ошибка пакета SDK Windows Azure AD Rights Management";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Отмена";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Отправить сообщение электронной почты";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Вы обнаружили проблему при работе с пакетом SDK Windows Azure AD Rights Management. Отправьте данное сообщение электронной почты, чтобы помочь нам улучшить этот продукт.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "К сожалению, произошла ошибка. Отправьте нам журналы ошибок, чтобы мы могли исправить проблему.";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "ОК";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Если вы выберете команду \"Отправить журналы ошибок\", то журналы ошибок со сведениями диагностики будут отправлены в Майкрософт.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Отправить журналы ошибок";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Без защиты";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "Нет разрешений";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Настраиваемые разрешения...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Удалить";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Разрешение:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Настройка защиты";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Применить";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "добавление защиты";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Пользователи:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "Следующие адреса электронной почты недействительны или обслуживаются неподдерживаемым поставщиком электронной почты";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "Укажите хотя бы одного пользователя";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Разрешить потребление с устройствами";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Для просмотра файлов пользователям мобильных устройств необходимо установить приложение Microsoft RMS";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Разрешения:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Пользователи должны входить в систему каждый раз, когда открывают этот файл";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Срок действия содержимого истекает";
+
+/* Links */
+"PrivacyLink" = "Конфиденциальность";
+"HelpLink" = "Справка";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Без защиты";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Это содержимое не защищено.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "ОГРАНИЧЕННЫЙ ДОСТУП";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Разрешения в данный момент ограничены. Доступ к этому содержимому разрешен только указанным пользователям.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Права на использование";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Ваши разрешения";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Предоставлено";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Изменить разрешения";
+
+/* The label for the 'edit' button */
+"EditButton" = "Изменение";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "У вас есть следующие разрешения для работы с этим файлом:";
+"OwnerContent" = "Вы указали следующие разрешения для работы с этим файлом:";
+"RoleContent" = "Ваша роль для этого файла: %@. У вас есть следующие разрешения:";
+
+/* Role names */
+"ViewerRole" = "Читатель";
+"ReviewerRole" = "Редактор";
+"CoAuthorRole" = "Соавтор";
+"CoOwnerRole" = "Совладелец";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "У вас есть следующие разрешения:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Полный доступ";
+
+"View" = "Просмотр";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Изменение";
+
+"Export" = "Сохранить как";
+
+"Extract" = "Копировать";
+
+"Print" = "Печать";
+
+"Comment" = "Комментарий";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Ответить";
+
+"ReplyAll" = "Ответить всем";
+
+"Forward" = "Переслать";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Недопустимый адрес электронной почты.";

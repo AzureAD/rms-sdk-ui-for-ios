@@ -1,0 +1,223 @@
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "[Unr7z]థ్కWîñðøws Åzùrè ÀÐ Rìghts Mâñàgëmêñt §ÐK Êrrörథ్క";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "[rth7u]థ్కÇàñçèlథ్క";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "[27fDa]థ్క§éñð è-máìlథ్క";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "[3MAxo]థ్కÝóü'vè fõûñð à prøþlém wîth thë Wìñðõws Âzúré ÂÐ Ríghts Mãñågëmëñt §ÐK. Plëásë hëlp ús ímprövè òµr prõðûçt þý sèñðîñg thìs ë-mæìl.థ్క";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "[ogfM4]థ్కWè'rê sòrrÿ. Åñ érrør hás öççùrréð. Çàñ ýøù sëñð üs thë èrrôr lôgs sö wê ¢æñ fïx thê prõþlèm?థ్క";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "[Zg4Sr]థ్కØKథ్క";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "[NG2Lh]థ్కÌf ýòü çhòøsé §êñð Érròr £ógs, érrór løgs çøñtãîñïñg ðíâgñõstì¢ îñförmâtíöñ wïll þë sèñt tò Mï¢rösóft.థ్క";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "[PEfyC]థ్క§êñð Érrör £ögsథ్క";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "[rcOEQ]థ్కÑö Prõtë¢tíøñథ్క";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "[hQMew]థ్కÑô Pérmíssìøñsథ్క";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "[cCgRJ]థ్కÇùstøm Përmîssïöñs...థ్క";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "[20LN7]థ్కRémõvèథ్క";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "[3rrAR]థ్క§ëlë¢t Pérmïssíöñ:థ్క";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "[Rj3wO]థ్కÇhóøsè Prôtèçtíõñథ్క";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "[qfxMC]థ్కÂpplýథ్క";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "[mZDGC]థ్కãðð pròté¢tïöñథ్క";
+
+/* The users’ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "[6Gruu]థ్కÚsèrs:థ్క";
+
+/* Invalid input error message for the users’ email input field */
+"CustomPolicyInvalidInputLabel" = "[97iVc]థ్కThé fõllôwìñg émæíl ªððréssës ªrê íñvälíð ør úsë émâïl prõvìðérs thªt ªrê ñöt sûppørtèðథ్క";
+
+/* Empty input error message for the users’ email input field */
+"CustomPolicyEmptyInputLabel" = "[oxylZ]థ్కPlèãsè spéçîfý ªt lëäst ôñè ûsérథ్క";
+
+/* The label for the ‘Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "[1N1f7]థ్కÂlløw ¢òñsµmptïøñ wîth ðëvï¢ésథ్క";
+
+/* The help tooltip for the ‘Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "[o4z4s]థ్కMóþìlè ðévîçë µsérs wïll ñéêð tò îñställ thë Mï¢rõsõft RM§ äpplï¢åtîôñ tõ vîëw fílësథ్క";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "[Ccj17]థ్కPèrmìssîøñs:థ్క";
+
+/* The label for the ‘Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "[eqVSV]థ్కÚsérs mùst lógîñ êvèrý tïmé thêý öpêñ thìs fîlëథ్క";
+
+/* The label for the ‘Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "[lBAhO]థ్కÇòñtëñt ëxpïrês ôñథ్క";
+
+/* Links */
+"PrivacyLink" = "[cFpkt]థ్కPrívå¢ÿథ్క";
+"HelpLink" = "[SdL2Z]థ్కHèlpథ్క";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "[yife6]థ్కÑô prôtëçtìøñథ్క";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "[UAfJp]థ్కThís ¢øñtèñt ïsñ't prøtê¢téð.థ్క";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "[QD2xT]థ్కRÈ§TRÎÇTËÐ ÁÇÇË§§థ్క";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "[zQcD4]థ్కPèrmíssìôñ îs ¢ûrrêñtlý rêstrï¢téð. Óñlý spèçîfíëð üsèrs ¢äñ á¢¢éss thìs ¢öñtëñt.థ్క";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "[iMH6c]థ్కÜsë rìghtsథ్క";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "[HYF2F]థ్కÝòµr pérmíssïöñsథ్క";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "[Tia2J]థ్కGrâñtèð þÿథ్క";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "[8IszY]థ్కÈðít Pérmïssïöñsథ్క";
+
+/* The label for the 'edit' button */
+"EditButton" = "[qcjtr]థ్కÊðîtథ్క";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "[RyiAe]థ్కÝôü hãvê thé fóllõwîñg përmïssíøñs før thïs fïlë:థ్క";
+"OwnerContent" = "[CyhNV]థ్క¥óü hªvê sèt thé fõllòwìñg pêrmíssîøñs óñ thís fïlé:థ్క";
+"RoleContent" = "[WPgiV]థ్క¥õü ärè ã %@ fòr thís fïlë. ¥öür pêrmíssîôñs âré:థ్క";
+
+/* Role names */
+"ViewerRole" = "[LW4y1]థ్కVîèwérథ్క";
+"ReviewerRole" = "[PiVef]థ్కRévîêwérథ్క";
+"CoAuthorRole" = "[x3gPr]థ్కÇø-åüthõrథ్క";
+"CoOwnerRole" = "[qN13I]థ్కÇõ-õwñërథ్క";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "[m2TOr]థ్కÝôûr pèrmìssìóñs ærê:థ్క";
+
+/******************
+ * Error messages
+ ******************/
+
+"Error_General" = "[k3mul]థ్క§õméthïñg wëñt wröñg whìlé trýîñg tõ çøñtá¢t Wìñðöws Àzürè ÀÐ Rïghts Màñãgèmèñt. Îf thè pröþlêm ¢øñtîñµès, ¢öñtæ¢t ýóùr åðmîñïstrâtór.థ్క";
+
+"Error_CommunicationIssue" = "[o9A4c]థ్కThërè wªs ã prôþlëm sïgñîñg ÿôù íñ. Çhë¢k ýöür íñtèrñèt çòññèçtîòñ, äñð trÿ ågæíñ.థ్క";
+
+"Error_DeviceRejected" = "[kcz2R]థ్కÝõµr ðévî¢é ïsñ't âllòwëð tô ûsë Wîñðóws Ãzûrë ÀÐ Ríghts Máñægêmëñt. Çøñtªçt ÿôûr åðmíñìstrãtòr fór mòrë ìñfõ.థ్క";
+
+"Error_ConsumptionRights" = "[Ju4mR]థ్కÝøµ ðøñ't hávê thè përmíssîõñs tø vïéw thïs çóñtéñt. Çöñtãçt thè çøñtêñt øwñêr tò rèqùèst përmîssìòñs.థ్క";
+
+"Error_ConsumptionRightsEmailURL" = "[hOwIA]థ్కÝöù ðõñ't hævè thé pêrmîssïóñs tø vìéw thïs ¢öñtëñt. Çóñtã¢t %@ tò réqüèst pèrmìssîöñs.థ్క";
+
+"Error_ConsumptionRightsGeneralURL" = "[xx0VG]థ్క¥öµ ðõñ't hàvè thë përmìssíòñs tø vìéw thîs çöñtèñt. Vîsìt %@ tò rèqµést pêrmìssíòñs.థ్క";
+
+"Error_RMS_OnPremServersNotSupported" = "[nmlYC]థ్క¥òùr lóçãl ÅÐ RM§ sêrvér ðøësñ't sµppört ÿòùr ðêvîçê, sõ thìs çöñtêñt çæñ't þè ðé¢rÿptéð. Çóñtªçt ýõµr ãðmïñïsträtør fõr möré îñfó.థ్క";
+
+"Error_UnsupportedSdkVersion" = "[dPMTt]థ్కThë RM§ sõftwªrè ùsëð þý thìs âpplì¢ªtìõñ ñèéðs tõ þë µpðàtêð. Çôñtâ¢t tê¢hñì¢äl sùppôrt fòr thïs äpplï¢åtíóñ, ór ÿöµr ªðmìñìsträtòr, tõ rêqµèst ãñ ûpðâtë.థ్క";
+
+"Error_InvalidParameter" = "[qtk6I]థ్కThé âpplì¢âtíòñ ûsíñg Wíñðôws Äzürê ÂÐ Rïghts Mäñªgëmêñt ðíð sômëthïñg µñêxpè¢tëð. Çöñtæçt té¢hñì¢ål sùppõrt før thîs âpplìçåtíõñ.థ్క";
+
+"Error_InvalidPL" = "[9nciW]థ్కThè æpplì¢ätìøñ üsìñg Wïñðõws Àzûrè ÁÐ Ríghts Mãñågèmêñt ðîð söméthíñg ûñëxpê¢têð. Çøñtä¢t té¢hñìçäl súppört fór thîs âpplíçªtìøñ.థ్క";
+
+"Error_ServiceUnavailability" = "[xB8f5]థ్క§ómëthíñg wéñt wróñg whîlê trýìñg tõ çôñtâçt Wîñðòws Äzûrë ÀÐ Ríghts Mãñågêméñt. Îf thé pröþlëm ¢öñtïñùès, ¢óñtå¢t ÿøùr àðmïñîstrªtør.థ్క";
+
+"Error_PublishingLicenseExpired" = "[3JfGA]థ్కÝøµ çãñ't vìéw thìs çòñtëñt þéçãµsé thè tímë lìmìt häs èñðéð. Çöñtàçt thë çôñtêñt öwñér ôr ýóùr ãðmîñîsträtòr tó rëñëw thìs ¢õñtêñt.థ్క";
+
+"Error_PublishingLicenseExpiredEmailURL" = "[iLZt2]థ్క¥øü ¢áñ't vìèw thîs çöñtêñt þëçáµsè thè tìmè lìmït hàs èñðèð. Çöñtæçt %@ õr ýòür âðmìñístråtór tô réñéw thís ¢õñtéñt.థ్క";
+
+"Error_PublishingLicenseExpiredGeneralURL" = "[0eFM5]థ్కÝøú ¢ãñ't vîéw thîs ¢õñtéñt þèçåûsë thë tïmè lïmît hàs éñðèð. Vîsít %@ ôr çóñtæ¢t ýöùr äðmîñìstrætôr tò rêñëw thîs ¢õñtéñt.థ్క";
+
+"Error_NoPublishingRights" = "[MMAsp]థ్క§órrÿ, ýôû ðôñ't hªvë pérmìssïôñ tö çrèàtë ñéw prótëçtéð ¢õñtéñt för thís ørgåñízãtïóñ. Trÿ sîgñîñg îñ ªs â ðìffèréñt ûsêr, ør çòñtáçtíñg ýõûr âðmïñísträtør fôr äððîtìôñàl pêrmíssîòñs.థ్క";
+
+"Error_REST_ServiceNotEnabled" = "[djdfs]థ్కWíñðôws Åzürë ÄÐ Rïghts Màñægëmëñt ìs ñõt éñåþlèð før ýøúr õrgâñízâtìóñ. Çõñtà¢t ýòür âðmîñîstrâtõr fòr fürthêr ðétàïls.థ్క";
+
+"Error_Auth_Already_In_Progress" = "[CnRB8]థ్క§õrrÿ, ít sêêms ýöû ærê ælrèáðý âttémptíñg tò sîgñ íñ, plèæsë ¢ömplêtë ýóür prévíôüs ättémpt þëfõrë trÿíñg âgãíñ.థ్క";
+
+"Error_Auth_Failed_Bad_Token" = "[xX4sT]థ్కÀµthëñtìçåtîõñ fªîléð, þåð à¢çêss tökèñ.థ్క";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "[dYmz7]థ్కFµll Çõñtrölథ్క";
+
+"View" = "[TLdkT]థ్కVîéwథ్క";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "[744T1]థ్కÈðítథ్క";
+
+"Export" = "[DJ5YC]థ్క§ãvé äsథ్క";
+
+"Extract" = "[FtFLC]థ్కÇøpÿథ్క";
+
+"Print" = "[jHaKR]థ్కPrìñtథ్క";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "[3rsy7]థ్కRêplÿథ్క";
+
+"ReplyAll" = "[w1WEq]థ్కRèplý Àllథ్క";
+
+"Forward" = "[bAmLf]థ్కFørwãrðథ్క";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Invalid email address.";
+

@@ -1,0 +1,232 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "U redu";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "Odustani";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "Osoba %@ omogućila je zajedničko korištenje te datoteke s vama. Očekuje se da imate sljedeće dozvole:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "Na uređaju nije instalirana aplikacija pomoću koje se može otvoriti %@";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Nije moguće otvoriti datoteku jer vlasnik ne doušta da se ona otvara u bilo kojoj drugoj aplikaciji osim one za zajedničko korištenje RMS-a";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "Nije pronađen nijedan račun za poštu. Otvorite odjeljak Postavke > Pošta i dodajte račun za poštu";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "Čini se da je datoteka oštećena. Zamolite pošiljatelja da je zaštiti i ponovno pošalje";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "Dozvole";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "Zajednički resurs je zaštićen";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "Kako želite zajednički koristiti tu datoteku?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "E-pošta";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "Otvori u drugoj aplikaciji";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "Datoteke za zajedničko korištenje s vama na siguran način";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Priložene datoteke koristim zajednički s vama na siguran način.</p><p>Besplatno se registrirajte za Microsoftovo upravljanje pravima <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">ovdje</a>.<br />Prije otvaranja privitka instalirajte aplikaciju za zajedničko korištenje Microsoftova upravljanja pravima <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">odavde</a>.</p><p>Trebate li dodatnu pomoć? Kliknite <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">ovdje</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Sigurno zajedničko korištenje datoteka uz </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoftovo upravljanje pravima</a></p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "Vaše dozvole:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Tekst je učitan djelomično jer je predug. Da biste ga vidjeli u cijelosti, otvorite datoteku na računalu pomoću aplikacije za zajedničko korištenje RMS-a.";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Pogreška alata Windows Azure AD Rights Management SDK";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Odustani";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Pošalji poruku e-pošte";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Pronašli ste problem u alatu Windows Azure AD Rights Management SDK. Pomozite nam poboljšati proizvod tako da pošaljete ovu poruku e-pošte.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "Nažalost, pojavila se pogreška. Možete li nam poslati zapisnike o pogreškama da je ispravimo?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "U redu";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Ako odaberete Pošalji zapisnike o pogreškama, Microsoftu će biti poslani zapisnici o pogreškama s dijagnostičkim podacima.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Pošalji zapisnike o pogreškama";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Nema zaštite";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "Nema dozvola";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Prilagođene dozvole...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Ukloni";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Odaberi dozvolu:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Odaberi zaštitu";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Primijeni";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "dodavanje zaštite";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Korisnici:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "Sljedeće adrese e-pošte nisu valjane ili koriste davatelje usluge e-pošte koji nisu podržani";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "Navedite barem jednog korisnika";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Dopusti potrošnju putem uređaja";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Da bi prikazivali datoteke, korisnici mobilnih uređaja morat će instalirati aplikaciju Microsoft RMS";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Dozvole:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Korisnici se moraju prijaviti prilikom svakog otvaranja datoteke";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Sadržaj istječe";
+
+/* Links */
+"PrivacyLink" = "Zaštita privatnosti";
+"HelpLink" = "Pomoć";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Nema zaštite";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Taj sadržaj nije zaštićen.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "OGRANIČEN PRISTUP";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Dozvola je trenutačno ograničena. Samo određeni korisnici mogu pristupiti sadržaju.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Prava na korištenje";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Vaše dozvole";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Odobrio";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Uredi dozvole";
+
+/* The label for the 'edit' button */
+"EditButton" = "Uredi";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "Imate sljedeće dozvole za tu datoteku:";
+"OwnerContent" = "Postavili ste sljedeće dozvole za tu datoteku:";
+"RoleContent" = "Vi ste %@ za tu datoteku. Vaše su dozvole sljedeće:";
+
+/* Role names */
+"ViewerRole" = "Gledatelj";
+"ReviewerRole" = "Pregledavatelj";
+"CoAuthorRole" = "Suautor";
+"CoOwnerRole" = "Suvlasnik";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "Vaše su dozvole sljedeće:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Puni nadzor";
+
+"View" = "Prikaži";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Uredi";
+
+"Export" = "Spremi u obliku";
+
+"Extract" = "Kopiraj";
+
+"Print" = "Ispis";
+
+"Comment" = "Komentar";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Odgovori";
+
+"ReplyAll" = "Odgovori svima";
+
+"Forward" = "Proslijedi";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Adresa e-pošte nije valjana.";

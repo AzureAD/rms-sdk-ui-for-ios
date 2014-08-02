@@ -1,0 +1,232 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "OK";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "Άκυρο";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "Ο χρήστης %@ μοιράστηκε αυτό το αρχείο μαζί σας. Αναμένετε να σεβαστείτε τα εξής δικαιώματα:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "Δεν υπάρχει εγκατεστημένη εφαρμογή στη συσκευή σας για το άνοιγμα του αρχείου %@";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Δεν είναι δυνατό το άνοιγμα του αρχείου επειδή ο κάτοχος δεν επιτρέπει το άνοιγμα του αρχείου σε εφαρμογές εκτός της εφαρμογής κοινής χρήσης RMS";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "Δεν βρέθηκαν λογαριασμοί αλληλογραφίας. Μεταβείτε στο μενού Ρυθμίσεις -> Αλληλογραφία και προσθέστε το λογαριασμό αλληλογραφίας σας";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "Το αρχείο είναι κατεστραμμένο. Μπορείτε να ζητήσετε από τον αποστολέα να το προστατεύσει και να επαναλάβει την αποστολή";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "Δικαιώματα";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "Κοινή χρήση με προστασία";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "Πώς θέλετε να γίνει η κοινή χρήση του αρχείου;";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "Μέσω ηλεκτρονικού ταχυδρομείου";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "Άνοιγμα σε άλλη εφαρμογή";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "Μοιράστηκα αρχεία με ασφάλεια";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Μοιράστηκα με ασφάλεια τα συνημμένα αρχεία.</p><p>Εγγραφείτε δωρεάν στο Microsoft Rights Management <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">εδώ</a>.<br />Πριν από το άνοιγμα του συνημμένου, εγκαταστήστε την εφαρμογή κοινής χρήσης Microsoft Rights Management από <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">εδώ</a>.</p><p>Χρειάζεστε περισσότερη βοήθεια; Κάντε κλικ <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">εδώ</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Κοινή χρήση αρχείων με ασφάλεια με το </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "Τα δικαιώματά σας:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Το κείμενο φορτώθηκε μερικώς επειδή είναι πολύ μεγάλο. Για την προβολή του πλήρους κειμένου, ανοίξτε το αρχείο στον υπολογιστή σας χρησιμοποιώντας την εφαρμογή κοινής χρήσης RMS.";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Σφάλμα Windows Azure AD Rights Management SDK";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Άκυρο";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Αποστ. ηλ. ταχυδρ.";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Εντοπίσατε ένα πρόβλημα με το Windows Azure AD Rights Management SDK. Βοηθήστε μας να βελτιώσουμε το προϊόν μας αποστέλλοντας αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "Δυστυχώς, παρουσιάστηκε σφάλμα. Μπορείτε να μας στείλετε τα αρχεία καταγραφής σφαλμάτων, ώστε να διορθώσουμε το πρόβλημα;";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "OK";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Αν επιλέξετε \"Αποστολή αρχείων καταγραφής σφαλμάτων\", τα αρχεία καταγραφής σφαλμάτων που περιέχουν πληροφορίες διαγνωστικών θα σταλούν στη Microsoft.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Αποστ. αρχείων καταγρ. σφαλμάτων";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Χωρίς προστασία";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "Χωρίς δικαιώματα";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Προσαρμοσμένα δικαιώματα...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Κατάργηση";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Επιλογή δικαιώματος:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Επιλογή προστασίας";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Εφαρμογή";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "προσθήκη προστασίας";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Χρήστες:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "Οι παρακάτω διευθύνσεις ηλεκτρονικού ταχυδρομείου δεν είναι έγκυρες ή χρησιμοποιούν υπηρεσίες παροχής ηλεκτρονικού ταχυδρομείου που δεν υποστηρίζονται";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "Καθορίστε τουλάχιστον ένα χρήστη";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Να επιτρέπεται χρήση με συσκευές";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Οι χρήστες κινητών συσκευών θα πρέπει να εγκαταστήσουν την εφαρμογή Microsoft RMS για να προβάλλουν αρχεία";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Δικαιώματα:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Οι χρήστες πρέπει να πραγματοποιούν σύνδεση κάθε φορά που ανοίγουν αυτό το αρχείο";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Το περιεχόμενο λήγει στις";
+
+/* Links */
+"PrivacyLink" = "Προστασία προσωπικών δεδομένων";
+"HelpLink" = "Βοήθεια";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Χωρίς προστασία";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Αυτό το περιεχόμενο δεν είναι προστατευμένο.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "ΠΕΡΙΟΡΙΣΜΕΝΗ ΠΡΟΣΒΑΣΗ";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Αυτήν τη στιγμή η πρόσβαση είναι περιορισμένη. Μόνο καθορισμένοι χρήστες μπορούν να έχουν πρόσβαση σε αυτό το περιεχόμενο.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Δικαιώματα χρήσης";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Τα δικαιώματά σας";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Εκχώρηση από";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Επεξεργασία δικαιωμάτων";
+
+/* The label for the 'edit' button */
+"EditButton" = "Επεξεργασία";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "Έχετε τα εξής δικαιώματα για αυτό το αρχείο:";
+"OwnerContent" = "Έχετε ορίσει τα εξής δικαιώματα για αυτό το αρχείο:";
+"RoleContent" = "Είστε %@ για αυτό το αρχείο. Τα δικαιώματά σας είναι τα εξής:";
+
+/* Role names */
+"ViewerRole" = "Αναγνώστης";
+"ReviewerRole" = "Αναθεωρητής";
+"CoAuthorRole" = "Συντάκτης από κοινού";
+"CoOwnerRole" = "Συγκάτοχος";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "Τα δικαιώματά σας είναι τα εξής:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Πλήρης έλεγχος";
+
+"View" = "Προβολή";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Επεξεργασία";
+
+"Export" = "Αποθήκευση ως";
+
+"Extract" = "Αντιγραφή";
+
+"Print" = "Εκτύπωση";
+
+"Comment" = "Σχόλιο";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Απάντηση";
+
+"ReplyAll" = "Απάντηση σε όλους";
+
+"Forward" = "Προώθηση";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Μη έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου.";
