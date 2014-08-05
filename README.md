@@ -87,7 +87,7 @@ Sample application included in the repository demonstrates the usage of this lib
 }
 ```
 
-**Step 2 : Use MSPolicyPicker to show these templates Use list of templates obtained above to call pickTemplateWith:templates method to display templates. Notice you can also pass in previously chosen template (originalTemplateDescriptor) for highlighting it. **
+**Step 2 : Use MSPolicyPicker to show these templates Use list of templates obtained above to call pickTemplateWith:templates method to display templates. Notice you can also pass in previously chosen template (originalTemplateDescriptor) for highlighting it.**
 ```iOS
 [self.policyPicker pickTemplateWith:templates];
 - (void)  pickTemplateWith:( NSArray*)templates
