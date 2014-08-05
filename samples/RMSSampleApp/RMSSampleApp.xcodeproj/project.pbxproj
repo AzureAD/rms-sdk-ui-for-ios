@@ -10,8 +10,8 @@
 		1C6E5F6C198C643A00F675A3 /* ADALiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6E5F69198C643A00F675A3 /* ADALiOS.framework */; };
 		1C6E5F6D198C643A00F675A3 /* MSRightsManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6E5F6A198C643A00F675A3 /* MSRightsManagement.framework */; };
 		1C6E5F70198C644500F675A3 /* ADALiOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C6E5F6F198C644500F675A3 /* ADALiOS.bundle */; };
-		1C6E5F72198C645000F675A3 /* MSRightsManagementResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C6E5F71198C645000F675A3 /* MSRightsManagementResources.bundle */; };
 		1C97BA60199142BE00705F17 /* libMSRightsManagementUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C97B9DD199082C900705F17 /* libMSRightsManagementUI.a */; };
+		1C97BA6A19918DFB00705F17 /* MSRightsManagementUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C97B9DF199082C900705F17 /* MSRightsManagementUIResources.bundle */; };
 		1CA4BE551989D5B000A8B963 /* MSPolicyEnforcer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4BE531989D5B000A8B963 /* MSPolicyEnforcer.m */; };
 		69EB85A4173BE06C00B3DA78 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69EB85A6173BE06C00B3DA78 /* Localizable.strings */; };
 		9057EF9D16E87BBD009E453A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9057EF9C16E87BBD009E453A /* Default.png */; };
@@ -413,6 +413,7 @@
 				F5E04ED0179574640083B7AB /* Default-568h@2x.png in Resources */,
 				F508374316CD380A00A420F3 /* lock_black.png in Resources */,
 				F56340F916D11C100056A107 /* lock_white.png in Resources */,
+				1C97BA6A19918DFB00705F17 /* MSRightsManagementUIResources.bundle in Resources */,
 				F508374516CD380A00A420F3 /* mail_black.png in Resources */,
 				F5E04EB2179544910083B7AB /* mail_white.png in Resources */,
 				F508374816CD398200A420F3 /* icon_txt.png in Resources */,
@@ -420,7 +421,6 @@
 				F5E3689C16D0DFEF00A6AFE3 /* icon_72.png in Resources */,
 				F5B2EF451796A1C5004EA27B /* icon_57@2x.png in Resources */,
 				F5B2EF461796A1C5004EA27B /* icon_72@2x.png in Resources */,
-				1C6E5F72198C645000F675A3 /* MSRightsManagementResources.bundle in Resources */,
 				F5E04ED5179574720083B7AB /* lock_black@2x.png in Resources */,
 				F5E04ED6179574720083B7AB /* lock_white@2x.png in Resources */,
 				F5E04ED7179574720083B7AB /* mail_black@2x.png in Resources */,
