@@ -1,0 +1,20 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ZyZ-gL-gLR"; */
+"ZyZ-gL-gLR.text" = "Naslov";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "zx6-iM-rZM"; */
+"zx6-iM-rZM.title" = "Dozvole";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "liz-BH-xy4"; */
+"liz-BH-xy4.text" = "Naslov";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "vJT-pf-bmP"; */
+"vJT-pf-bmP.title" = "Primijeni";
+
+"UG3-sj-cQ9.text" = "Unesite adresu e-pošte iz tvrtke ili ustanove";
+
+"204-IO-9u5.normalTitle" = "Nastavi";
+
+"BwA-6L-n6t.normalTitle" = "Zaštita privatnosti";
+
+"ifn-78-8ea.normalTitle" = "Pomoć";

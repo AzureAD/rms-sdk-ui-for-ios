@@ -1,0 +1,232 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "OK";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "Storno";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ s vámi sdílí tento soubor. Očekává se, že budete respektovat tato oprávnění:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "Na vašem zařízení není nainstalovaná žádná aplikace, která dokáže otevřít %@.";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Tento soubor se nedá otevřít, protože vlastník nepovolil otevření souboru v jiné aplikaci, než v aplikaci pro sdílení obsahu RMS.";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "Nenašly se žádné poštovní účty. Přejděte prosím na Nastavení > Pošta a přidejte poštovní účet.";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "Zdá se, že tento soubor je poškozený. Odesílatele můžete požádat, aby ho ochránil a poslal znovu.";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "Oprávnění";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "Chráněno před sdílením";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "Jak chcete tento soubor sdílet?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "E-mail";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "Otevřít v jiné aplikaci";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "Bezpečně s vámi sdílím soubory";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Bezpečně s vámi sdílím připojené soubory.</p><p>Microsoft Rights Management si můžete zadarmo zaregistrovat <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">tady</a>.<br />Než tuto přílohu otevřete, nainstalujte si aplikaci pro sdílení obsahu Microsoft Rights Management, kterou najdete <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">tady</a>.</p><p>Potřebujete další nápovědu? Klikněte <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">sem</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Bezpečné sdílení souborů pomocí služby </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "Vaše oprávnění:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Tento text se načetl jenom částečně, protože je moc dlouhý. Pokud si chcete prohlédnout celý text, otevřete prosím tento soubor na počítači v aplikaci pro sdílení obsahu RMS.";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Chyba sady Windows Azure AD Rights Management SDK";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Storno";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Odeslat e-mail";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Zjistili jste problém se sadou Windows Azure AD Rights Management SDK. Pomozte nám prosím vylepšit náš produkt odesláním tohoto e-mailu.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "Omlouváme se, stala se chyba. Můžete nám odeslat protokoly chyb, abychom mohli tento problém odstranit?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "OK";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Pokud zvolíte Odeslat protokoly chyb, odešlou se Microsoftu protokoly chyb obsahující diagnostické informace.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Odeslat protokoly chyb";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Žádná ochrana";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "Žádná oprávnění";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Vlastní oprávnění...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Odebrat";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Vybrat oprávnění:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Zvolit ochranu";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Použít";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "přidat ochranu";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Uživatelé:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "Následující e-mailové adresy jsou neplatné nebo používají nepodporované poskytovatele e-mailových služeb.";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "Zadejte prosím aspoň jednoho uživatele.";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Povolit používání se zařízeními";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Uživatelé mobilních zařízení si budou muset nainstalovat aplikaci Microsoft RMS, aby mohli zobrazit soubory.";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Oprávnění:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Pokaždé, když budou uživatelé chtít tento soubor otevřít, se budou muset přihlásit.";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Platnost obsahu vyprší dne";
+
+/* Links */
+"PrivacyLink" = "Ochrana osobních údajů";
+"HelpLink" = "Nápověda";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Žádná ochrana";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Tento obsah není chráněný.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "OMEZENÝ PŘÍSTUP";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Oprávnění je momentálně omezené. K tomuto obsahu mají přístup jenom určení uživatelé.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Užívací práva";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Vaše oprávnění";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Udělil";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Upravit oprávnění";
+
+/* The label for the 'edit' button */
+"EditButton" = "Upravit";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "K tomuto souboru máte tato oprávnění:";
+"OwnerContent" = "U tohoto souboru jste nastavili tato oprávnění:";
+"RoleContent" = "Jste %@ tohoto souboru. Toto jsou vaše oprávnění:";
+
+/* Role names */
+"ViewerRole" = "Čtenář";
+"ReviewerRole" = "Revidující";
+"CoAuthorRole" = "Spoluautor";
+"CoOwnerRole" = "Spoluvlastník";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "Toto jsou vaše oprávnění:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Úplné řízení";
+
+"View" = "Zobrazit";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Upravit";
+
+"Export" = "Uložit jako";
+
+"Extract" = "Kopírovat";
+
+"Print" = "Vytisknout";
+
+"Comment" = "Komentovat";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Odpovědět";
+
+"ReplyAll" = "Odpovědět všem";
+
+"Forward" = "Předat dál";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Neplatná e-mailová adresa";

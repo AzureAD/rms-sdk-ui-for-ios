@@ -1,0 +1,20 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ZyZ-gL-gLR"; */
+"ZyZ-gL-gLR.text" = "Tittel";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "zx6-iM-rZM"; */
+"zx6-iM-rZM.title" = "Tillatelser";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "liz-BH-xy4"; */
+"liz-BH-xy4.text" = "Tittel";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "vJT-pf-bmP"; */
+"vJT-pf-bmP.title" = "Bruk";
+
+"UG3-sj-cQ9.text" = "Skriv inn e-postadressen din for organisasjonen";
+
+"204-IO-9u5.normalTitle" = "Fortsett";
+
+"BwA-6L-n6t.normalTitle" = "Personvern";
+
+"ifn-78-8ea.normalTitle" = "Hjelp";

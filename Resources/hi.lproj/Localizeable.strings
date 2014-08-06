@@ -1,0 +1,216 @@
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Windows Azure AD Rights Management SDK त्रुटि";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "रद्द करें";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "ई-मेल भेजें";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "आपने Windows Azure AD Rights Management SDK के साथ एक समस्या का सामना किया है. कृपया यह ई-मेल भेजकर अपने उत्पाद को बेहतर बनाने में हमारी मदद करें.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "हमें खेद है. एक त्रुटि हुई. क्या आप हमें त्रुटि लॉग भेज सकते हैं, ताकि हम समस्या को ठीक कर सकें?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "ठीक";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "अगर आप त्रुटि लॉग भेजें चुनते हैं, तो नैदानिक जानकारी वाले त्रुटि लॉग Microsoft को भेजे जाएँगे.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "त्रुटि लॉग भेजें";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "कोई सुरक्षा नहीं";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "कोई अनुमति नहीं";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "कस्टम अनुमतियाँ...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "निकालें";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "अनुमति का चयन करें:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "सुरक्षा चुनें";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "लागू करें";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "सुरक्षा जोड़ें";
+
+/* The users’ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "उपयोगकर्ता:";
+
+/* Invalid input error message for the users’ email input field */
+"CustomPolicyInvalidInputLabel" = "निम्न ईमेल पते अमान्य हैं या ऐसे ईमेल प्रदाताओं का उपयोग करते हैं, जो समर्थित नहीं हैं";
+
+/* Empty input error message for the users’ email input field */
+"CustomPolicyEmptyInputLabel" = "कृपया कम से कम एक उपयोगकर्ता निर्दिष्ट करें";
+
+/* The label for the ‘Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "डिवाइस के साथ उपयोग की अनुमति दें";
+
+/* The help tooltip for the ‘Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "मोबाइल डिवाइस के उपयोगकर्ताओं को फ़ाइलें देखने के लिए Microsoft RMS अनुप्रयोग स्थापित करना होगा";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "अनुमतियाँ:";
+
+/* The label for the ‘Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "उपयोगकर्ताओं को यह फ़ाइल खोलने पर हर बार लॉगिन करना होगा";
+
+/* The label for the ‘Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "सामग्री का समय-सीमा समाप्ति दिनांक";
+
+/* Links */
+"PrivacyLink" = "गोपनीयता";
+"HelpLink" = "मदद";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "कोई सुरक्षा नहीं";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "यह सामग्री सुरक्षित नहीं है.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "प्रतिबंधित पहुँच";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "अनुमति वर्तमान में प्रतिबंधित है. केवल निर्दिष्ट किए गए उपयोगकर्ता इस सामग्री तक पहुँच सकते हैं.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "उपयोग के अधिकार";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "आपकी अनुमतियाँ";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "प्रदाता";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "अनुमतियाँ संपादित करें";
+
+/* The label for the 'edit' button */
+"EditButton" = "संपादित करें";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "इस फ़ाइल के लिए आपको निम्न अनुमतियाँ हैं:";
+"OwnerContent" = "इस फ़ाइल पर आपने निम्न अनुमतियाँ सेट की हुईं हैं:";
+"RoleContent" = "आप इस फ़ाइल के लिए एक %@ हैं. आपको निम्न की अनुमति है:";
+
+/* Role names */
+"ViewerRole" = "व्यूअर";
+"ReviewerRole" = "समीक्षक";
+"CoAuthorRole" = "सह-लेखक";
+"CoOwnerRole" = "सह-स्वामी";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "आपको निम्न की अनुमति है:";
+
+/******************
+ * Error messages
+ ******************/
+
+"Error_General" = "Windows Azure AD Rights Management से संपर्क करने का प्रयास करते हुए कुछ गड़बड़ हुई. अगर समस्या बनी रहती है, तो अपने व्यवस्थापक से संपर्क करें.";
+
+"Error_CommunicationIssue" = "आपको साइन इन करने में एक समस्या हुई. अपना इंटरनेट कनेक्शन जाँचें और पुनः प्रयास करें.";
+
+"Error_DeviceRejected" = "आपके डिवाइस को Windows Azure AD Rights Management का उपयोग करने की अनुमति नहीं है. अधिक जानकारी के लिए अपने व्यवस्थापक से संपर्क करें.";
+
+"Error_ConsumptionRights" = "आपके पास यह सामग्री देखने की अनुमतियाँ नहीं हैं. अनुमतियों का अनुरोध करने के लिए सामग्री स्वामी से संपर्क करें.";
+
+"Error_ConsumptionRightsEmailURL" = "आपके पास यह सामग्री देखने की अनुमतियाँ नहीं हैं. अनुमतियों का अनुरोध करने के लिए %@ से संपर्क करें.";
+
+"Error_ConsumptionRightsGeneralURL" = "आपके पास यह सामग्री देखने की अनुमतियाँ नहीं हैं. अनुमतियों का अनुरोध करने के लिए %@ पर जाएँ.";
+
+"Error_RMS_OnPremServersNotSupported" = "आपका स्थानीय AD RMS सर्वर आपके डिवाइस का समर्थन नहीं करता है, इसलिए इस सामग्री को डिक्रिप्ट नहीं किया जा सकता. अधिक जानकारी के लिए अपने व्यवस्थापक से संपर्क करें.";
+
+"Error_UnsupportedSdkVersion" = "इस अनुप्रयोग द्वारा उपयोग किए गए RMS सॉफ़्टवेयर को अपडेट करने की आवश्यकता होगी. इस अनुप्रयोग के लिए तकनीकी समर्थन या एक अद्यतन का अनुरोध करने के लिए अपने व्यवस्थापक से संपर्क करें.";
+
+"Error_InvalidParameter" = "Windows Azure AD Rights Management का उपयोग करने वाले अनुप्रयोग से कुछ अनपेक्षित हो गया. इस अनुप्रयोग के लिए तकनीकी समर्थन से संपर्क करें.";
+
+"Error_InvalidPL" = "Windows Azure AD Rights Management का उपयोग करने वाले अनुप्रयोग से कुछ अनपेक्षित हो गया. इस अनुप्रयोग के लिए तकनीकी समर्थन से संपर्क करें.";
+
+"Error_ServiceUnavailability" = "Windows Azure AD Rights Management से संपर्क करने का प्रयास करते हुए कुछ गड़बड़ हुई. अगर समस्या बनी रहती है, तो अपने व्यवस्थापक से संपर्क करें.";
+
+"Error_PublishingLicenseExpired" = "आप इस सामग्री को इसलिए नहीं देख सकते क्योंकि समय-सीमा समाप्त हो गई है. इस सामग्री को नवीनीकृत करने के लिए सामग्री स्वामी या अपने व्यवस्थापक से संपर्क करें.";
+
+"Error_PublishingLicenseExpiredEmailURL" = "आप यह सामग्री इसलिए नहीं देख सकते क्योंकि समय सीमा समाप्त हो गई है. इस सामग्री को नवीनीकृत करने के लिए %@ या अपने व्यवस्थापक से संपर्क करें.";
+
+"Error_PublishingLicenseExpiredGeneralURL" = "आप यह सामग्री इसलिए नहीं देख सकते क्योंकि समय सीमा समाप्त हो गई है. इस सामग्री को नवीनीकृत करने के लिए %@ पर जाएँ या अपने व्यवस्थापक से संपर्क करें.";
+
+"Error_NoPublishingRights" = "क्षमा करें, आपको इस संगठन के लिए नई सुरक्षित सामग्री बनाने की अनुमति नहीं है. किसी भिन्न उपयोगकर्ता के रूप में साइन इन करके या अतिरिक्त अनुमतियों के लिए अपने व्यवस्थापक से संपर्क करके प्रयास करें.";
+
+"Error_REST_ServiceNotEnabled" = "Windows Azure AD Rights Management आपके संगठन के लिए सक्षम नहीं है. अधिक विवरण के लिए अपने व्यवस्थापक से संपर्क करें.";
+
+"Error_Auth_Already_In_Progress" = "क्षमा करें, ऐसा लगता है कि आप पहले ही साइन इन करने का प्रयास कर रहे हैं, पुनः प्रयास करने से पहले कृपया अपना पिछला प्रयास पूरा करें.";
+
+"Error_Auth_Failed_Bad_Token" = "प्रमाणीकरण विफल, ग़लत पहुँच टोकन.";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "पूर्ण नियंत्रण";
+
+"View" = "देखें";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "संपादित करें";
+
+"Export" = "इस रूप में सहेजें";
+
+"Extract" = "प्रतिलिपि बनाएँ";
+
+"Print" = "मुद्रित करें";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "उत्तर दें";
+
+"ReplyAll" = "सभी को उत्तर दें";
+
+"Forward" = "अग्रेषित करें";
+

@@ -1,0 +1,216 @@
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "S'ha produït un error de l'SDK del Windows Azure AD Rights Management";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Cancel·la";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Envia un missatge de correu electrònic";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "S'ha detectat un problema amb l'SDK del Windows Azure AD Rights Management. Envieu aquest correu electrònic per ajudar-nos a millorar el producte.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "We're sorry. An error has occurred. Can you send us the error logs so we can fix the problem?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "D\\'acord";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "If you choose Send Error Logs, error logs containing diagnostic information will be sent to Microsoft.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Send Error Logs";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Sense protecció";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "No Permissions";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Protecció definida per l'usuari";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Remove";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Select Permission:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Choose Protection";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Apply";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "add protection";
+
+/* The users’ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Users:";
+
+/* Invalid input error message for the users’ email input field */
+"CustomPolicyInvalidInputLabel" = "The following email addresses are invalid or use email providers that are not supported";
+
+/* Empty input error message for the users’ email input field */
+"CustomPolicyEmptyInputLabel" = "Please specify at least one user";
+
+/* The label for the ‘Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Allow consumption with devices";
+
+/* The help tooltip for the ‘Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Mobile device users will need to install the Microsoft RMS application to view files";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Permissions:";
+
+/* The label for the ‘Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Users must login every time they open this file";
+
+/* The label for the ‘Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Content expires on";
+
+/* Links */
+"PrivacyLink" = "Privacy";
+"HelpLink" = "Help";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Sense protecció";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "This content isn't protected.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "RESTRICTED ACCESS";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Permission is currently restricted. Only specified users can access this content.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Drets d'ús";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Els vostres permisos";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Concedit per";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Edit Permissions";
+
+/* The label for the 'edit' button */
+"EditButton" = "Edit";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "You have the following permissions for this file:";
+"OwnerContent" = "You have set the following permissions on this file:";
+"RoleContent" = "You are a %@ for this file. Your permissions are:";
+
+/* Role names */
+"ViewerRole" = "Viewer";
+"ReviewerRole" = "Reviewer";
+"CoAuthorRole" = "Co-author";
+"CoOwnerRole" = "Co-owner";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "Your permissions are:";
+
+/******************
+ * Error messages
+ ******************/
+
+"Error_General" = "S'ha produït un error en provar de contactar amb el Windows Azure AD Rights Management. Si l'error continua, poseu-vos en contacte amb l'administrador.";
+
+"Error_CommunicationIssue" = "S'ha produït un error en iniciar la sessió. Comproveu la connexió a Internet i torneu-ho a provar.";
+
+"Error_DeviceRejected" = "El dispositiu no pot utilitzar el Windows Azure AD Rights Management. Per obtenir més informació, poseu-vos en contacte amb l'administrador.";
+
+"Error_ConsumptionRights" = "No teniu els permisos necessaris per veure el contingut. Poseu-vos en contacte amb el propietari del contingut per sol·licitar els permisos.";
+
+"Error_ConsumptionRightsEmailURL" = "No teniu els permisos necessaris per veure el contingut. Poseu-vos en contacte amb %@ per sol·licitar els permisos.";
+
+"Error_ConsumptionRightsGeneralURL" = "No teniu els permisos necessaris per veure el contingut. Visiteu %@ per sol·licitar els permisos.";
+
+"Error_RMS_OnPremServersNotSupported" = "El servidor de l'AD RMS local no és compatible amb el dispositiu i, per tant, el contingut no es pot desxifrar. Per obtenir més informació, poseu-vos en contacte amb l'administrador.";
+
+"Error_UnsupportedSdkVersion" = "Cal actualitzar el programari d'RMS de l'aplicació. Poseu-vos en contacte amb l'administrador o l'assistència tècnica de l'aplicació per sol·licitar una actualització.";
+
+"Error_InvalidParameter" = "L'aplicació que utilitza el Windows Azure AD Rights Management ha realitzat una acció inesperada. Poseu-vos en contacte amb l'assistència tècnica de l'aplicació.";
+
+"Error_InvalidPL" = "L'aplicació que utilitza el Windows Azure AD Rights Management ha realitzat una acció inesperada. Poseu-vos en contacte amb l'assistència tècnica de l'aplicació.";
+
+"Error_ServiceUnavailability" = "S'ha produït un error en provar de contactar amb el Windows Azure AD Rights Management. Si l'error continua, poseu-vos en contacte amb l'administrador.";
+
+"Error_PublishingLicenseExpired" = "No podeu visualitzar el contingut perquè el límit de temps ha finalitzat. Poseu-vos en contacte amb el propietari del contingut o l'administrador per renovar el contingut.";
+
+"Error_PublishingLicenseExpiredEmailURL" = "You can't view this content because the time limit has ended. Contact %@ or your administrator to renew this content.";
+
+"Error_PublishingLicenseExpiredGeneralURL" = "You can't view this content because the time limit has ended. Visit %@ or contact your administrator to renew this content.";
+
+"Error_NoPublishingRights" = "No teniu els permisos necessaris per crear nous continguts protegits per a l'organització. Inicieu la sessió com a un altre usuari o poseu-vos en contacte amb l'administrador per obtenir permisos addicionals.";
+
+"Error_REST_ServiceNotEnabled" = "El Windows Azure AD Rights Management no s'ha habilitat per a l'organització. Poseu-vos en contacte amb l'administrador per obtenir més informació.";
+
+"Error_Auth_Already_In_Progress" = "Sorry, it seems you are already attempting to sign in, please complete your previous attempt before trying again.";
+
+"Error_Auth_Failed_Bad_Token" = "Authentication failed, bad access token.";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Control total";
+
+"View" = "Visualitza";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Edita/Desa";
+
+"Export" = "Exporta/Anomena i desa";
+
+"Extract" = "Extreu/Copia";
+
+"Print" = "Imprimeix";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Respon";
+
+"ReplyAll" = "Respon a tothom";
+
+"Forward" = "Reenvia";
+

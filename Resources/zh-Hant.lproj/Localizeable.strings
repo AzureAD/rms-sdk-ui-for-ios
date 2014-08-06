@@ -1,0 +1,232 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "確定";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "取消";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ 已和您共用此檔案。您應接受下列權限:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "您的裝置上沒有安裝能開啟 %@ 的應用程式";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "無法開啟此檔案，因為擁有者無法在 RMS 共用應用程式以外的應用程式中開啟檔案";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "找不到郵件帳戶。請移至 [設定] -> [郵件] 並新增您的郵件帳戶";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "檔案似乎已損毀。您可以請傳送者保護檔案並再傳送一次";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "權限";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "已保護共用";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "您要如何共用此檔案?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "電子郵件";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "在另一個應用程式中開啟";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "我已安全地與您共用檔案";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>我已安全地與你共用檔案。</p><p>在<a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">這裡</a>免費註冊 Microsoft Rights Management。<br />開啟附加檔案前，請先從<a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">這裡</a>安裝 Microsoft Rights Management 共用應用程式。</p><p>需要進一步協助嗎? 請按一下<a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">這裡</a>。</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">使用</span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a>安全地共用您的檔案</p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "您的權限:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "文字只載入了一部分，因為長度太長。若要檢視完整文字，請使用 RMS 共用應用程式，在您的電腦中開啟檔案。";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Windows Azure AD Rights Management SDK 錯誤";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "取消";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "傳送電子郵件";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "您發現 Windows Azure AD Rights Management SDK 的問題。請傳送這封電子郵件，幫助我們改善產品。";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "抱歉，發生錯誤。您是否可以將錯誤記錄檔傳送給我們，以便解決問題?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "確定";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "如果您選擇 [傳送錯誤記錄檔]，系統便會將包含診斷資訊的錯誤記錄檔傳送到 Microsoft。";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "傳送錯誤記錄檔";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "不保護";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "沒有權限";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "自訂權限...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "移除";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "選取權限:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "選擇保護";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "套用";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "新增保護";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "使用者:";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "下列電子郵件地址無效或使用不支援的電子郵件提供者";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "請至少指定一位使用者";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "允許透過裝置使用";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "行動裝置使用者必須安裝 Microsoft RMS 應用程式才能檢視檔案";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "權限:";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "使用者每次開啟此檔案時都必須登入";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "內容到期日";
+
+/* Links */
+"PrivacyLink" = "隱私權";
+"HelpLink" = "說明";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "不保護";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "此內容未受到保護。";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "限制存取";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "目前已限制權限。僅指定的使用者能夠存取此內容。";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "使用權限";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "您的權限";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "授與者";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "編輯權限";
+
+/* The label for the 'edit' button */
+"EditButton" = "編輯";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "您具有此檔案的下列權限:";
+"OwnerContent" = "您已對此檔案設定下列權限:";
+"RoleContent" = "您是這個檔案的 %@。您的權限包括:";
+
+/* Role names */
+"ViewerRole" = "檢視者";
+"ReviewerRole" = "檢閱者";
+"CoAuthorRole" = "共同作者";
+"CoOwnerRole" = "共同擁有者";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "您的權限包括:";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "完全控制";
+
+"View" = "檢視";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "編輯";
+
+"Export" = "另存新檔";
+
+"Extract" = "複製";
+
+"Print" = "列印";
+
+"Comment" = "註解";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "回覆";
+
+"ReplyAll" = "全部回覆";
+
+"Forward" = "轉寄";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "無效的電子郵件地址。";

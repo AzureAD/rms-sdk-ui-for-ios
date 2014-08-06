@@ -2,7 +2,7 @@ UI Library for Microsoft RMS SDK v4 for iOS
 ==================
 
 
-The UI Library for Microsoft RMS SDK v4 for iOS provides the UI required for the SDK functionality. This library is optional and a developer may choose to build their own UI when using Microsoft RMS SDK v4.
+The UI Library for Microsoft RMS SDK v4 for iOS provides the UI important to your interactive apps development. This library is optional and a developer may choose to build their own UI when using Microsoft RMS SDK v4.
 
 ##Features
 
@@ -13,7 +13,7 @@ This library provides following iOS components:
 
 ##Contributing
 
-All code is licensed under MICROSOFT SOFTWARE LICENSE TERMS, MICROSOFT RIGHTS MANAGEMENT SERVICE SDK UI LIBRARIES. We enthusiastically welcome contributions and feedback. You can clone the repo and start contributing now.
+All code is licensed under MICROSOFT SOFTWARE LICENSE TERMS, MICROSOFT RIGHTS MANAGEMENT SERVICE SDK UI LIBRARIES. We enthusiastically welcome contributions and feedback. You can clone the repository and start contributing now.
 
 
 ## How to use this library
@@ -22,7 +22,7 @@ All code is licensed under MICROSOFT SOFTWARE LICENSE TERMS, MICROSOFT RIGHTS MA
 You must have downloaded and/or installed following software
 
 * Git
-* OS X is required for all iOS development.
+* OS X 10.8 and later is required for all iOS development.
 * Xcode versions (5.0 to 5.0.2)
 * Xcode is available through the Mac App Store.
 * The Microsoft Rights Management SDK 4.0 package for iOS.
@@ -47,7 +47,7 @@ Note For more information about the RMS SDK v4 please visit developer guidance, 
 Sample application included in the repository demonstrates the usage of this library. It is located at samples\RMSSampleApp. Following are some snippets from the sample application ordered to achieve a following scenario.
 
 ### Sample Scenario: Publish a file using a RMS template and show UserPolicy.
-**Step 1 : Receive email input from user by using MSEmailInputViewController and get Templates using MSIPC SDK v4**
+**Step 1 : Receive email input from user by using MSEmailInputViewController and get Templates**
 ```iOS
 - (void)showEmailInputView
 {
@@ -87,7 +87,7 @@ Sample application included in the repository demonstrates the usage of this lib
 }
 ```
 
-**Step 2 : Use MSPolicyPicker to show these templates Use list of templates obtained above to call pickTemplateWith:templates method to display templates. Notice you can also pass in previously chosen template (originalTemplateDescriptor) for highlighting it.**
+**Step 2 : Use MSPolicyPicker to show these templates Use list of templates obtained above to call pickTemplateWith:templates method to display templates. Notice you can also pass in previously chosen template (originalTemplateDescriptor) for highlighting the last selected template.**
 ```iOS
 [self.policyPicker pickTemplateWith:templates];
 - (void)  pickTemplateWith:( NSArray*)templates

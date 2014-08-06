@@ -1,0 +1,20 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ZyZ-gL-gLR"; */
+"ZyZ-gL-gLR.text" = "Название";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "zx6-iM-rZM"; */
+"zx6-iM-rZM.title" = "Разрешения";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "liz-BH-xy4"; */
+"liz-BH-xy4.text" = "Название";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "vJT-pf-bmP"; */
+"vJT-pf-bmP.title" = "Применить";
+
+"UG3-sj-cQ9.text" = "Введите адрес электронной почты организации";
+
+"204-IO-9u5.normalTitle" = "Продолжить";
+
+"BwA-6L-n6t.normalTitle" = "Конфиденциальность";
+
+"ifn-78-8ea.normalTitle" = "Справка";

@@ -1,0 +1,20 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ZyZ-gL-gLR"; */
+"ZyZ-gL-gLR.text" = "Tiêu đề";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "zx6-iM-rZM"; */
+"zx6-iM-rZM.title" = "Quyền";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "liz-BH-xy4"; */
+"liz-BH-xy4.text" = "Tiêu đề";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "vJT-pf-bmP"; */
+"vJT-pf-bmP.title" = "Áp dụng";
+
+"UG3-sj-cQ9.text" = "Nhập địa chỉ email tổ chức của bạn";
+
+"204-IO-9u5.normalTitle" = "Tiếp tục";
+
+"BwA-6L-n6t.normalTitle" = "Quyền riêng tư";
+
+"ifn-78-8ea.normalTitle" = "Trợ giúp";

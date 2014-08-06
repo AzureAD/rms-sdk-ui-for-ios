@@ -1,0 +1,216 @@
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Greška sa kompletom alatki za razvoj softvera usluge Windows Azure AD Rights Management SDK";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Otkaži";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Pošalji e-poruku";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Naišli ste na problem sa kompletom alatki za razvoj softvera usluge Windows Azure AD Rights Management. Pomozite nam da poboljšamo proizvod tako što ćete nam poslati ovu e-poruku.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "Izvinjavamo se. Došlo je do greške. Možete li nam poslati evidencije grešaka kako bismo rešili ovaj problem?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "U redu";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Ako odaberete „Pošalji evidencije grešaka“, evidencije grešaka koje sadrže dijagnostičke podatke biće poslate korporaciji Microsoft.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Pošalji evidencije grešaka";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Nema zaštite";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "Nema dozvola";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Prilagođene dozvole...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Ukloni";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Izaberite dozvolu:";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Odaberite zaštitu";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Primeni";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "dodavanje zaštite";
+
+/* The users’ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Korisnici:";
+
+/* Invalid input error message for the users’ email input field */
+"CustomPolicyInvalidInputLabel" = "Sledeće e-adrese nisu važeće ili koriste dobavljače e-pošte koji nisu podržani";
+
+/* Empty input error message for the users’ email input field */
+"CustomPolicyEmptyInputLabel" = "Navedite bar jednog korisnika";
+
+/* The label for the ‘Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Dozvoli potrošnju sa uređajima";
+
+/* The help tooltip for the ‘Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Korisnici mobilnih uređaja će morati da instaliraju aplikaciju Microsoft RMS da bi mogli da prikažu datoteke";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Dozvole:";
+
+/* The label for the ‘Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Korisnici moraju da se prijave svaki put kada otvaraju ovu datoteku";
+
+/* The label for the ‘Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Sadržaj ističe dana";
+
+/* Links */
+"PrivacyLink" = "Privatnost";
+"HelpLink" = "Pomoć";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Nema zaštite";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Ovaj sadržaj nije zaštićen.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "OGRANIČENI PRISTUP";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Dozvola je trenutno ograničena. Samo navedeni korisnici mogu da pristupe ovom sadržaju.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Prava na korišćenje";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Vaše dozvole";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Izdao";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Uredi dozvole";
+
+/* The label for the 'edit' button */
+"EditButton" = "Uredi";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "Imate sledeće dozvole za ovu datoteku:";
+"OwnerContent" = "Postavili ste sledeće dozvole za ovu datoteku:";
+"RoleContent" = "Vi ste %@ za ovu datoteku. Vaše dozvole su:";
+
+/* Role names */
+"ViewerRole" = "Čitalac";
+"ReviewerRole" = "Redaktor";
+"CoAuthorRole" = "Koautor";
+"CoOwnerRole" = "Suvlasnik";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "Vaše dozvole su:";
+
+/******************
+ * Error messages
+ ******************/
+
+"Error_General" = "Došlo je do greške prilikom pokušaja kontaktiranja usluge Windows Azure AD Rights Management. Ako se problem i dalje bude javljao, obratite se administratoru.";
+
+"Error_CommunicationIssue" = "Došlo je do problema prilikom prijavljivanja, Proverite internet vezu i pokušajte ponovo.";
+
+"Error_DeviceRejected" = "Vaš uređaj nema dozvolu za korišćenje usluge Windows Azure AD Rights Management. Više informacija zatražite od administratora.";
+
+"Error_ConsumptionRights" = "Nemate potrebne dozvole za pregled ovog sadržaja. Kontaktirajte vlasnika sadržaja kako biste ih zatražili.";
+
+"Error_ConsumptionRightsEmailURL" = "Nemate potrebne dozvole za pregled ovog sadržaja. Kontaktirajte %@ kako biste ih zatražili.";
+
+"Error_ConsumptionRightsGeneralURL" = "Nemate potrebne dozvole za pregled ovog sadržaja. Posetite %@ kako biste ih zatražili.";
+
+"Error_RMS_OnPremServersNotSupported" = "Lokalni AD RMS server ne podržava vaš uređaj, pa nije moguće dešifrovati ovaj sadržaj. Više informacija zatražite od administratora.";
+
+"Error_UnsupportedSdkVersion" = "RMS softver koji ova aplikacija koristi mora da se ažurira. Kontaktirajte tehničku podršku za ovu aplikaciju ili administratora kako biste zatražili ažuriranje.";
+
+"Error_InvalidParameter" = "Došlo je do neočekivanog problema sa aplikacijom koja koristi Windows Azure AD Rights Management. Kontaktirajte tehničku podršku za ovu aplikaciju.";
+
+"Error_InvalidPL" = "Došlo je do neočekivanog problema sa aplikacijom koja koristi Windows Azure AD Rights Management. Kontaktirajte tehničku podršku za ovu aplikaciju.";
+
+"Error_ServiceUnavailability" = "Došlo je do greške prilikom pokušaja kontaktiranja usluge Windows Azure AD Rights Management. Ako se problem i dalje bude javljao, obratite se administratoru.";
+
+"Error_PublishingLicenseExpired" = "Ne možete da vidite ovaj sadržaj zato što je vremensko ograničenje isteklo. Kontaktirajte vlasnika sadržaja ili administratora kako biste obnovili ovaj sadržaj.";
+
+"Error_PublishingLicenseExpiredEmailURL" = "Ne možete da prikažete ovaj sadržaj jer je vremensko ograničenje isteklo. Obratite se %@ ili svom administratoru da biste obnovili ovaj sadržaj.";
+
+"Error_PublishingLicenseExpiredGeneralURL" = "Ne možete da prikažete ovaj sadržaj jer je vremensko ograničenje isteklo. Posetite %@ ili se obratite svom administratoru da biste obnovili ovaj sadržaj.";
+
+"Error_NoPublishingRights" = "Žao nam je, nemate dozvolu za kreiranje novog zaštićenog sadržaja za ovu organizaciju. Pokušajte da se prijavite kao drugi korisnik ili zatražite dodatne dozvole od administratora.";
+
+"Error_REST_ServiceNotEnabled" = "Usluga Windows Azure AD Rights Management nije omogućena za vašu organizaciju. Više detalja zatražite od administratora.";
+
+"Error_Auth_Already_In_Progress" = "Žao nam je, izgleda da već pokušavate da se prijavite. Privedite prethodni pokušaj kraju pre nego što pokušate ponovo.";
+
+"Error_Auth_Failed_Bad_Token" = "Potvrda identiteta nije uspela. Oznaka za pristup nije ispravna.";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Potpuna kontrola";
+
+"View" = "Prikaži";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Uredi";
+
+"Export" = "Sačuvaj kao";
+
+"Extract" = "Kopiraj";
+
+"Print" = "Odštampaj";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Odgovori";
+
+"ReplyAll" = "Odgovori svima";
+
+"Forward" = "Prosledi";
+

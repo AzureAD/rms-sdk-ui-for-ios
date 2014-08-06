@@ -1,0 +1,232 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "OK";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "Annuler";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ a partagé ce fichier avec vous. Vous devez accepter ces autorisations :";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "Aucune application installée sur votre périphérique n'est en mesure d'ouvrir %@";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Impossible d'ouvrir le fichier car le propriétaire n'a pas autorisé l'ouverture du fichier dans une application autre qu'une application de partage RMS";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "Aucun compte de messagerie trouvé. Rendez-vous dans Paramètres->Messagerie et ajoutez votre compte de messagerie";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "Le fichier semble corrompu. Vous pouvez demander à l'expéditeur de le protéger et de le renvoyer";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "Autorisations";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "Protégé contre le partage";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "Comment souhaitez-vous partager ce fichier ?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "E-mail";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "Ouvrir dans une autre application";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "J'ai partagé un ou plusieurs fichiers de façon sécurisée avec vous";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>J'ai partagé avec vous le(s) fichier(s) joint(s) de façon sécurisée.</p><p>Inscrivez-vous à Microsoft Rights Management <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">ici</a> gratuitement.<br />Avant d'ouvrir la pièce jointe, installez l'application de partage Microsoft Rights Management sur <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">ici</a>.</p><p>Besoin d'aide ? Cliquez sur <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">ici</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Partagez vos fichiers de façon sécurisée avec </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "Vos autorisations :";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Le texte a été partiellement chargé car il est trop long. Pour afficher le texte complet, ouvrez le fichier sur votre PC à l'aide de l'application de partage RMS.";
+
+/******************
+ * Error Viewer
+ ******************/
+
+/* The title for the error viewer */
+"ErrorTitle" = "Erreur SDK Microsoft Azure AD Rights Management";
+
+/* The cancel button text of the error viewer */
+"ErrorCancelButton" = "Annuler";
+
+/* The report e-mail button text of the error viewer */
+"ErrorReportButton" = "Envoyer le message";
+
+/* The general error text which displayed in the error viewer */
+"ErrorMessage" = "Vous avez rencontré un problème avec le SDK Microsoft Azure AD Rights Management. Aidez-nous à améliorer notre produit en envoyant ce message.";
+
+/******************
+ * Consent Viewer
+ ******************/
+
+/* The message of the consent viewer */
+"ConsentMessage" = "Nous sommes désolés. Une erreur s'est produite. Pouvez-vous nous envoyer les journaux d'erreurs afin que nous corrigions le problème ?";
+
+/* The OK button text of the consent viewer */
+"ConsentOKButton" = "OK";
+
+/* The informative text of the consent viewer in OS X */
+"ConsentInformativeText_OSX" = "Si vous choisissez Envoyer les journaux d'erreur, les journaux d'erreur contenant les informations de diagnostic seront envoyés à Microsoft.";
+
+/* The Send button text of the consent viewer in OS X */
+"ConsentSendButton" = "Envoyer les journaux d'erreur";
+
+/******************
+ * Policy Picker
+ ******************/
+
+/* The 'no protection' option text in the policy picker */
+"TextUnrestrictedAccess" = "Aucune protection";
+
+/* The 'no permissions' option text in the policy picker */
+"TextNoPermissions" = "Aucune autorisation";
+
+/* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
+"TextCustomRights" = "Autorisations personnalisées...";
+
+/* The label of the 'remove protection' button */
+"RemoveProtection" = "Supprimer";
+
+/********************************
+ * TemplatesViewController - OSX
+ ********************************/
+
+/* The 'Select Permission' label in the policy picker in OSX */
+"PolicyPickSelectPermissionLabel" = "Sélectionner une autorisation :";
+
+/* The 'Choose Protection' label in the policy picker in OSX */
+"PolicyPickChooseProtectionLabel" = "Choisir la protection";
+
+/* The 'Apply' button in the policy picker in OSX */
+"PolicyPickApplyButton" = "Appliquer";
+
+/***********************
+ * Custom Policy Picker
+ ***********************/
+
+/* The title for the custom policy picker view */
+"CustomPolicyMainTitle" = "ajouter une protection";
+
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Utilisateurs :";
+
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "Les adresses électroniques suivantes ne sont pas valides ou utilisent des fournisseurs de messagerie non pris en charge";
+
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "Indiquez au moins un utilisateur";
+
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Autoriser la consommation avec les périphériques";
+
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Les utilisateurs de périphérique mobile devront installer l'application Microsoft RMS pour afficher les fichiers";
+
+/* The role and rights picker view */
+"CustomPolicyPermissions" = "Autorisations :";
+
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Les utilisateurs doivent se connecter chaque fois qu'ils ouvrent ce fichier";
+
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Le contenu expire le";
+
+/* Links */
+"PrivacyLink" = "Confidentialité";
+"HelpLink" = "Aide";
+
+
+/******************
+ * Protection Policy
+ ******************/
+
+/* Generic name for no-protection policy */
+"NoProtectionPolicyName" = "Aucune protection";
+
+/* Generic Description of no-protection policy */
+"NoProtectionPolicyDescription" = "Ce contenu n'est pas protégé.";
+
+/* Generic name for an ad-hoc protection policy */
+"AdhocPolicyName" = "ACCÈS RESTREINT";
+
+/* Generic Description of an ad-hoc protection policy */
+"AdhocPolicyDescription" = "Les autorisations sont actuellement restreintes. Seuls les utilisateurs spécifiés peuvent accéder à ce contenu.";
+
+/******************
+ * Policy Viewer
+ ******************/
+
+/* The title for the permissions section */
+"PolicyPermissionsTitle" = "Droits d\\'utilisation";
+
+/* The title for the policy template secion */
+"PolicyTemplatesTitle" = "Vos autorisations";
+
+/* The title for the 'granted by' email section */
+"PolicyGrantedByTitle" = "Autorisé par";
+
+/* The label for the 'edit permissions' button */
+"EditPermissions" = "Modifier les autorisations";
+
+/* The label for the 'edit' button */
+"EditButton" = "Modifier";
+
+/* Policy Viewer Titles */
+"NonOwnerContent" = "Vous disposez des autorisations suivantes pour ce fichier :";
+"OwnerContent" = "Vous avez défini les autorisations suivantes sur ce fichier :";
+"RoleContent" = "Votre rôle pour ce fichier : %@. Vos autorisations sont :";
+
+/* Role names */
+"ViewerRole" = "Observateur";
+"ReviewerRole" = "Réviseur";
+"CoAuthorRole" = "Coauteur";
+"CoOwnerRole" = "Copropriétaire";
+
+/* The title for the policy template section in OSX */
+"PolicyTemplatesTitle_OSX" = "Vos autorisations sont :";
+
+/******************
+ * Common Rights
+ ******************/
+
+"Owner" = "Contrôle total";
+
+"View" = "Afficher";
+
+/****************************
+ * Editable Document Rights
+ ****************************/
+
+"Edit" = "Modifier";
+
+"Export" = "Enregistrer sous";
+
+"Extract" = "Copier";
+
+"Print" = "Imprimer";
+
+"Comment" = "Commentaire";
+
+/******************
+ * Email Rights
+ ******************/
+
+"Reply" = "Répondre";
+
+"ReplyAll" = "Répondre à tous";
+
+"Forward" = "Transférer";
+
+/******************
+ * Email View
+ ******************/
+
+/* A message to show when the user enters an invalid email address in the login screen */
+"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Adresse de messagerie non valide.";

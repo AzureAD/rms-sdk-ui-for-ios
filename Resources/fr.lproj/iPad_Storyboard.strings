@@ -1,0 +1,20 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ZyZ-gL-gLR"; */
+"ZyZ-gL-gLR.text" = "Titre";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "zx6-iM-rZM"; */
+"zx6-iM-rZM.title" = "Autorisations";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "liz-BH-xy4"; */
+"liz-BH-xy4.text" = "Titre";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "vJT-pf-bmP"; */
+"vJT-pf-bmP.title" = "Appliquer";
+
+"UG3-sj-cQ9.text" = "Saisissez l'adresse de messagerie de votre organisation";
+
+"204-IO-9u5.normalTitle" = "Continuer";
+
+"BwA-6L-n6t.normalTitle" = "Confidentialité";
+
+"ifn-78-8ea.normalTitle" = "Aide";
