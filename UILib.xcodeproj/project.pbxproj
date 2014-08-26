@@ -48,6 +48,11 @@
 		1CABF54D19412ADD00ED3B4E /* sdk-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1CABF54C19412ADD00ED3B4E /* sdk-Prefix.pch */; };
 		1CB3872F197DEC63005B9FF5 /* logo_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3872D197DEB85005B9FF5 /* logo_iPhone@2x.png */; };
 		1CB38730197DEC63005B9FF5 /* logo_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7224131979E88900734C61 /* logo_iPhone.png */; };
+		523CFFB619A2C26D005AAB3B /* MSConsentsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 523CFFB419A2C26D005AAB3B /* MSConsentsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523CFFB719A2C26D005AAB3B /* MSConsentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523CFFB519A2C26D005AAB3B /* MSConsentsViewController.m */; };
+		5276525219A4DB6400BC1144 /* MSConsentsViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5276525119A4DB6400BC1144 /* MSConsentsViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB6F27199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB6F25199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB6F28199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB6F26199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.m */; };
 		6918E3A61633FAD80054C586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6918E3A51633FAD80054C586 /* Foundation.framework */; };
 		905BD75B1781D50200CB1EF3 /* permitted.png in Resources */ = {isa = PBXBuildFile; fileRef = 905BD7561781C72E00CB1EF3 /* permitted.png */; };
 		905BD75C1781D50800CB1EF3 /* restricted.png in Resources */ = {isa = PBXBuildFile; fileRef = 905BD7571781C72E00CB1EF3 /* restricted.png */; };
@@ -111,6 +116,11 @@
 		1CABF459193FF1DB00ED3B4E /* MSPolicyPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPolicyPicker.m; sourceTree = "<group>"; };
 		1CABF54C19412ADD00ED3B4E /* sdk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sdk-Prefix.pch"; sourceTree = "<group>"; };
 		1CB3872D197DEB85005B9FF5 /* logo_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_iPhone@2x.png"; path = "assets/ios/logo_iPhone@2x.png"; sourceTree = "<group>"; };
+		523CFFB419A2C26D005AAB3B /* MSConsentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConsentsViewController.h; sourceTree = "<group>"; };
+		523CFFB519A2C26D005AAB3B /* MSConsentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSConsentsViewController.m; sourceTree = "<group>"; };
+		5276525119A4DB6400BC1144 /* MSConsentsViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConsentsViewDelegate.h; sourceTree = "<group>"; };
+		52BB6F25199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDiagnosticsConsentViewer.h; sourceTree = "<group>"; };
+		52BB6F26199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDiagnosticsConsentViewer.m; sourceTree = "<group>"; };
 		6918E3A21633FAD80054C586 /* libMSRightsManagementUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSRightsManagementUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6918E3A51633FAD80054C586 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		69F6D443173AA2E000BD4FC8 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizeable.strings"; sourceTree = "<group>"; };
@@ -281,24 +291,29 @@
 		6918E3A71633FAD80054C586 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				1C6E60DD19907C4000F675A3 /* MSRightsManagementUI.h */,
+				1C7224171979E90800734C61 /* MSEmailInputDelegate.h */,
+				1C7224181979E90800734C61 /* MSEmailInputViewController.h */,
+				1C7224161979E90800734C61 /* MSEmailInputViewController.m */,
+				1CABF43C193FEDCC00ED3B4E /* MSModalPopover.h */,
+				1CABF43D193FEDCC00ED3B4E /* MSModalPopover.m */,
+				1CABF458193FF1DB00ED3B4E /* MSPolicyPicker.h */,
+				1CABF459193FF1DB00ED3B4E /* MSPolicyPicker.m */,
 				1C6E60D519906C5300F675A3 /* MSPolicyPickHelper.h */,
 				1C6E60D619906C5300F675A3 /* MSPolicyPickHelper.m */,
 				1C6E60D719906C5300F675A3 /* MSPolicyTemplateCell.h */,
 				1C6E60D819906C5300F675A3 /* MSPolicyTemplateCell.m */,
 				1C348805197F4DF50096438C /* MSPolicyViewer.h */,
 				1C348806197F4DF50096438C /* MSPolicyViewer.m */,
-				1C7224161979E90800734C61 /* MSEmailInputViewController.m */,
-				1C7224171979E90800734C61 /* MSEmailInputDelegate.h */,
-				1C7224181979E90800734C61 /* MSEmailInputViewController.h */,
-				1CABF458193FF1DB00ED3B4E /* MSPolicyPicker.h */,
-				1CABF459193FF1DB00ED3B4E /* MSPolicyPicker.m */,
 				1CABF448193FEEE800ED3B4E /* MSResourcesUtils.h */,
 				1CABF449193FEEE800ED3B4E /* MSResourcesUtils.m */,
+				1C6E60DD19907C4000F675A3 /* MSRightsManagementUI.h */,
 				1CABF440193FEE5F00ED3B4E /* MSTemplatesViewController.h */,
 				1CABF441193FEE5F00ED3B4E /* MSTemplatesViewController.m */,
-				1CABF43C193FEDCC00ED3B4E /* MSModalPopover.h */,
-				1CABF43D193FEDCC00ED3B4E /* MSModalPopover.m */,
+				52BB6F25199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.h */,
+				52BB6F26199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.m */,
+				5276525119A4DB6400BC1144 /* MSConsentsViewDelegate.h */,
+				523CFFB419A2C26D005AAB3B /* MSConsentsViewController.h */,
+				523CFFB519A2C26D005AAB3B /* MSConsentsViewController.m */,
 				6918E3A81633FAD80054C586 /* Supporting Files */,
 			);
 			path = src;
@@ -349,7 +364,10 @@
 				1CABF43E193FEDCC00ED3B4E /* MSModalPopover.h in Headers */,
 				1CABF45A193FF1DB00ED3B4E /* MSPolicyPicker.h in Headers */,
 				1C6E60DB19906C5300F675A3 /* MSPolicyTemplateCell.h in Headers */,
+				5276525219A4DB6400BC1144 /* MSConsentsViewDelegate.h in Headers */,
 				1CABF54D19412ADD00ED3B4E /* sdk-Prefix.pch in Headers */,
+				52BB6F27199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.h in Headers */,
+				523CFFB619A2C26D005AAB3B /* MSConsentsViewController.h in Headers */,
 				1C348809197F52100096438C /* MSPolicyViewer.h in Headers */,
 				1CABF442193FEE5F00ED3B4E /* MSTemplatesViewController.h in Headers */,
 				1CABF44A193FEEE800ED3B4E /* MSResourcesUtils.h in Headers */,
@@ -569,6 +587,8 @@
 				1C7224191979E90800734C61 /* MSEmailInputViewController.m in Sources */,
 				1CABF43F193FEDCC00ED3B4E /* MSModalPopover.m in Sources */,
 				1C348808197F4DF50096438C /* MSPolicyViewer.m in Sources */,
+				523CFFB719A2C26D005AAB3B /* MSConsentsViewController.m in Sources */,
+				52BB6F28199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.m in Sources */,
 				1C6E60DA19906C5300F675A3 /* MSPolicyPickHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

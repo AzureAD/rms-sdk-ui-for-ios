@@ -21,6 +21,7 @@
 @interface MSErrorViewer : NSObject
 
 extern const NSUInteger AUTH_CANCELED;
+extern const NSInteger USER_CANCELED;
 
 + (id)sharedInstance;
 

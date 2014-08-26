@@ -10,7 +10,9 @@
 #import "MSSecureCodableObject.h"
 
 @class MSAsyncControl;
-@class MSAuthenticationCallback;
+@protocol MSAuthenticationCallback;
+@protocol MSConsentCallback;
+
 /*!
  
  @class
@@ -22,6 +24,7 @@
 + (MSAsyncControl *)protectedDataWithProtectedFile:(NSString *)path
                                             userId:(NSString *)userId
                             authenticationCallback:(id<MSAuthenticationCallback>)authenticationCallback
+                                   consentCallback:(id<MSConsentCallback>)consentCallback
                                            options:(MSPolicyAcquisitionOptions)options
                                    completionBlock:(void(^)(MSProtectedData *data, NSError *error))completionBlock;
 

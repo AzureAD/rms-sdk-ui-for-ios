@@ -13,6 +13,7 @@
 @class MSPolicyDescriptor;
 @class MSTemplateDescriptor;
 @protocol MSAuthenticationCallback;
+@protocol MSConsentCallback;
 
 // Offline flag
 typedef enum MSPolicyAcquisitionOptions : NSUInteger {
@@ -67,6 +68,7 @@ typedef NS_ENUM(NSUInteger, MSUserPolicyType) {
 + (MSAsyncControl *)userPolicyWithSerializedPolicy:(NSData *)serializedPolicy
                                             userId:(NSString *)userId
                             authenticationCallback:(id<MSAuthenticationCallback>)authenticationCallback
+                                   consentCallback:(id<MSConsentCallback>)consentCallback
                                            options:(MSPolicyAcquisitionOptions)options
                                    completionBlock:(void(^)(MSUserPolicy *userPolicy, NSError *error))completionBlock;
 /*!

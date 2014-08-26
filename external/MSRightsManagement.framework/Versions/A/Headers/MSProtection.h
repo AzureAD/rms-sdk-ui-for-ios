@@ -24,3 +24,5 @@
 #import "MSOfflineCacheLifetimeConstants.h"
 #import "MSCustomProtectedData.h"
 #import "MSMutableCustomProtectedData.h"
+#import "MSConsent.h"
+#import "MSConsentCallback.h"
