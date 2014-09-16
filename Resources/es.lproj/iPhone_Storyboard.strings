@@ -1,26 +1,66 @@
 
+/* Class = "IBUIButton"; normalTitle = "Help"; ObjectID = "0rM-aF-8Pm"; */
+"0rM-aF-8Pm.normalTitle" = "Ayuda";
+
+/* Class = "IBUINavigationItem"; title = "Login"; ObjectID = "0ta-3O-tVe"; */
+"0ta-3O-tVe.title" = "Iniciar sesión";
+
+/* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "4Dp-5k-jMW"; */
+"4Dp-5k-jMW.text" = "El remitente y/o administrador de TI de su organización pueden hacer el seguimiento del uso de documentos protegidos por Microsoft Rights Management.";
+
+/* Class = "IBUIBarButtonItem"; title = "Accept"; ObjectID = "52M-Io-zmT"; */
+"52M-Io-zmT.title" = "Aceptar";
+
 /* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "7hD-IT-TzB"; */
 "7hD-IT-TzB.title" = "Permisos";
 
-/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "E9u-4k-I8g"; */
-"E9u-4k-I8g.title" = "Permisos";
+/* Class = "IBUILabel"; text = "Invalid email address."; ObjectID = "Dib-lh-HUk"; */
+"Dib-lh-HUk.text" = "Dirección de correo electrónico no válida.";
 
-/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "BOc-te-8vA"; */
-"BOc-te-8vA.title" = "Atrás";
+/* Class = "IBUIButton"; normalTitle = "Privacy"; ObjectID = "Fq6-1K-i8c"; */
+"Fq6-1K-i8c.normalTitle" = "Privacidad";
 
-/* Class = "IBUILabel"; text = "Title"; ObjectID = "dJj-kD-yMs"; */
-"dJj-kD-yMs.text" = "Título";
+/* Class = "IBUIButton"; normalTitle = "Continue"; ObjectID = "Hnt-id-gaS"; */
+"Hnt-id-gaS.normalTitle" = "Continuar";
 
-/* Class = "IBUILabel"; text = "Title"; ObjectID = "gwk-7Q-LwK"; */
-"gwk-7Q-LwK.text" = "Título";
+/* Class = "IBUIButton"; normalTitle = "Help"; ObjectID = "LZK-jW-Eiy"; */
+"LZK-jW-Eiy.normalTitle" = "Ayuda";
+
+/* Class = "IBUIButton"; normalTitle = "Edit"; ObjectID = "NAH-4u-FQQ"; */
+"NAH-4u-FQQ.normalTitle" = "Editar";
+
+/* Class = "IBUILabel"; text = "By choosing accept, you authorize this application to connect to the following services"; ObjectID = "ONi-9S-NEr"; */
+"ONi-9S-NEr.text" = "Si acepta, autoriza a esta aplicación a conectarse a los servicios siguientes";
+
+/* Class = "IBUITextField"; placeholder = "someone@example.com"; ObjectID = "Qvd-fp-jj8"; */
+"Qvd-fp-jj8.placeholder" = "alguien@ejemplo.com";
+
+/* Class = "IBUILabel"; text = "PolicyDescription"; ObjectID = "UMr-jk-B7N"; */
+"UMr-jk-B7N.text" = "Descripción de directiva";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "Ych-c5-35K"; */
+"Ych-c5-35K.title" = "Cancelar";
+
+/* Class = "IBUILabel"; text = "Don't show this message again"; ObjectID = "ZB9-Dc-B84"; */
+"ZB9-Dc-B84.text" = "No volver a mostrar este mensaje";
+
+/* Class = "IBUILabel"; text = "Policy"; ObjectID = "Zd6-G7-eAf"; */
+"Zd6-G7-eAf.text" = "Directiva";
+
+/* Class = "IBUIButton"; normalTitle = "Privacy"; ObjectID = "d9c-yV-Ccb"; */
+"d9c-yV-Ccb.normalTitle" = "Privacidad";
+
+/* Class = "IBUILabel"; text = "Template"; ObjectID = "eWb-FU-XFE"; */
+"eWb-FU-XFE.text" = "Plantilla";
+
+/* Class = "IBUILabel"; text = "Enter your organizational email address"; ObjectID = "hOy-kG-IDD"; */
+"hOy-kG-IDD.text" = "Escriba la dirección de correo electrónico de su organización";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
+"hpP-GZ-xjz.text" = "Título";
 
 /* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "jK7-iI-n6h"; */
 "jK7-iI-n6h.title" = "Aplicar";
 
-"hOy-kG-IDD.text" = "Escribir dirección de correo electrónico de la organización";
-
-"Hnt-id-gaS.normalTitle" = "Continuar";
-
-"Fq6-1K-i8c.normalTitle" = "Privacidad";
-
-"LZK-jW-Eiy.normalTitle" = "Ayuda";
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "kjI-hy-Gb9"; */
+"kjI-hy-Gb9.text" = "Título";

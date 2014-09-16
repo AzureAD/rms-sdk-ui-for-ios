@@ -224,9 +224,23 @@
 
 "Forward" = "İlet";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "E-posta adresi geçersiz.";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "RMS'yi Geliştirin";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "RMS'nin geliştirilmesine yardımcı olmak için bilgiler gönderilsin mi? Bilgiler kim olduğunuzu belirlemek veya sizinle iletişim kurmak için kullanılmayacak.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "Evet";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "Hayır, teşekkürler";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "Daha fazla bilgi";
+
+

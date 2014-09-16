@@ -1,26 +1,66 @@
 
+/* Class = "IBUIButton"; normalTitle = "Help"; ObjectID = "0rM-aF-8Pm"; */
+"0rM-aF-8Pm.normalTitle" = "Yardım";
+
+/* Class = "IBUINavigationItem"; title = "Login"; ObjectID = "0ta-3O-tVe"; */
+"0ta-3O-tVe.title" = "Oturum Aç";
+
+/* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "4Dp-5k-jMW"; */
+"4Dp-5k-jMW.text" = "Microsoft Rights Management tarafından korunan belgelerin kullanımı gönderen ve/veya onun kuruluşunun BT yöneticisi tarafından izleniyor olabilir.";
+
+/* Class = "IBUIBarButtonItem"; title = "Accept"; ObjectID = "52M-Io-zmT"; */
+"52M-Io-zmT.title" = "Kabul Ediyorum";
+
 /* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "7hD-IT-TzB"; */
 "7hD-IT-TzB.title" = "İzinler";
 
-/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "E9u-4k-I8g"; */
-"E9u-4k-I8g.title" = "İzinler";
+/* Class = "IBUILabel"; text = "Invalid email address."; ObjectID = "Dib-lh-HUk"; */
+"Dib-lh-HUk.text" = "Geçersiz e-posta adresi.";
 
-/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "BOc-te-8vA"; */
-"BOc-te-8vA.title" = "Geri";
+/* Class = "IBUIButton"; normalTitle = "Privacy"; ObjectID = "Fq6-1K-i8c"; */
+"Fq6-1K-i8c.normalTitle" = "Gizlilik";
 
-/* Class = "IBUILabel"; text = "Title"; ObjectID = "dJj-kD-yMs"; */
-"dJj-kD-yMs.text" = "Başlık";
+/* Class = "IBUIButton"; normalTitle = "Continue"; ObjectID = "Hnt-id-gaS"; */
+"Hnt-id-gaS.normalTitle" = "Devam";
 
-/* Class = "IBUILabel"; text = "Title"; ObjectID = "gwk-7Q-LwK"; */
-"gwk-7Q-LwK.text" = "Başlık";
+/* Class = "IBUIButton"; normalTitle = "Help"; ObjectID = "LZK-jW-Eiy"; */
+"LZK-jW-Eiy.normalTitle" = "Yardım";
+
+/* Class = "IBUIButton"; normalTitle = "Edit"; ObjectID = "NAH-4u-FQQ"; */
+"NAH-4u-FQQ.normalTitle" = "Düzenle";
+
+/* Class = "IBUILabel"; text = "By choosing accept, you authorize this application to connect to the following services"; ObjectID = "ONi-9S-NEr"; */
+"ONi-9S-NEr.text" = "Kabul ediyorum seçeneğini belirleyerek bu uygulamanın aşağıdaki hizmetlere bağlanmasına izin verirsiniz";
+
+/* Class = "IBUITextField"; placeholder = "someone@example.com"; ObjectID = "Qvd-fp-jj8"; */
+"Qvd-fp-jj8.placeholder" = "someone@example.com";
+
+/* Class = "IBUILabel"; text = "PolicyDescription"; ObjectID = "UMr-jk-B7N"; */
+"UMr-jk-B7N.text" = "PolicyDescription";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "Ych-c5-35K"; */
+"Ych-c5-35K.title" = "İptal";
+
+/* Class = "IBUILabel"; text = "Don't show this message again"; ObjectID = "ZB9-Dc-B84"; */
+"ZB9-Dc-B84.text" = "Bu iletiyi bir daha gösterme";
+
+/* Class = "IBUILabel"; text = "Policy"; ObjectID = "Zd6-G7-eAf"; */
+"Zd6-G7-eAf.text" = "İlke";
+
+/* Class = "IBUIButton"; normalTitle = "Privacy"; ObjectID = "d9c-yV-Ccb"; */
+"d9c-yV-Ccb.normalTitle" = "Gizlilik";
+
+/* Class = "IBUILabel"; text = "Template"; ObjectID = "eWb-FU-XFE"; */
+"eWb-FU-XFE.text" = "Şablon";
+
+/* Class = "IBUILabel"; text = "Enter your organizational email address"; ObjectID = "hOy-kG-IDD"; */
+"hOy-kG-IDD.text" = "Kuruluşunuzun e-posta adresini girin";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
+"hpP-GZ-xjz.text" = "Başlık";
 
 /* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "jK7-iI-n6h"; */
 "jK7-iI-n6h.title" = "Uygula";
 
-"hOy-kG-IDD.text" = "Kurumsal e-posta adresinizi girin";
-
-"Hnt-id-gaS.normalTitle" = "Devam";
-
-"Fq6-1K-i8c.normalTitle" = "Gizlilik";
-
-"LZK-jW-Eiy.normalTitle" = "Yardım";
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "kjI-hy-Gb9"; */
+"kjI-hy-Gb9.text" = "Başlık";

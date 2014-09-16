@@ -224,9 +224,23 @@
 
 "Forward" = "转发";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "电子邮件地址无效。";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "改进 RMS";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "发送信息帮助改进 RMS? 此信息将不用于识别或联系您。";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "是";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "不 谢谢";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "了解详情";
+
+

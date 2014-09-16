@@ -164,7 +164,7 @@
  ******************/
 
 /* The title for the permissions section */
-"PolicyPermissionsTitle" = "Droits d\\'utilisation";
+"PolicyPermissionsTitle" = "Droits d'utilisation";
 
 /* The title for the policy template secion */
 "PolicyTemplatesTitle" = "Vos autorisations";
@@ -224,9 +224,23 @@
 
 "Forward" = "Transférer";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Adresse de messagerie non valide.";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "Améliorer RMS";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "Voulez-vous envoyer des informations pour améliorer RMS ? Ces informations ne seront pas utilisées pour vous identifier ou vous contacter.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "Oui";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "Non, merci";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "En savoir plus";
+
+

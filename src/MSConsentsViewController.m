@@ -127,6 +127,8 @@ const static float INFINITE_HEIGHT = 20000.0f;
         self.needtoHideNavigationBarOnExit = YES;
         self.navigationController.navigationBarHidden = NO;
     }
+    
+    [self setConstraintsBasedOnConsentViewType];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -199,7 +201,7 @@ const static float INFINITE_HEIGHT = 20000.0f;
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *cellText = [self.urls objectAtIndex:indexPath.row];
+    NSString *cellText = [[self.urls objectAtIndex:indexPath.row] absoluteString];
     
     NSUInteger wrappedheight = [self wrappedHeightForText:cellText width:self.urlsTableView.frame.size.width
                                                      font:kFontBold fontSize:LABEL_FONT_SIZE
@@ -210,7 +212,7 @@ const static float INFINITE_HEIGHT = 20000.0f;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *urlForRow = [self.urls objectAtIndex:indexPath.row];
+    NSString *urlForRow = [[self.urls objectAtIndex:indexPath.row] absoluteString];
     UIFont *customFont = [UIFont fontWithName:kFontBold size:LABEL_FONT_SIZE];
     UITableViewCell *cell = [self.urlsTableView dequeueReusableCellWithIdentifier:kDisplayCellID];
     if (cell == nil)
@@ -308,6 +310,7 @@ const static float INFINITE_HEIGHT = 20000.0f;
     
     self.serviceUrlConsentLabelHeightConstraint.constant = [self wrappedHeightForLabel:self.serviceUrlConsentLabel];
     
+    [self.urlsTableView reloadData];
     [self wrapUrlsTableIfPossible];
     
     self.serviceUrlConsentLabelTopConstraint.constant = LABEL_VERTICAL_SPACING;
@@ -345,6 +348,7 @@ const static float INFINITE_HEIGHT = 20000.0f;
     
     self.documentTrackingConsentLabelHeightConstraint.constant = [self wrappedHeightForLabel:self.documentTrackingConsentLabel];
     
+    [self.urlsTableView reloadData];
     [self wrapUrlsTableIfPossible];
     
     // All views until the urlsTable are fine. Ones below need to update Y constraints

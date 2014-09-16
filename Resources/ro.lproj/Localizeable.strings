@@ -224,9 +224,23 @@
 
 "Forward" = "Redirecționare";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Adresă de e-mail nevalidă.";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "Îmbunătățiți RMS";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "Trimiteți informații pentru a contribui la îmbunătățirea RMS? Informațiile nu vor fi utilizate pentru a vă identifica sau contacta.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "Da";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "Nu, mulțumesc";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "Aflați mai multe";
+
+

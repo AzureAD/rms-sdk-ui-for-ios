@@ -224,9 +224,23 @@
 
 "Forward" = "Předat dál";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Neplatná e-mailová adresa";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "Vylepšit RMS";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "Chcete poslat informace, které pomůžou vylepšit RMS? Informace nebudou sloužit k vaší identifikaci nebo kontaktování.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "Ano";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "Ne, díky";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "Další informace";
+
+

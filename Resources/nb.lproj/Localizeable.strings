@@ -224,10 +224,23 @@
 
 "Forward" = "Videresend";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Ugyldig e-postadresse.";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "Forbedre RMS";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "Vil du sende informasjon for å bidra til å forbedre RMS? Informasjonen vil ikke bli brukt til å identifisere eller kontakte deg.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "Ja";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "Nei takk";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "Lær mer";
+
 

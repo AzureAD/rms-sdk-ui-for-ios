@@ -224,9 +224,23 @@
 
 "Forward" = "Välitä";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Sähköpostiosoite on virheellinen.";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "Paranna RMS:ää";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "Lähetetäänkö tietoja RMS:n parantamista varten? Tietoja ei käytetä tunnistamiseesi tai yhteyden ottamiseen sinuun.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "Kyllä";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "Ei kiitos";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "Lue lisätietoja";
+
+

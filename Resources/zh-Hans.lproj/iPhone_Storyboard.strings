@@ -1,26 +1,66 @@
 
+/* Class = "IBUIButton"; normalTitle = "Help"; ObjectID = "0rM-aF-8Pm"; */
+"0rM-aF-8Pm.normalTitle" = "帮助";
+
+/* Class = "IBUINavigationItem"; title = "Login"; ObjectID = "0ta-3O-tVe"; */
+"0ta-3O-tVe.title" = "登录";
+
+/* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "4Dp-5k-jMW"; */
+"4Dp-5k-jMW.text" = "受?Microsoft?权限管理保护的文档的使用可能被发送者和/或其组织的?IT?管理员跟踪。";
+
+/* Class = "IBUIBarButtonItem"; title = "Accept"; ObjectID = "52M-Io-zmT"; */
+"52M-Io-zmT.title" = "接受";
+
 /* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "7hD-IT-TzB"; */
 "7hD-IT-TzB.title" = "权限";
 
-/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "E9u-4k-I8g"; */
-"E9u-4k-I8g.title" = "权限";
+/* Class = "IBUILabel"; text = "Invalid email address."; ObjectID = "Dib-lh-HUk"; */
+"Dib-lh-HUk.text" = "无效的电子邮件地址。";
 
-/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "BOc-te-8vA"; */
-"BOc-te-8vA.title" = "返回";
+/* Class = "IBUIButton"; normalTitle = "Privacy"; ObjectID = "Fq6-1K-i8c"; */
+"Fq6-1K-i8c.normalTitle" = "隐私";
 
-/* Class = "IBUILabel"; text = "Title"; ObjectID = "dJj-kD-yMs"; */
-"dJj-kD-yMs.text" = "标题";
+/* Class = "IBUIButton"; normalTitle = "Continue"; ObjectID = "Hnt-id-gaS"; */
+"Hnt-id-gaS.normalTitle" = "继续";
 
-/* Class = "IBUILabel"; text = "Title"; ObjectID = "gwk-7Q-LwK"; */
-"gwk-7Q-LwK.text" = "标题";
+/* Class = "IBUIButton"; normalTitle = "Help"; ObjectID = "LZK-jW-Eiy"; */
+"LZK-jW-Eiy.normalTitle" = "帮助";
+
+/* Class = "IBUIButton"; normalTitle = "Edit"; ObjectID = "NAH-4u-FQQ"; */
+"NAH-4u-FQQ.normalTitle" = "编辑";
+
+/* Class = "IBUILabel"; text = "By choosing accept, you authorize this application to connect to the following services"; ObjectID = "ONi-9S-NEr"; */
+"ONi-9S-NEr.text" = "通过选择“接受”，您授权此应用程序连接到以下服务";
+
+/* Class = "IBUITextField"; placeholder = "someone@example.com"; ObjectID = "Qvd-fp-jj8"; */
+"Qvd-fp-jj8.placeholder" = "someone@example.com";
+
+/* Class = "IBUILabel"; text = "PolicyDescription"; ObjectID = "UMr-jk-B7N"; */
+"UMr-jk-B7N.text" = "PolicyDescription";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "Ych-c5-35K"; */
+"Ych-c5-35K.title" = "取消";
+
+/* Class = "IBUILabel"; text = "Don't show this message again"; ObjectID = "ZB9-Dc-B84"; */
+"ZB9-Dc-B84.text" = "不再显示此消息";
+
+/* Class = "IBUILabel"; text = "Policy"; ObjectID = "Zd6-G7-eAf"; */
+"Zd6-G7-eAf.text" = "策略";
+
+/* Class = "IBUIButton"; normalTitle = "Privacy"; ObjectID = "d9c-yV-Ccb"; */
+"d9c-yV-Ccb.normalTitle" = "隐私";
+
+/* Class = "IBUILabel"; text = "Template"; ObjectID = "eWb-FU-XFE"; */
+"eWb-FU-XFE.text" = "模板";
+
+/* Class = "IBUILabel"; text = "Enter your organizational email address"; ObjectID = "hOy-kG-IDD"; */
+"hOy-kG-IDD.text" = "输入您组织的电子邮件地址";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
+"hpP-GZ-xjz.text" = "标题";
 
 /* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "jK7-iI-n6h"; */
 "jK7-iI-n6h.title" = "应用";
 
-"hOy-kG-IDD.text" = "输入您组织的电子邮件地址";
-
-"Hnt-id-gaS.normalTitle" = "继续";
-
-"Fq6-1K-i8c.normalTitle" = "隐私声明";
-
-"LZK-jW-Eiy.normalTitle" = "帮助";
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "kjI-hy-Gb9"; */
+"kjI-hy-Gb9.text" = "标题";

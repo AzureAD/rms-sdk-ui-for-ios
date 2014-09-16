@@ -1,26 +1,66 @@
 
+/* Class = "IBUIButton"; normalTitle = "Help"; ObjectID = "0rM-aF-8Pm"; */
+"0rM-aF-8Pm.normalTitle" = "Ajutor";
+
+/* Class = "IBUINavigationItem"; title = "Login"; ObjectID = "0ta-3O-tVe"; */
+"0ta-3O-tVe.title" = "Conectare";
+
+/* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "4Dp-5k-jMW"; */
+"4Dp-5k-jMW.text" = "Utilizarea documentelor care sunt protejate de Microsoft Rights Management poate fi monitorizată de către expeditor și/sau de către administratorul IT al organizației acestuia.";
+
+/* Class = "IBUIBarButtonItem"; title = "Accept"; ObjectID = "52M-Io-zmT"; */
+"52M-Io-zmT.title" = "Acceptare";
+
 /* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "7hD-IT-TzB"; */
 "7hD-IT-TzB.title" = "Permisiuni";
 
-/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "E9u-4k-I8g"; */
-"E9u-4k-I8g.title" = "Permisiuni";
+/* Class = "IBUILabel"; text = "Invalid email address."; ObjectID = "Dib-lh-HUk"; */
+"Dib-lh-HUk.text" = "Adresă de e-mail nevalidă.";
 
-/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "BOc-te-8vA"; */
-"BOc-te-8vA.title" = "Înapoi";
+/* Class = "IBUIButton"; normalTitle = "Privacy"; ObjectID = "Fq6-1K-i8c"; */
+"Fq6-1K-i8c.normalTitle" = "Confidențialitate";
 
-/* Class = "IBUILabel"; text = "Title"; ObjectID = "dJj-kD-yMs"; */
-"dJj-kD-yMs.text" = "Titlu";
+/* Class = "IBUIButton"; normalTitle = "Continue"; ObjectID = "Hnt-id-gaS"; */
+"Hnt-id-gaS.normalTitle" = "Continuare";
 
-/* Class = "IBUILabel"; text = "Title"; ObjectID = "gwk-7Q-LwK"; */
-"gwk-7Q-LwK.text" = "Titlu";
+/* Class = "IBUIButton"; normalTitle = "Help"; ObjectID = "LZK-jW-Eiy"; */
+"LZK-jW-Eiy.normalTitle" = "Ajutor";
+
+/* Class = "IBUIButton"; normalTitle = "Edit"; ObjectID = "NAH-4u-FQQ"; */
+"NAH-4u-FQQ.normalTitle" = "Editare";
+
+/* Class = "IBUILabel"; text = "By choosing accept, you authorize this application to connect to the following services"; ObjectID = "ONi-9S-NEr"; */
+"ONi-9S-NEr.text" = "Alegând Acceptare, autorizați această aplicație să se conecteze la următoarele servicii";
+
+/* Class = "IBUITextField"; placeholder = "someone@example.com"; ObjectID = "Qvd-fp-jj8"; */
+"Qvd-fp-jj8.placeholder" = "cineva@example.com";
+
+/* Class = "IBUILabel"; text = "PolicyDescription"; ObjectID = "UMr-jk-B7N"; */
+"UMr-jk-B7N.text" = "DescrierePolitică";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "Ych-c5-35K"; */
+"Ych-c5-35K.title" = "Anulare";
+
+/* Class = "IBUILabel"; text = "Don't show this message again"; ObjectID = "ZB9-Dc-B84"; */
+"ZB9-Dc-B84.text" = "Nu mai afișați acest mesaj";
+
+/* Class = "IBUILabel"; text = "Policy"; ObjectID = "Zd6-G7-eAf"; */
+"Zd6-G7-eAf.text" = "Politică";
+
+/* Class = "IBUIButton"; normalTitle = "Privacy"; ObjectID = "d9c-yV-Ccb"; */
+"d9c-yV-Ccb.normalTitle" = "Confidențialitate";
+
+/* Class = "IBUILabel"; text = "Template"; ObjectID = "eWb-FU-XFE"; */
+"eWb-FU-XFE.text" = "Șablon";
+
+/* Class = "IBUILabel"; text = "Enter your organizational email address"; ObjectID = "hOy-kG-IDD"; */
+"hOy-kG-IDD.text" = "Introduceți adresa dvs. de e-mail din cadrul organizației";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
+"hpP-GZ-xjz.text" = "Titlu";
 
 /* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "jK7-iI-n6h"; */
 "jK7-iI-n6h.title" = "Se aplică";
 
-"hOy-kG-IDD.text" = "Introduceți adresa dvs. de e-mail din cadrul organizației";
-
-"Hnt-id-gaS.normalTitle" = "Continuare";
-
-"Fq6-1K-i8c.normalTitle" = "Confidențialitate";
-
-"LZK-jW-Eiy.normalTitle" = "Ajutor";
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "kjI-hy-Gb9"; */
+"kjI-hy-Gb9.text" = "Titlu";

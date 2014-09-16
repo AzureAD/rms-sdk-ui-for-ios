@@ -224,9 +224,23 @@
 
 "Forward" = "ส่งต่อ";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "ที่อยู่อีเมลไม่ถูกต้อง";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "ปรับปรุง RMS ให้ดีขึ้น";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "ส่งข้อมูลเพื่อช่วยในการปรับปรุง RMS ให้ดีขึ้นหรือไม่? จะไม่มีการใช้ข้อมูลเพื่อระบุตัวตนหรือติดต่อคุณ";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "ใช่";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "ไม่ ขอบคุณ";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "เรียนรู้เพิ่มเติม";
+
+
