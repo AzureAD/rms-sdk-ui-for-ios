@@ -14,21 +14,21 @@
  * PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.
  */
 
-//  Abstract: MSDiagnosticsConsentViewer class enables interface for customer experience improvement.
-//      The app can make use of this to enable diagnostic logs.
-
-#import "MSDiagnosticsConsentDelegate.h"
+//  Abstract: Protocol to react to user accepting or rejecting a consent request on behalf of the SDK
+//      to upload diagnostics logs. The decision is cached within the app's sandbox.
 
 #import <Foundation/Foundation.h>
 
-@interface MSDiagnosticsConsentViewer : NSObject
+typedef NS_ENUM(NSInteger, MSDiagnosticsConsentAction) {
+    MSDiagnosticsConsentActionYes = 0,
+    MSDiagnosticsConsentActionNo = 1,
+    MSDiagnosticsConsentActionLearnMore = 2, // point the user to a help/documentation page
+};
 
-+ (id)sharedInstance;
+@protocol MSDiagnosticsConsentDelegate <NSObject>
 
-- (void)showDiagnosticsConsent;
+@required
 
-- (BOOL)alertViewActive;
-
-@property (assign, nonatomic) id <MSDiagnosticsConsentDelegate> delegate;
+- (void)onDiagnosticsConsentActionTapped:(MSDiagnosticsConsentAction)diagnosticsConsentAction;
 
 @end

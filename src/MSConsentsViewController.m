@@ -189,12 +189,12 @@ const static float INFINITE_HEIGHT = 20000.0f;
 
 #pragma mark - UITableViewDataSource and UITableViewDelegate
 
-- (int32_t)numberOfSectionsInTableView:(UITableView *)tableView
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;
 }
 
-- (int32_t)tableView:(UITableView *)tableView numberOfRowsInSection:(int32_t)section
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.urls.count;
 }
@@ -250,7 +250,7 @@ const static float INFINITE_HEIGHT = 20000.0f;
     }
     else
     {
-        NSLog(@"Unknown consent view type: %d", self.currentConsentViewType);
+        NSLog(@"Unknown consent view type: %ld", (long)self.currentConsentViewType);
     }
 }
 
@@ -370,11 +370,11 @@ const static float INFINITE_HEIGHT = 20000.0f;
     NSUInteger maxTableHeight = [self maxHeightForUrlsTable];
     if (totalTableHeight < maxTableHeight)
     {
-        NSLog(@"Table can be shrunk to %d from the maximum of %d", totalTableHeight, maxTableHeight);
+        NSLog(@"Table can be shrunk to %lu from the maximum of %lu", (unsigned long)totalTableHeight, (unsigned long)maxTableHeight);
         self.urlsTableViewHeightConstraint.constant = totalTableHeight;
     } else
     {
-        NSLog(@"Table is at its maximum height of %d", maxTableHeight);
+        NSLog(@"Table is at its maximum height of %lu", (unsigned long)maxTableHeight);
         self.urlsTableViewHeightConstraint.constant = maxTableHeight;
     }
 }
@@ -426,7 +426,7 @@ const static float INFINITE_HEIGHT = 20000.0f;
     }
     else
     {
-        NSLog(@"Unknown consent view type: %d", self.currentConsentViewType);
+        NSLog(@"Unknown consent view type: %ld", (long)self.currentConsentViewType);
     }
 
     return maxPermissibleHeight;

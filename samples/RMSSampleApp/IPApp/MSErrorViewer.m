@@ -18,7 +18,7 @@
 
 @implementation MSErrorViewer
 
-const NSUInteger AUTH_CANCELED = 5001;
+const NSInteger AUTH_CANCELED = 5001;
 const NSInteger USER_CANCELED = -14;
 
 + (id)sharedInstance

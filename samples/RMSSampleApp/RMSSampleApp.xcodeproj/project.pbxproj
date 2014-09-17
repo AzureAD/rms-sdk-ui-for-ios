@@ -588,6 +588,7 @@
 		F5D8204316CA354100765D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../external\"";
@@ -600,12 +601,14 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RMSSampleApp;
 				PROVISIONING_PROFILE = "";
+				"WARNING_CFLAGS[arch=*]" = "-Wconversion";
 			};
 			name = Debug;
 		};
 		F5D8204416CA354100765D15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../external\"";
@@ -616,6 +619,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RMSSampleApp;
 				PROVISIONING_PROFILE = "";
+				"WARNING_CFLAGS[arch=*]" = "-Wconversion";
 			};
 			name = Release;
 		};

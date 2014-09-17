@@ -21,8 +21,6 @@
 #import <MSRightsManagementUI/MSConsentsViewDelegate.h>
 #import <MSRightsManagementUI/MSConsentsViewController.h>
 
-const static NSUInteger NULL_INDEX = -1;
-
 @interface MSConsentManager() <MSConsentsViewDelegate>
 
 @property (atomic) BOOL currentlyWaitingOnConsents;
@@ -80,7 +78,7 @@ const static NSUInteger NULL_INDEX = -1;
         }
         else
         {
-            NSLog(@"Unknown consent type: %d", thisConsent.type);
+            NSLog(@"Unknown consent type: %lu", (unsigned long)thisConsent.type);
         }
     }
     

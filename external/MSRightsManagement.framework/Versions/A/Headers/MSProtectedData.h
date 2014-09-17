@@ -28,7 +28,7 @@
                                            options:(MSPolicyAcquisitionOptions)options
                                    completionBlock:(void(^)(MSProtectedData *data, NSError *error))completionBlock;
 
-- (NSUInteger)length:(NSError **)errorPtr;
+- (int64_t)length:(NSError **)errorPtr;
 
 - (BOOL)getBytes:(void *)buffer length:(NSUInteger)length error:(NSError **)errorPtr;
 

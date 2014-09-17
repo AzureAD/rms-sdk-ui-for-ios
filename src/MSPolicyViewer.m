@@ -184,12 +184,12 @@ static const int32_t kFirstRightTag = 1110;
 
 #pragma mark - UITableViewDataSource and UITableViewDelegate delegates
 
-- (int32_t)numberOfSectionsInTableView:(UITableView *)tableView
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;
 }
 
-- (int32_t)tableView:(UITableView *)tableView numberOfRowsInSection:(int32_t)section
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.sortedSupportedRights.count;
 }

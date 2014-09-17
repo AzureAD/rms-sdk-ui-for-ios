@@ -22,14 +22,10 @@
 @interface MSDiagnosticsConsentViewer() <UIAlertViewDelegate>
 
 @property (strong) UIAlertView *alertView;
-@property (copy, nonatomic) void(^ completion)();
-@property (copy, nonatomic) void(^ stateUpdateCompletion)();
 
 @end
 
 @implementation MSDiagnosticsConsentViewer
-
-const static float DELAY_CONSENT_VIEWER_COMPLETION_IN_SECS = 1.0f;
 
 + (id)sharedInstance
 {
@@ -41,18 +37,6 @@ const static float DELAY_CONSENT_VIEWER_COMPLETION_IN_SECS = 1.0f;
     });
     
     return singleton;
-}
-
-- (void)addStateUpdateCompletionBlock:(void (^)(NSInteger buttonIndex))completion
-{
-    NSLog(@"Adding state update completion block to Diagnostics Consent alert view");
-    self.stateUpdateCompletion = completion;
-}
-
-- (void)addCompletionBlock:(void (^)(void))completion
-{
-    NSLog(@"Adding completion block to Diagnostics Consent alert view");
-    self.completion = completion;
 }
 
 - (void)showDiagnosticsConsent
@@ -77,31 +61,16 @@ const static float DELAY_CONSENT_VIEWER_COMPLETION_IN_SECS = 1.0f;
     return self.alertView.visible;
 }
 
-- (void)callCompletionDelayed
-{
-    if (self.completion != nil)
-    {
-        // this delay fixes a bizzare issue that the root view controller is nil while
-        // the alert view is shown, therefore we use this short delay to make sure
-        // that the app and its root view controller is in a consistent state after
-        // the error viewer is dismissed. (in iOS 7 the delay should be longer ~1.0sec
-        // otherwise the root view controller is _UIModalItemViewController.
-        double delayInSeconds = DELAY_CONSENT_VIEWER_COMPLETION_IN_SECS;
-        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-            self.completion();
-            self.completion = nil;
-        });
-    }
-}
-
 #pragma mark - UIAlertViewDelegate
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    NSLog(@"User tapped button index %d", buttonIndex);
-    self.stateUpdateCompletion(buttonIndex); // notify the caller of the button tapped
-    [self callCompletionDelayed]; // proceed to do execute the callback
+    NSLog(@"User tapped button index %ld", (long)buttonIndex);
+    if (self.delegate != nil)
+    {
+        NSLog(@"Will call delegate's onDiagnosticsConsentActionTapped");
+        [self.delegate onDiagnosticsConsentActionTapped:buttonIndex];
+    }
 }
 
 @end

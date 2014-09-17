@@ -63,12 +63,12 @@ static const int32_t kCellTagStartingRange = 1000;
 
 #pragma mark - Table view data source
 
-- (int32_t)numberOfSectionsInTableView:(UITableView *)tableView
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;
 }
 
-- (int32_t)tableView:(UITableView *)tableView numberOfRowsInSection:(int32_t)section
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [self.templates count];
 }

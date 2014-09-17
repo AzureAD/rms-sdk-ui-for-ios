@@ -84,8 +84,8 @@ static NSString *sContentTypeNotSupportedMessage = @"The original file extension
 
 static NSString *sUserCancelledAuthenticationMessage = @"Authentication operation was cancelled";
 
-static NSUInteger kProtectedFileSelected = 0;
-static NSUInteger kCustomProtectedFileSelected = 1;
+static NSInteger kProtectedFileSelected = 0;
+static NSInteger kCustomProtectedFileSelected = 1;
 
 #pragma mark - Protection related methods
 

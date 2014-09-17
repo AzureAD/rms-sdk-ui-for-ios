@@ -10,29 +10,29 @@
 	<string>UILib</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6DC1167B-8C82-41E7-BB7A-E4BA3D078586</key>
+		<key>97ABB9B5E0279E0416276E1E9EC81830F9DC5FFB</key>
 		<string>https://github.com/AzureAD/rms-sdk-ui-for-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>UILib/UILib.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6DC1167B-8C82-41E7-BB7A-E4BA3D078586</key>
+		<key>97ABB9B5E0279E0416276E1E9EC81830F9DC5FFB</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/AzureAD/rms-sdk-ui-for-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6DC1167B-8C82-41E7-BB7A-E4BA3D078586</string>
+	<string>97ABB9B5E0279E0416276E1E9EC81830F9DC5FFB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6DC1167B-8C82-41E7-BB7A-E4BA3D078586</string>
+			<string>97ABB9B5E0279E0416276E1E9EC81830F9DC5FFB</string>
 			<key>IDESourceControlWCCName</key>
 			<string>rms-sdk-ui-for-ios</string>
 		</dict>

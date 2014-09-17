@@ -72,7 +72,7 @@ static const int32_t kBackgroundViewTag = 1100;
     return [self initWithContentView:contentView alpha:1.0];
 }
 
-- (id)initWithContentView:(UIView *)contentView alpha:(float)alpha
+- (id)initWithContentView:(UIView *)contentView alpha:(CGFloat)alpha
 {
     if ((self = [super init])) {
         // "self" view covers all the screen
