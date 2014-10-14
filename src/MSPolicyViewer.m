@@ -182,6 +182,11 @@ static const int32_t kFirstRightTag = 1110;
     [self.popover dismissAnimated:YES];
 }
 
+- (void)dismissWithCompletion:(void(^)())completion
+{
+    [self.popover dismissAnimated:YES completion:completion];
+}
+
 #pragma mark - UITableViewDataSource and UITableViewDelegate delegates
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -283,12 +288,12 @@ static const int32_t kFirstRightTag = 1110;
     LocalizeString(@"OwnerContent", @"The title for the policy viewer for owner user") :
     LocalizeString(@"NonOwnerContent", @"The title for the policy viewer for non-owner user");
     
-    self.policyNameLabel.text = self.policy.name;
+    self.policyNameLabel.text = self.policy.policyName;
     self.grantedByLabel.attributedText = [self attributedGrantedByTextWithPolicy:self.policy];
 
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) // policy description is shown on iPad only (large form factor devices)
     {
-        self.policyDescriptionLabel.text = self.policy.description;
+        self.policyDescriptionLabel.text = self.policy.policyDescription;
     }
     
     self.grantedByLabel.hidden = isOwner;

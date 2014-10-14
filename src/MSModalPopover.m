@@ -63,6 +63,7 @@
 @implementation MSModalPopover
 
 static const int32_t kBackgroundViewTag = 1100;
+static const float kiOS80Version = 8.0;
 
 #pragma mark -
 #pragma mark - Public Methods
@@ -245,7 +246,12 @@ static const int32_t kBackgroundViewTag = 1100;
 {
     // set the view's rotation trasformation based on the current device's orientation
     // note: because we are not a view controller we have to take care of the view transform's ourselves
-    [self configureTransformationForCurrentOrientation];
+    
+    float currentSystemVersion = [[UIDevice currentDevice].systemVersion floatValue];
+    if (currentSystemVersion < kiOS80Version)
+    {
+        [self configureTransformationForCurrentOrientation];
+    }
     
     // set the modal popover frame to be the full application frame without the device's status bar
     CGRect frame = [[UIScreen mainScreen] applicationFrame];
@@ -255,7 +261,9 @@ static const int32_t kBackgroundViewTag = 1100;
         UINavigationController *navigationController = (UINavigationController *)[[[UIApplication sharedApplication] keyWindow] rootViewController];
         if (navigationController.navigationBarHidden == NO) {
             // move the popover up or down (depending on the orientation) so it won't hide the navigation bar
-            if (UIDeviceOrientationIsPortrait([self interfaceOrientation])) {
+            // The frame size reflects the orientation change in iOS 8, but not in iOS 7
+            if (currentSystemVersion >= kiOS80Version
+                || UIDeviceOrientationIsPortrait([self interfaceOrientation])) {
                 frame.size.height -= navigationController.navigationBar.frame.size.height;
                 if ([self interfaceOrientation] != UIDeviceOrientationPortraitUpsideDown) {
                     frame.origin.y += navigationController.navigationBar.frame.size.height;
@@ -276,7 +284,8 @@ static const int32_t kBackgroundViewTag = 1100;
     CGRect backgroundViewFrame; // holds the frame of the backgroundView frame
     
     // for iPad we would always like the popover to appear on the the right side of the screen
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad && UIDeviceOrientationIsPortrait([self interfaceOrientation])) {
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+        && (currentSystemVersion >= kiOS80Version || UIDeviceOrientationIsPortrait([self interfaceOrientation]))) {
          contentViewFrame = CGRectMake(self.frame.size.width, 0, [self viewHeightBasedOnDevice], self.frame.size.height);
          backgroundViewFrame = CGRectMake(0, 0, self.frame.size.width - [self viewHeightBasedOnDevice], self.frame.size.height);
         
@@ -288,7 +297,7 @@ static const int32_t kBackgroundViewTag = 1100;
         }
         
         // make sure the content always slides in from left to right
-        if ([self interfaceOrientation] == UIDeviceOrientationPortraitUpsideDown) {
+        if (currentSystemVersion < kiOS80Version && [self interfaceOrientation] == UIDeviceOrientationPortraitUpsideDown) {
             contentViewFrame.origin.x = self.frame.size.width - contentViewFrame.origin.x - [self viewHeightBasedOnDevice];
             backgroundViewFrame.origin.x = contentViewFrame.origin.x + [self viewHeightBasedOnDevice];
         }

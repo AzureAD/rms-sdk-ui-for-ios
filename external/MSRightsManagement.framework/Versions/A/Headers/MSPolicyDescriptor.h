@@ -15,9 +15,9 @@
 - (id)initWithUserRoles:(NSArray/*MSUserRoles*/ *)userRoles;
 
 // Policy name
-@property (strong) NSString *name;
+@property (strong) NSString *policyName;
 // Policy description
-@property (strong) NSString *description;
+@property (strong) NSString *policyDescription;
 // Rights granted to users
 @property (strong, readonly) NSArray/*MSUserRights*/ *userRightsList;
 // Roles granted to users

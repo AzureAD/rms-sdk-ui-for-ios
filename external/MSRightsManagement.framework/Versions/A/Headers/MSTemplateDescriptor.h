@@ -18,8 +18,8 @@
                     authenticationCallback:(id<MSAuthenticationCallback>)authenticationCallback
                            completionBlock:(void(^)(NSArray/*MSTemplateDescriptor*/ *templates, NSError *error))completionBlock;
 
-@property (strong, readonly) NSString *name;
-@property (strong, readonly) NSString *description;
+@property (strong, readonly) NSString *templateName;
+@property (strong, readonly) NSString *templateDescription;
 @property (strong, readonly) NSString *templateId;
 
 @end

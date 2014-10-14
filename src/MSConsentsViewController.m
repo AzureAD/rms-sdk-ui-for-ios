@@ -140,6 +140,16 @@ const static float INFINITE_HEIGHT = 20000.0f;
     }
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    if (self.urlsTableView.hidden == NO)
+    {
+        [self.urlsTableView flashScrollIndicators];
+    }
+}
+
 #pragma mark - Public methods
 
 - (void)setupConsentViewFor:(MSConsentViewType)viewType withUrls:(NSArray *)urls
@@ -319,7 +329,7 @@ const static float INFINITE_HEIGHT = 20000.0f;
                                                             + self.serviceUrlConsentLabelHeightConstraint.constant
                                                             + LABEL_VERTICAL_SPACING
                                                             + self.urlsTableViewHeightConstraint.constant
-                                                            +LABEL_VERTICAL_SPACING;
+                                                            + LABEL_VERTICAL_SPACING;
 }
 
 - (void)setConstraintsForDocumentTrackingAndServiceURLConsent

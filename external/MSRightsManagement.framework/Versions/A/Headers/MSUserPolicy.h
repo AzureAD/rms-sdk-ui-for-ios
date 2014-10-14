@@ -141,10 +141,10 @@ typedef NS_ENUM(NSUInteger, MSUserPolicyType) {
 @property (readonly) MSUserPolicyType type;
 
 // The name the policy
-@property (strong, readonly) NSString *name;
+@property (strong, readonly) NSString *policyName;
 
 // The description the policy
-@property (strong, readonly) NSString *description;
+@property (strong, readonly) NSString *policyDescription;
 
 // The template used to publish the content. Note: this property will be null for custom policies.
 @property (strong, readonly) MSTemplateDescriptor *templateDescriptor;

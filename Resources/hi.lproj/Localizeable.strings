@@ -1,3 +1,51 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "ठीक";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "रद्द करें";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ ने इस फ़ाइल को आपके साथ साझा किया है. आपसे इन अनुमतियों का पालन करने की अपेक्षा की जाती है:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "आपके डिवाइस में ऐसा कोई एप्लिकेशन स्थापित नहीं है जो %@ को खोल सकता है";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "इस फ़ाइल को नहीं खोला जा सकता क्योंकि स्वामी ने फ़ाइल को RMS साझाकरण एप्लिकेशन के अतिरिक्त किसी अन्य एप्लिकेशन में खोलने की अनुमति नहीं दी है";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "कोई मेल खाता नहीं मिला. कृपया सेटिंग->मेल में जाएँ और अपना मेल खाता जोड़ें";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "ऐसा लगता है कि फ़ाइल दूषित है. आप प्रेषक से इसे सुरक्षित करने और पुनः भेजने के लिए कह सकते हैं";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "अनुमतियाँ";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "सुरक्षित को साझा करें";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "आप इस फ़ाइल को कैसे साझा करना चाहते हैं?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "ईमेल";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "अन्य ऐप में खोलें";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "मैंने आपके साथ फ़ाइल (फ़ाइलों) को सुरक्षित रूप से साझा किया है";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>मैंने अनुलग्‍नित फ़ाइल (फ़ाइलों) को सुरक्षित रूप से आपके साथ साझा किया है.</p><p>Microsoft Rights Management के लिए <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">यहाँ</a> निशुल्‍क रूप से साइन अप करें.<br />अनुलग्‍नक खोलने से पहले, Microsoft Rights Management साझाकरण ऐप को <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">यहाँ</a> से स्‍थापित करें.</p><p>अधिक मदद चाहिए? <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">यहाँ</a>क्‍लिक करें.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">अपनी फ़ाइलों को सुरक्षित रूप से </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html> के साथ साझा करना";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "आपकी अनुमतियाँ:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "अधिक बड़ा होने के कारण पाठ आंशिक रूप से लोड किया गया था. पूरा पाठ देखने के लिए, कृपया फ़ाइल को RMS साझाकरण ऐप का उपयोग करके अपने PC पर खोलें.";
+
 /******************
  * Error Viewer
  ******************/
@@ -66,28 +114,28 @@
 /* The title for the custom policy picker view */
 "CustomPolicyMainTitle" = "सुरक्षा जोड़ें";
 
-/* The users’ email input field */
+/* The users‚Äö√Ñ√¥ email input field */
 "CustomPolicyUsersEmailFieldTitle" = "उपयोगकर्ता:";
 
-/* Invalid input error message for the users’ email input field */
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
 "CustomPolicyInvalidInputLabel" = "निम्न ईमेल पते अमान्य हैं या ऐसे ईमेल प्रदाताओं का उपयोग करते हैं, जो समर्थित नहीं हैं";
 
-/* Empty input error message for the users’ email input field */
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
 "CustomPolicyEmptyInputLabel" = "कृपया कम से कम एक उपयोगकर्ता निर्दिष्ट करें";
 
-/* The label for the ‘Allow devices consumption' checkbox */
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
 "AllowDeviceConsumption" = "डिवाइस के साथ उपयोग की अनुमति दें";
 
-/* The help tooltip for the ‘Allow devices consumption' checkbox */
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
 "AllowDeviceConsumptionHelp" = "मोबाइल डिवाइस के उपयोगकर्ताओं को फ़ाइलें देखने के लिए Microsoft RMS अनुप्रयोग स्थापित करना होगा";
 
 /* The role and rights picker view */
 "CustomPolicyPermissions" = "अनुमतियाँ:";
 
-/* The label for the ‘Allow offline consumption' checkbox */
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
 "CustomPolicyOfflineCheckboxLabel" = "उपयोगकर्ताओं को यह फ़ाइल खोलने पर हर बार लॉगिन करना होगा";
 
-/* The label for the ‘Valid until' checkbox */
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
 "CustomPolicyValidUntilCheckboxLabel" = "सामग्री का समय-सीमा समाप्ति दिनांक";
 
 /* Links */
@@ -109,14 +157,14 @@
 "AdhocPolicyName" = "प्रतिबंधित पहुँच";
 
 /* Generic Description of an ad-hoc protection policy */
-"AdhocPolicyDescription" = "अनुमति वर्तमान में प्रतिबंधित है. केवल निर्दिष्ट किए गए उपयोगकर्ता इस सामग्री तक पहुँच सकते हैं.";
+"AdhocPolicyDescription" = "वर्तमान में अनुमति प्रतिबंधित है. केवल निर्दिष्ट उपयोगकर्ता इस सामग्री पर पहुँच सकते हैं.";
 
 /******************
  * Policy Viewer
  ******************/
 
 /* The title for the permissions section */
-"PolicyPermissionsTitle" = "उपयोग के अधिकार";
+"PolicyPermissionsTitle" = "अधिकारों का उपयोग करें";
 
 /* The title for the policy template secion */
 "PolicyTemplatesTitle" = "आपकी अनुमतियाँ";
@@ -142,47 +190,7 @@
 "CoOwnerRole" = "सह-स्वामी";
 
 /* The title for the policy template section in OSX */
-"PolicyTemplatesTitle_OSX" = "आपको निम्न की अनुमति है:";
-
-/******************
- * Error messages
- ******************/
-
-"Error_General" = "Windows Azure AD Rights Management से संपर्क करने का प्रयास करते हुए कुछ गड़बड़ हुई. अगर समस्या बनी रहती है, तो अपने व्यवस्थापक से संपर्क करें.";
-
-"Error_CommunicationIssue" = "आपको साइन इन करने में एक समस्या हुई. अपना इंटरनेट कनेक्शन जाँचें और पुनः प्रयास करें.";
-
-"Error_DeviceRejected" = "आपके डिवाइस को Windows Azure AD Rights Management का उपयोग करने की अनुमति नहीं है. अधिक जानकारी के लिए अपने व्यवस्थापक से संपर्क करें.";
-
-"Error_ConsumptionRights" = "आपके पास यह सामग्री देखने की अनुमतियाँ नहीं हैं. अनुमतियों का अनुरोध करने के लिए सामग्री स्वामी से संपर्क करें.";
-
-"Error_ConsumptionRightsEmailURL" = "आपके पास यह सामग्री देखने की अनुमतियाँ नहीं हैं. अनुमतियों का अनुरोध करने के लिए %@ से संपर्क करें.";
-
-"Error_ConsumptionRightsGeneralURL" = "आपके पास यह सामग्री देखने की अनुमतियाँ नहीं हैं. अनुमतियों का अनुरोध करने के लिए %@ पर जाएँ.";
-
-"Error_RMS_OnPremServersNotSupported" = "आपका स्थानीय AD RMS सर्वर आपके डिवाइस का समर्थन नहीं करता है, इसलिए इस सामग्री को डिक्रिप्ट नहीं किया जा सकता. अधिक जानकारी के लिए अपने व्यवस्थापक से संपर्क करें.";
-
-"Error_UnsupportedSdkVersion" = "इस अनुप्रयोग द्वारा उपयोग किए गए RMS सॉफ़्टवेयर को अपडेट करने की आवश्यकता होगी. इस अनुप्रयोग के लिए तकनीकी समर्थन या एक अद्यतन का अनुरोध करने के लिए अपने व्यवस्थापक से संपर्क करें.";
-
-"Error_InvalidParameter" = "Windows Azure AD Rights Management का उपयोग करने वाले अनुप्रयोग से कुछ अनपेक्षित हो गया. इस अनुप्रयोग के लिए तकनीकी समर्थन से संपर्क करें.";
-
-"Error_InvalidPL" = "Windows Azure AD Rights Management का उपयोग करने वाले अनुप्रयोग से कुछ अनपेक्षित हो गया. इस अनुप्रयोग के लिए तकनीकी समर्थन से संपर्क करें.";
-
-"Error_ServiceUnavailability" = "Windows Azure AD Rights Management से संपर्क करने का प्रयास करते हुए कुछ गड़बड़ हुई. अगर समस्या बनी रहती है, तो अपने व्यवस्थापक से संपर्क करें.";
-
-"Error_PublishingLicenseExpired" = "आप इस सामग्री को इसलिए नहीं देख सकते क्योंकि समय-सीमा समाप्त हो गई है. इस सामग्री को नवीनीकृत करने के लिए सामग्री स्वामी या अपने व्यवस्थापक से संपर्क करें.";
-
-"Error_PublishingLicenseExpiredEmailURL" = "आप यह सामग्री इसलिए नहीं देख सकते क्योंकि समय सीमा समाप्त हो गई है. इस सामग्री को नवीनीकृत करने के लिए %@ या अपने व्यवस्थापक से संपर्क करें.";
-
-"Error_PublishingLicenseExpiredGeneralURL" = "आप यह सामग्री इसलिए नहीं देख सकते क्योंकि समय सीमा समाप्त हो गई है. इस सामग्री को नवीनीकृत करने के लिए %@ पर जाएँ या अपने व्यवस्थापक से संपर्क करें.";
-
-"Error_NoPublishingRights" = "क्षमा करें, आपको इस संगठन के लिए नई सुरक्षित सामग्री बनाने की अनुमति नहीं है. किसी भिन्न उपयोगकर्ता के रूप में साइन इन करके या अतिरिक्त अनुमतियों के लिए अपने व्यवस्थापक से संपर्क करके प्रयास करें.";
-
-"Error_REST_ServiceNotEnabled" = "Windows Azure AD Rights Management आपके संगठन के लिए सक्षम नहीं है. अधिक विवरण के लिए अपने व्यवस्थापक से संपर्क करें.";
-
-"Error_Auth_Already_In_Progress" = "क्षमा करें, ऐसा लगता है कि आप पहले ही साइन इन करने का प्रयास कर रहे हैं, पुनः प्रयास करने से पहले कृपया अपना पिछला प्रयास पूरा करें.";
-
-"Error_Auth_Failed_Bad_Token" = "प्रमाणीकरण विफल, ग़लत पहुँच टोकन.";
+"PolicyTemplatesTitle_OSX" = "आपकी अनुमतियाँ हैं:";
 
 /******************
  * Common Rights
@@ -204,6 +212,8 @@
 
 "Print" = "मुद्रित करें";
 
+"Comment" = "टिप्पणी करें";
+
 /******************
  * Email Rights
  ******************/
@@ -213,4 +223,24 @@
 "ReplyAll" = "सभी को उत्तर दें";
 
 "Forward" = "अग्रेषित करें";
+
+/****************************
+ * Diagnostics Consent View
+ ****************************/
+
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "RMS को बेहतर बनाएँ";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "RMS को बेहतर बनाने के लिए जानकारी भेजें? जानकारी का उपयोग आपकी पहचान करने या आपसे संपर्क करने के लिए नहीं किया जाएगा.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "हाँ";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "नहीं, धन्‍यवाद";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "और सीखें";
+
 

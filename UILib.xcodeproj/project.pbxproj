@@ -118,6 +118,9 @@
 		1CABF54C19412ADD00ED3B4E /* sdk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sdk-Prefix.pch"; sourceTree = "<group>"; };
 		1CB3872D197DEB85005B9FF5 /* logo_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_iPhone@2x.png"; path = "assets/ios/logo_iPhone@2x.png"; sourceTree = "<group>"; };
 		521DB10119CA32E800FF8E47 /* MSDiagnosticsConsentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDiagnosticsConsentDelegate.h; sourceTree = "<group>"; };
+		521E96B519D21C7D00DAA31F /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizeable.strings; sourceTree = "<group>"; };
+		521E96B619D2212500DAA31F /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = Resources/hi.lproj/iPhone_Storyboard.strings; sourceTree = "<group>"; };
+		521E96B719D2212C00DAA31F /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = Resources/hi.lproj/iPad_Storyboard.strings; sourceTree = "<group>"; };
 		523CFFB419A2C26D005AAB3B /* MSConsentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConsentsViewController.h; sourceTree = "<group>"; };
 		523CFFB519A2C26D005AAB3B /* MSConsentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSConsentsViewController.m; sourceTree = "<group>"; };
 		5276525119A4DB6400BC1144 /* MSConsentsViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConsentsViewDelegate.h; sourceTree = "<group>"; };
@@ -659,6 +662,7 @@
 				69F6D539173AA52F00BD4FC8 /* vi */,
 				69F6D53F173AA99200BD4FC8 /* nb */,
 				F5798462182A72320024D12C /* pt */,
+				521E96B519D21C7D00DAA31F /* hi */,
 			);
 			name = Localizeable.strings;
 			path = Resources;
@@ -699,6 +703,7 @@
 				69F6D570173AACC800BD4FC8 /* vi */,
 				69F6D571173AACCB00BD4FC8 /* nb */,
 				F5798460182A72320024D12C /* pt */,
+				521E96B719D2212C00DAA31F /* hi */,
 			);
 			name = iPad_Storyboard.storyboard;
 			sourceTree = "<group>";
@@ -738,6 +743,7 @@
 				69F6D599173B600400BD4FC8 /* nb */,
 				69F6D59A173B600700BD4FC8 /* vi */,
 				F5798461182A72320024D12C /* pt */,
+				521E96B619D2212500DAA31F /* hi */,
 			);
 			name = iPhone_Storyboard.storyboard;
 			sourceTree = "<group>";
@@ -892,10 +898,7 @@
 				COMBINE_HIDPI_IMAGES = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/shyam/rms5/private/thinClient/apple/sdk/build/Debug-iphonesimulator",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSProtection/MSProtection-Prefix.pch";
@@ -916,10 +919,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/shyam/rms5/private/thinClient/apple/sdk/build/Debug-iphonesimulator",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSProtection/MSProtection-Prefix.pch";

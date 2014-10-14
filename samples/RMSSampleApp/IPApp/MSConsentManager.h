@@ -15,7 +15,7 @@
  */
 
 // MSConsentManager is a class that implements the MSConsentCallback protocol.
-// This class also shows the consent UI and records the decision to convey back to the SDK
+// This class also shows the consent UI and conveys the decision back to the SDK
 
 #import <MSRightsManagement/MSConsent.h>
 #import <MSRightsManagement/MSConsentCallback.h>

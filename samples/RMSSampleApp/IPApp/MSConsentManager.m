@@ -74,6 +74,8 @@
         else if (thisConsent.type == ServiceURLConsent)
         {
             serviceURLConsentPresent = YES;
+            NSLog(@"URL: %@",
+                  [((MSServiceURLConsent *)thisConsent).urls objectAtIndex:0]);
             [serviceURLsFromAllConsents addObjectsFromArray:((MSServiceURLConsent *)thisConsent).urls];
         }
         else
@@ -136,6 +138,7 @@
     }
     
     self.currentConsentsCompletionBlock(self.currentConsents);
-    self.currentlyWaitingOnConsents = NO;}
+    self.currentlyWaitingOnConsents = NO;
+}
 
 @end

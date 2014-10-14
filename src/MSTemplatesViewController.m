@@ -112,14 +112,14 @@ static const int32_t kCellTagStartingRange = 1000;
     MSTemplateDescriptor *template = [self.templates objectAtIndex:indexPath.row];
     
     CGSize labelPolicyTitleConstraint = CGSizeMake(self.tableView.frame.size.width - (POLICY_TITLE_PADDING * 2), INFINITE_HEIGHT);
-    CGSize labelNameSize = [template.name sizeWithFont:cell.policyTitle.font constrainedToSize:labelPolicyTitleConstraint lineBreakMode:NSLineBreakByWordWrapping];
+    CGSize labelNameSize = [template.templateName sizeWithFont:cell.policyTitle.font constrainedToSize:labelPolicyTitleConstraint lineBreakMode:NSLineBreakByWordWrapping];
     
     CGFloat selectedRowHeight = labelNameSize.height + CELL_CONTENT_MARGIN;
     
     if (template == self.selectedPolicyInfo)
     {
         CGSize labelDescriptionConstraint = CGSizeMake(self.tableView.frame.size.width - (POLICY_DESCRIPTION_PADDING * 2), INFINITE_HEIGHT);
-        CGSize labelDescriptionSize = [template.description sizeWithFont:cell.policyDescription.font constrainedToSize:labelDescriptionConstraint lineBreakMode:NSLineBreakByWordWrapping];
+        CGSize labelDescriptionSize = [template.templateDescription sizeWithFont:cell.policyDescription.font constrainedToSize:labelDescriptionConstraint lineBreakMode:NSLineBreakByWordWrapping];
         
         selectedRowHeight += labelDescriptionSize.height;
     }
@@ -167,11 +167,6 @@ static const int32_t kCellTagStartingRange = 1000;
     // different than the previously chosen template
     self.doneButton.enabled = ((self.selectedPolicyInfo != self.currentPolicyInfo)
                                && (self.selectedPolicyInfo != nil));
-    
-    // "Cancel" should be always enabled,
-    // though this line could be written in the storyboard, this fix a strange bug
-    // that happened on Xcode 5.0 where the button's text was missing in runtime.
-    self.cancelButton.enabled = YES;
 }
 
 - (void)selectCurrentTemplateInTableView
@@ -180,7 +175,7 @@ static const int32_t kCellTagStartingRange = 1000;
     if (self.currentPolicyInfo != nil)
     {
         NSUInteger templateIndexInTableView = [self.templates indexOfObjectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
-            return [[(MSTemplateDescriptor *)obj name] isEqualToString:self.currentPolicyInfo.name];
+            return [((MSTemplateDescriptor *)obj).templateName isEqualToString:self.currentPolicyInfo.templateName];
         }];
         
         if (templateIndexInTableView != NSNotFound)
@@ -198,9 +193,9 @@ static const int32_t kCellTagStartingRange = 1000;
 {
     MSTemplateDescriptor *template = [self.templates objectAtIndex:indexPath.row];
     
-    cell.policyTitle.text = template.name;
+    cell.policyTitle.text = template.templateName;
     cell.policyTitle.enabled = YES;
-    cell.policyDescription.text = template.description;
+    cell.policyDescription.text = template.templateDescription;
     cell.selectionStyle = UITableViewCellSelectionStyleGray;
     
     // show the template description only when the cell is selected
