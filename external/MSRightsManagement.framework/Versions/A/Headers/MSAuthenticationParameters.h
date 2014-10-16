@@ -1,13 +1,19 @@
-//
-//  MSAuthenticationParameters.h
-//  sdk-ios
-//
-//  Created by Vladimir Postel on 4/3/14.
-//  Copyright (c) 2014 Microsoft. All rights reserved.
-//
+/*
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *
+ * FileName:     MSAuthenticationParameters.h
+ *
+ */
+
 
 #import <Foundation/Foundation.h>
 
+/*!
+ 
+ @class
+ @see documentation at - http://msdn.microsoft.com/en-us/library/dn758313(v=vs.85).aspx
+ 
+ */
 @interface MSAuthenticationParameters : NSObject
 
 @property (strong, readonly) NSString *authority;

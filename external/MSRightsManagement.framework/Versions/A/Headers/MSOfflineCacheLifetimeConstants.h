@@ -1,16 +1,21 @@
-//
-//  MSOfflineCacheLifetimeConstants.h
-//  sdk-ios
-//
-//  Created by Vladimir Postel on 4/6/14.
-//  Copyright (c) 2014 Microsoft. All rights reserved.
-//
+/*
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *
+ * FileName:     MSOfflineCacheLifetimeConstants.h
+ *
+ */
 
 #import <Foundation/Foundation.h>
 
+/*!
+ 
+ @class
+ @see documentation at - http://msdn.microsoft.com/en-us/library/dn758330(v=vs.85).aspx
+ 
+ */
 @interface MSOfflineCacheLifetimeConstants : NSObject
 
-+ (NSInteger)NoCache;              // The content shoudn't be accessed offline at all
-+ (NSInteger)CacheNeverExpires;    // The offline cache for the content shouldn't expire
++ (NSInteger)NoCache;
++ (NSInteger)CacheNeverExpires;    
 
 @end

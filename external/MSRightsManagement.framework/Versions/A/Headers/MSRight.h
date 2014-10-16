@@ -11,10 +11,9 @@
 /*!
  
  @class
- @see documentation at http://msdn.microsoft.com/en-us/library/windows/desktop/dn237823(v=vs.85).aspx
+ @see documentation at http://msdn.microsoft.com/en-us/library/dn758314(v=vs.85).aspx
  
  */
-
 @interface MSCommonRights : NSObject
 
 + (NSString *)owner;
@@ -22,6 +21,12 @@
 
 @end
 
+/*!
+ 
+ @class
+ @see documentation at http://msdn.microsoft.com/en-us/library/dn758318(v=vs.85).aspx
+ 
+ */
 @interface MSEditableDocumentRights : NSObject
 
 + (NSString *)edit;
@@ -33,6 +38,12 @@
 
 @end
 
+/*!
+ 
+ @class
+ @see documentation at http://msdn.microsoft.com/en-us/library/dn758319(v=vs.85).aspx
+ 
+ */
 @interface MSEmailRights : NSObject
 
 + (NSString *)reply;

@@ -10,7 +10,7 @@
 /*!
  
  @enum
- @see documentation at http://msdn.microsoft.com/en-us/library/windows/desktop/dn237824(v=vs.85).aspx
+ @see documentation at http://msdn.microsoft.com/en-us/library/dn790782(v=vs.85).aspx
  
  */
 enum
