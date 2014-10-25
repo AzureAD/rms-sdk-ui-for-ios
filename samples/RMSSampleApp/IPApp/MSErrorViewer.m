@@ -18,7 +18,8 @@
 
 @implementation MSErrorViewer
 
-const NSUInteger AUTH_CANCELED = 5001;
+const NSInteger AUTH_CANCELED = 5001;
+const NSInteger USER_CANCELED = -14;
 
 + (id)sharedInstance
 {
@@ -33,7 +34,7 @@ const NSUInteger AUTH_CANCELED = 5001;
 
 - (void)showError:(NSError *)error
 {
-    if (error.code != AUTH_CANCELED)
+    if (error.code != AUTH_CANCELED && error.code != USER_CANCELED)
     {
         NSAssert([[NSThread currentThread] isMainThread], @"must be called on the main thread!");
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"RMS sample app"

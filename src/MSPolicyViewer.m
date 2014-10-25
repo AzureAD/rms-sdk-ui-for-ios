@@ -182,14 +182,19 @@ static const int32_t kFirstRightTag = 1110;
     [self.popover dismissAnimated:YES];
 }
 
+- (void)dismissWithCompletion:(void(^)())completion
+{
+    [self.popover dismissAnimated:YES completion:completion];
+}
+
 #pragma mark - UITableViewDataSource and UITableViewDelegate delegates
 
-- (int32_t)numberOfSectionsInTableView:(UITableView *)tableView
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;
 }
 
-- (int32_t)tableView:(UITableView *)tableView numberOfRowsInSection:(int32_t)section
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.sortedSupportedRights.count;
 }
@@ -283,12 +288,12 @@ static const int32_t kFirstRightTag = 1110;
     LocalizeString(@"OwnerContent", @"The title for the policy viewer for owner user") :
     LocalizeString(@"NonOwnerContent", @"The title for the policy viewer for non-owner user");
     
-    self.policyNameLabel.text = self.policy.name;
+    self.policyNameLabel.text = self.policy.policyName;
     self.grantedByLabel.attributedText = [self attributedGrantedByTextWithPolicy:self.policy];
 
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) // policy description is shown on iPad only (large form factor devices)
     {
-        self.policyDescriptionLabel.text = self.policy.description;
+        self.policyDescriptionLabel.text = self.policy.policyDescription;
     }
     
     self.grantedByLabel.hidden = isOwner;

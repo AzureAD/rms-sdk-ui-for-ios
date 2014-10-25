@@ -224,9 +224,23 @@
 
 "Forward" = "전달";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "잘못된 전자 메일 주소입니다.";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "RMS 개선";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "RMS 개선을 지원하기 위해 정보를 보내시겠습니까? 해당 정보는 사용자를 식별하거나 사용자에게 연락하기 위한 용도로 사용되지 않습니다.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "예.";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "아니요. 괜찮습니다.";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "자세히 알아보기";
+
+

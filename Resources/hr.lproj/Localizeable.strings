@@ -224,9 +224,23 @@
 
 "Forward" = "Proslijedi";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Adresa e-pošte nije valjana.";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "Poboljšajte RMS";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "Želite li poslati informacije radi poboljšanja RMS-a? Te se informacije neće koristiti za otkrivanje identiteta niti obraćanje.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "Da";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "Ne, hvala";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "Saznajte više";
+
+

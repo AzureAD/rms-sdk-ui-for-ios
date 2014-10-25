@@ -224,9 +224,23 @@
 
 "Forward" = "Переслати";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Недійсна адреса електронної пошти.";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "Покращення RMS";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "Надіслати інформацію, щоб допомогти покращити RMS? Її не буде використано, щоб визначити вашу особу або зв’язатися з вами.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "Так";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "Ні, дякую";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "Додаткові відомості";
+
+

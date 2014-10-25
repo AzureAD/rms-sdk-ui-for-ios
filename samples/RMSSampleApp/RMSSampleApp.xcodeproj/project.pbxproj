@@ -14,6 +14,7 @@
 		1C97BA911991A23400705F17 /* MSRightsManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C97BA901991A23400705F17 /* MSRightsManagement.framework */; };
 		1C97BA931991A24000705F17 /* MSRightsManagementResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C97BA921991A24000705F17 /* MSRightsManagementResources.bundle */; };
 		1CA4BE551989D5B000A8B963 /* MSPolicyEnforcer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4BE531989D5B000A8B963 /* MSPolicyEnforcer.m */; };
+		52B48ABB19ACEF45005C9F1B /* MSConsentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B48ABA19ACEF45005C9F1B /* MSConsentManager.m */; };
 		69EB85A4173BE06C00B3DA78 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69EB85A6173BE06C00B3DA78 /* Localizable.strings */; };
 		9057EF9D16E87BBD009E453A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9057EF9C16E87BBD009E453A /* Default.png */; };
 		9057EF9F16E87BC6009E453A /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9057EF9E16E87BC6009E453A /* Default-Portrait~ipad.png */; };
@@ -81,6 +82,9 @@
 		1C97BA921991A24000705F17 /* MSRightsManagementResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MSRightsManagementResources.bundle; path = ../../external/MSRightsManagement.framework/Versions/A/Resources/MSRightsManagementResources.bundle; sourceTree = "<group>"; };
 		1CA4BE531989D5B000A8B963 /* MSPolicyEnforcer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSPolicyEnforcer.m; path = IPApp/MSPolicyEnforcer.m; sourceTree = SOURCE_ROOT; };
 		1CA4BE541989D5B000A8B963 /* MSPolicyEnforcer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSPolicyEnforcer.h; path = IPApp/MSPolicyEnforcer.h; sourceTree = SOURCE_ROOT; };
+		523169F419D5E94B0082F161 /* RMSSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RMSSampleApp.entitlements; sourceTree = "<group>"; };
+		52B48AB919ACEF45005C9F1B /* MSConsentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSConsentManager.h; path = IPApp/MSConsentManager.h; sourceTree = SOURCE_ROOT; };
+		52B48ABA19ACEF45005C9F1B /* MSConsentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSConsentManager.m; path = IPApp/MSConsentManager.m; sourceTree = SOURCE_ROOT; };
 		69EB85A5173BE06C00B3DA78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		69EB85A7173BE07F00B3DA78 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		69EB85A8173BE08800B3DA78 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -193,6 +197,7 @@
 		F5D8201016CA354100765D15 = {
 			isa = PBXGroup;
 			children = (
+				523169F419D5E94B0082F161 /* RMSSampleApp.entitlements */,
 				1C97B9D6199082C900705F17 /* UILib.xcodeproj */,
 				F5D8202516CA354100765D15 /* src */,
 				F5D8201E16CA354100765D15 /* Frameworks */,
@@ -236,6 +241,8 @@
 				F5D8202F16CA354100765D15 /* MSAppDelegate.m */,
 				BE8C18B5173699F200A1505E /* MSErrorViewer.h */,
 				BE8C18B6173699F200A1505E /* MSErrorViewer.m */,
+				52B48AB919ACEF45005C9F1B /* MSConsentManager.h */,
+				52B48ABA19ACEF45005C9F1B /* MSConsentManager.m */,
 				F5D8203D16CA354100765D15 /* MSMainViewController.h */,
 				F5D8203E16CA354100765D15 /* MSMainViewController.m */,
 				EB9EDD30178E936A00EFE95D /* MSStringEncodingUtils.h */,
@@ -316,6 +323,11 @@
 				TargetAttributes = {
 					F5D8201A16CA354100765D15 = {
 						DevelopmentTeam = UBF8T346G9;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -439,6 +451,7 @@
 			files = (
 				F5D8202C16CA354100765D15 /* main.m in Sources */,
 				F5D8203016CA354100765D15 /* MSAppDelegate.m in Sources */,
+				52B48ABB19ACEF45005C9F1B /* MSConsentManager.m in Sources */,
 				F5D8203F16CA354100765D15 /* MSMainViewController.m in Sources */,
 				1CA4BE551989D5B000A8B963 /* MSPolicyEnforcer.m in Sources */,
 				BE8C18B7173699F200A1505E /* MSErrorViewer.m in Sources */,
@@ -545,10 +558,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/IPApp/RMSSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = RMSSampleApp;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -570,10 +583,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/IPApp/RMSSampleApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = RMSSampleApp;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -582,9 +595,12 @@
 		F5D8204316CA354100765D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = RMSSampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../external\"";
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IPApp/RMSSampleApp-Prefix.pch";
@@ -594,15 +610,19 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RMSSampleApp;
 				PROVISIONING_PROFILE = "";
+				"WARNING_CFLAGS[arch=*]" = "-Wconversion";
 			};
 			name = Debug;
 		};
 		F5D8204416CA354100765D15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = RMSSampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../external\"";
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IPApp/RMSSampleApp-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/IPApp/RMSSampleApp-Info.plist";
@@ -610,6 +630,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RMSSampleApp;
 				PROVISIONING_PROFILE = "";
+				"WARNING_CFLAGS[arch=*]" = "-Wconversion";
 			};
 			name = Release;
 		};

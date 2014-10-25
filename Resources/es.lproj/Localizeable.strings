@@ -224,10 +224,23 @@
 
 "Forward" = "Reenviar";
 
-/******************
- * Email View
- ******************/
+/****************************
+ * Diagnostics Consent View
+ ****************************/
 
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Dirección de correo electrónico no válida.";
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "Mejorar RMS";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "¿Quiere enviar información para ayudar a mejorar RMS? La información no se usará para identificarle ni ponerse en contacto con usted.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "Sí";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "No, gracias";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "Más información";
+
 

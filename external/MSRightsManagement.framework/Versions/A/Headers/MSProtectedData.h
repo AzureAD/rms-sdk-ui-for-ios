@@ -10,11 +10,13 @@
 #import "MSSecureCodableObject.h"
 
 @class MSAsyncControl;
-@class MSAuthenticationCallback;
+@protocol MSAuthenticationCallback;
+@protocol MSConsentCallback;
+
 /*!
  
  @class
- @see documentation at http://msdn.microsoft.com/en-us/library/windows/desktop/dn237800(v=vs.85).aspx
+ @see documentation at http://msdn.microsoft.com/en-us/library/dn758348(v=vs.85).aspx
  
  */
 @interface MSProtectedData : MSSecureCodableObject
@@ -22,10 +24,11 @@
 + (MSAsyncControl *)protectedDataWithProtectedFile:(NSString *)path
                                             userId:(NSString *)userId
                             authenticationCallback:(id<MSAuthenticationCallback>)authenticationCallback
+                                   consentCallback:(id<MSConsentCallback>)consentCallback
                                            options:(MSPolicyAcquisitionOptions)options
                                    completionBlock:(void(^)(MSProtectedData *data, NSError *error))completionBlock;
 
-- (NSUInteger)length:(NSError **)errorPtr;
+- (int64_t)length:(NSError **)errorPtr;
 
 - (BOOL)getBytes:(void *)buffer length:(NSUInteger)length error:(NSError **)errorPtr;
 

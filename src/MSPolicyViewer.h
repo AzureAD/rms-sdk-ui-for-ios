@@ -56,6 +56,7 @@
 // Dismisses the modal popover if it is currently presented.
 
 - (void)dismiss;
+- (void)dismissWithCompletion:(void(^)())completion;
 
 // Gets an array of NSString that contains the user rights supported by the app.
 

@@ -48,6 +48,12 @@
 		1CABF54D19412ADD00ED3B4E /* sdk-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1CABF54C19412ADD00ED3B4E /* sdk-Prefix.pch */; };
 		1CB3872F197DEC63005B9FF5 /* logo_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3872D197DEB85005B9FF5 /* logo_iPhone@2x.png */; };
 		1CB38730197DEC63005B9FF5 /* logo_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C7224131979E88900734C61 /* logo_iPhone.png */; };
+		521DB10219CA32E800FF8E47 /* MSDiagnosticsConsentDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 521DB10119CA32E800FF8E47 /* MSDiagnosticsConsentDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523CFFB619A2C26D005AAB3B /* MSConsentsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 523CFFB419A2C26D005AAB3B /* MSConsentsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523CFFB719A2C26D005AAB3B /* MSConsentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523CFFB519A2C26D005AAB3B /* MSConsentsViewController.m */; };
+		5276525219A4DB6400BC1144 /* MSConsentsViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5276525119A4DB6400BC1144 /* MSConsentsViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB6F27199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB6F25199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB6F28199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BB6F26199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.m */; };
 		6918E3A61633FAD80054C586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6918E3A51633FAD80054C586 /* Foundation.framework */; };
 		905BD75B1781D50200CB1EF3 /* permitted.png in Resources */ = {isa = PBXBuildFile; fileRef = 905BD7561781C72E00CB1EF3 /* permitted.png */; };
 		905BD75C1781D50800CB1EF3 /* restricted.png in Resources */ = {isa = PBXBuildFile; fileRef = 905BD7571781C72E00CB1EF3 /* restricted.png */; };
@@ -111,6 +117,15 @@
 		1CABF459193FF1DB00ED3B4E /* MSPolicyPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPolicyPicker.m; sourceTree = "<group>"; };
 		1CABF54C19412ADD00ED3B4E /* sdk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sdk-Prefix.pch"; sourceTree = "<group>"; };
 		1CB3872D197DEB85005B9FF5 /* logo_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_iPhone@2x.png"; path = "assets/ios/logo_iPhone@2x.png"; sourceTree = "<group>"; };
+		521DB10119CA32E800FF8E47 /* MSDiagnosticsConsentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDiagnosticsConsentDelegate.h; sourceTree = "<group>"; };
+		521E96B519D21C7D00DAA31F /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizeable.strings; sourceTree = "<group>"; };
+		521E96B619D2212500DAA31F /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = Resources/hi.lproj/iPhone_Storyboard.strings; sourceTree = "<group>"; };
+		521E96B719D2212C00DAA31F /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = Resources/hi.lproj/iPad_Storyboard.strings; sourceTree = "<group>"; };
+		523CFFB419A2C26D005AAB3B /* MSConsentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConsentsViewController.h; sourceTree = "<group>"; };
+		523CFFB519A2C26D005AAB3B /* MSConsentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSConsentsViewController.m; sourceTree = "<group>"; };
+		5276525119A4DB6400BC1144 /* MSConsentsViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConsentsViewDelegate.h; sourceTree = "<group>"; };
+		52BB6F25199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDiagnosticsConsentViewer.h; sourceTree = "<group>"; };
+		52BB6F26199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDiagnosticsConsentViewer.m; sourceTree = "<group>"; };
 		6918E3A21633FAD80054C586 /* libMSRightsManagementUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSRightsManagementUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6918E3A51633FAD80054C586 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		69F6D443173AA2E000BD4FC8 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizeable.strings"; sourceTree = "<group>"; };
@@ -281,24 +296,30 @@
 		6918E3A71633FAD80054C586 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				1C6E60DD19907C4000F675A3 /* MSRightsManagementUI.h */,
+				1C7224171979E90800734C61 /* MSEmailInputDelegate.h */,
+				1C7224181979E90800734C61 /* MSEmailInputViewController.h */,
+				1C7224161979E90800734C61 /* MSEmailInputViewController.m */,
+				1CABF43C193FEDCC00ED3B4E /* MSModalPopover.h */,
+				1CABF43D193FEDCC00ED3B4E /* MSModalPopover.m */,
+				1CABF458193FF1DB00ED3B4E /* MSPolicyPicker.h */,
+				1CABF459193FF1DB00ED3B4E /* MSPolicyPicker.m */,
 				1C6E60D519906C5300F675A3 /* MSPolicyPickHelper.h */,
 				1C6E60D619906C5300F675A3 /* MSPolicyPickHelper.m */,
 				1C6E60D719906C5300F675A3 /* MSPolicyTemplateCell.h */,
 				1C6E60D819906C5300F675A3 /* MSPolicyTemplateCell.m */,
 				1C348805197F4DF50096438C /* MSPolicyViewer.h */,
 				1C348806197F4DF50096438C /* MSPolicyViewer.m */,
-				1C7224161979E90800734C61 /* MSEmailInputViewController.m */,
-				1C7224171979E90800734C61 /* MSEmailInputDelegate.h */,
-				1C7224181979E90800734C61 /* MSEmailInputViewController.h */,
-				1CABF458193FF1DB00ED3B4E /* MSPolicyPicker.h */,
-				1CABF459193FF1DB00ED3B4E /* MSPolicyPicker.m */,
 				1CABF448193FEEE800ED3B4E /* MSResourcesUtils.h */,
 				1CABF449193FEEE800ED3B4E /* MSResourcesUtils.m */,
+				1C6E60DD19907C4000F675A3 /* MSRightsManagementUI.h */,
 				1CABF440193FEE5F00ED3B4E /* MSTemplatesViewController.h */,
 				1CABF441193FEE5F00ED3B4E /* MSTemplatesViewController.m */,
-				1CABF43C193FEDCC00ED3B4E /* MSModalPopover.h */,
-				1CABF43D193FEDCC00ED3B4E /* MSModalPopover.m */,
+				521DB10119CA32E800FF8E47 /* MSDiagnosticsConsentDelegate.h */,
+				52BB6F25199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.h */,
+				52BB6F26199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.m */,
+				5276525119A4DB6400BC1144 /* MSConsentsViewDelegate.h */,
+				523CFFB419A2C26D005AAB3B /* MSConsentsViewController.h */,
+				523CFFB519A2C26D005AAB3B /* MSConsentsViewController.m */,
 				6918E3A81633FAD80054C586 /* Supporting Files */,
 			);
 			path = src;
@@ -348,8 +369,12 @@
 				1C72241A1979E90800734C61 /* MSEmailInputDelegate.h in Headers */,
 				1CABF43E193FEDCC00ED3B4E /* MSModalPopover.h in Headers */,
 				1CABF45A193FF1DB00ED3B4E /* MSPolicyPicker.h in Headers */,
+				52BB6F27199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.h in Headers */,
+				521DB10219CA32E800FF8E47 /* MSDiagnosticsConsentDelegate.h in Headers */,
 				1C6E60DB19906C5300F675A3 /* MSPolicyTemplateCell.h in Headers */,
+				5276525219A4DB6400BC1144 /* MSConsentsViewDelegate.h in Headers */,
 				1CABF54D19412ADD00ED3B4E /* sdk-Prefix.pch in Headers */,
+				523CFFB619A2C26D005AAB3B /* MSConsentsViewController.h in Headers */,
 				1C348809197F52100096438C /* MSPolicyViewer.h in Headers */,
 				1CABF442193FEE5F00ED3B4E /* MSTemplatesViewController.h in Headers */,
 				1CABF44A193FEEE800ED3B4E /* MSResourcesUtils.h in Headers */,
@@ -406,7 +431,7 @@
 		6918E3991633FAD80054C586 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Microsoft;
 			};
 			buildConfigurationList = 6918E39C1633FAD80054C586 /* Build configuration list for PBXProject "UILib" */;
@@ -569,6 +594,8 @@
 				1C7224191979E90800734C61 /* MSEmailInputViewController.m in Sources */,
 				1CABF43F193FEDCC00ED3B4E /* MSModalPopover.m in Sources */,
 				1C348808197F4DF50096438C /* MSPolicyViewer.m in Sources */,
+				523CFFB719A2C26D005AAB3B /* MSConsentsViewController.m in Sources */,
+				52BB6F28199BD24A00BDC4D6 /* MSDiagnosticsConsentViewer.m in Sources */,
 				1C6E60DA19906C5300F675A3 /* MSPolicyPickHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -635,6 +662,7 @@
 				69F6D539173AA52F00BD4FC8 /* vi */,
 				69F6D53F173AA99200BD4FC8 /* nb */,
 				F5798462182A72320024D12C /* pt */,
+				521E96B519D21C7D00DAA31F /* hi */,
 			);
 			name = Localizeable.strings;
 			path = Resources;
@@ -675,6 +703,7 @@
 				69F6D570173AACC800BD4FC8 /* vi */,
 				69F6D571173AACCB00BD4FC8 /* nb */,
 				F5798460182A72320024D12C /* pt */,
+				521E96B719D2212C00DAA31F /* hi */,
 			);
 			name = iPad_Storyboard.storyboard;
 			sourceTree = "<group>";
@@ -714,6 +743,7 @@
 				69F6D599173B600400BD4FC8 /* nb */,
 				69F6D59A173B600700BD4FC8 /* vi */,
 				F5798461182A72320024D12C /* pt */,
+				521E96B619D2212500DAA31F /* hi */,
 			);
 			name = iPhone_Storyboard.storyboard;
 			sourceTree = "<group>";
@@ -725,6 +755,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -756,6 +787,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -815,6 +847,7 @@
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
+				WARNING_CFLAGS = "";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -854,6 +887,7 @@
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
+				WARNING_CFLAGS = "";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -864,10 +898,7 @@
 				COMBINE_HIDPI_IMAGES = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/shyam/rms5/private/thinClient/apple/sdk/build/Debug-iphonesimulator",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSProtection/MSProtection-Prefix.pch";
@@ -888,10 +919,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/shyam/rms5/private/thinClient/apple/sdk/build/Debug-iphonesimulator",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSProtection/MSProtection-Prefix.pch";
@@ -912,6 +940,7 @@
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"WARNING_CFLAGS[arch=*]" = "-Wconversion";
 			};
 			name = Debug;
 		};
@@ -922,6 +951,7 @@
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"WARNING_CFLAGS[arch=*]" = "-Wconversion";
 			};
 			name = Release;
 		};

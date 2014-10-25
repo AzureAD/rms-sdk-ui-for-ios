@@ -214,10 +214,3 @@
 
 "Forward" = "[bAmLf]థ్కFørwãrðథ్క";
 
-/******************
- * Email View
- ******************/
-
-/* A message to show when the user enters an invalid email address in the login screen */
-"ERROR_INVALID_EMAIL_ADDRESS_STRING" = "Invalid email address.";
-

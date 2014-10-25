@@ -1,0 +1,72 @@
+
+/* Class = "IBUIButton"; normalTitle = "Continue"; ObjectID = "204-IO-9u5"; */
+"204-IO-9u5.normalTitle" = "जारी रखें";
+
+/* Class = "IBUILabel"; text = "Description"; ObjectID = "B9h-cb-sgC"; */
+"B9h-cb-sgC.text" = "वर्णन";
+
+/* Class = "IBUIButton"; normalTitle = "Privacy"; ObjectID = "BwA-6L-n6t"; */
+"BwA-6L-n6t.normalTitle" = "गोपनीयता";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "DN5-ch-AI9"; */
+"DN5-ch-AI9.text" = "शीर्षक";
+
+/* Class = "IBUILabel"; text = "Invalid email address."; ObjectID = "KL0-jj-Nhh"; */
+"KL0-jj-Nhh.text" = "अमान्य ईमेल पता.";
+
+/* Class = "IBUIButton"; normalTitle = "Edit"; ObjectID = "N9W-dP-Rnx"; */
+"N9W-dP-Rnx.normalTitle" = "संपादित करें";
+
+/* Class = "IBUILabel"; text = "Policy"; ObjectID = "R1e-x9-W1w"; */
+"R1e-x9-W1w.text" = "नीति";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "Tna-ty-eoW"; */
+"Tna-ty-eoW.text" = "उपशीर्षक";
+
+/* Class = "IBUILabel"; text = "Don't show this message again"; ObjectID = "ToN-yH-kn8"; */
+"ToN-yH-kn8.text" = "इस संदेश को पुनः न दिखाएँ";
+
+/* Class = "IBUITextField"; placeholder = "someone@example.com"; ObjectID = "UAd-fS-8As"; */
+"UAd-fS-8As.placeholder" = "someone@example.com";
+
+/* Class = "IBUILabel"; text = "Enter your organizational email address"; ObjectID = "UG3-sj-cQ9"; */
+"UG3-sj-cQ9.text" = "अपना संगठनात्मक ईमेल पता दर्ज करें";
+
+/* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "UkI-7g-c1c"; */
+"UkI-7g-c1c.text" = "Microsoft Rights Management द्वारा सुरक्षित दस्तावेज़ों के उपयोग को प्रेषक और/या उसके संगठन के IT व्यवस्थापक द्वारा ट्रैक किया जा सकता है.";
+
+/* Class = "IBUIButton"; normalTitle = "Privacy"; ObjectID = "dCR-LG-ZLI"; */
+"dCR-LG-ZLI.normalTitle" = "गोपनीयता";
+
+/* Class = "IBUIBarButtonItem"; title = "Accept"; ObjectID = "dLX-9C-xIf"; */
+"dLX-9C-xIf.title" = "स्वीकार करें";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "ft9-fZ-ZAM"; */
+"ft9-fZ-ZAM.text" = "शीर्षक";
+
+/* Class = "IBUILabel"; text = "Template"; ObjectID = "g0F-6s-gQj"; */
+"g0F-6s-gQj.text" = "टेम्पलेट";
+
+/* Class = "IBUIButton"; normalTitle = "Help"; ObjectID = "ifn-78-8ea"; */
+"ifn-78-8ea.normalTitle" = "मदद";
+
+/* Class = "IBUIButton"; normalTitle = "Help"; ObjectID = "k7H-Sk-o0q"; */
+"k7H-Sk-o0q.normalTitle" = "मदद";
+
+/* Class = "IBUILabel"; text = "PolicyDescription"; ObjectID = "ofp-h2-yb0"; */
+"ofp-h2-yb0.text" = "PolicyDescription";
+
+/* Class = "IBUINavigationItem"; title = "Login"; ObjectID = "slR-vh-Hgg"; */
+"slR-vh-Hgg.title" = "लॉगिन करें";
+
+/* Class = "IBUIBarButtonItem"; title = "Apply"; ObjectID = "vJT-pf-bmP"; */
+"vJT-pf-bmP.title" = "लागू करें";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "vrv-kd-Zy8"; */
+"vrv-kd-Zy8.title" = "रद्द करें";
+
+/* Class = "IBUILabel"; text = "By choosing accept, you authorize this application to connect to the following services"; ObjectID = "xsy-aH-UeL"; */
+"xsy-aH-UeL.text" = "स्‍वीकार करें का उपयोग करके, आप इस एप्‍लिकेशन को निम्‍न सेवाओं से कनेक्‍ट होने के लिए अधिकृत करते हैं";
+
+/* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "zx6-iM-rZM"; */
+"zx6-iM-rZM.title" = "अनुमतियाँ";

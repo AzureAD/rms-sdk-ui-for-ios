@@ -33,6 +33,7 @@
 #import "MSErrorViewer.h"
 #import "MSStringEncodingUtils.h"
 #import "MSPolicyEnforcer.h"
+#import "MSConsentManager.h"
 
 @interface MSMainViewController () <MSPolicyPickerDelegate, MSPolicyViewerDelegate, MSAuthenticationCallback, MSEmailInputDelegate>
 
@@ -41,6 +42,7 @@
 @property (strong, nonatomic) MSPolicyPicker *policyPicker;
 @property (strong, nonatomic) MSUserPolicy *userPolicy;
 @property (strong, nonatomic) MSPolicyViewer *policyViewer;
+@property (strong, nonatomic) MSConsentManager *consentManager;
 @property (strong, nonatomic) MSPolicyEnforcer *policyEnforcer;
 @property (strong, nonatomic) NSArray *appSupportedRights;
 @property (strong, nonatomic) NSString *userId;
@@ -82,8 +84,8 @@ static NSString *sContentTypeNotSupportedMessage = @"The original file extension
 
 static NSString *sUserCancelledAuthenticationMessage = @"Authentication operation was cancelled";
 
-static NSUInteger kProtectedFileSelected = 0;
-static NSUInteger kCustomProtectedFileSelected = 1;
+static NSInteger kProtectedFileSelected = 0;
+static NSInteger kCustomProtectedFileSelected = 1;
 
 #pragma mark - Protection related methods
 
@@ -135,6 +137,7 @@ static NSUInteger kCustomProtectedFileSelected = 1;
     [MSProtectedData protectedDataWithProtectedFile:[attachmentUrl path]
                                              userId:self.userId
                              authenticationCallback:self
+                                    consentCallback:self.consentManager
                                             options:Default
                                     completionBlock:^(MSProtectedData *data, NSError *error)
      {
@@ -259,6 +262,7 @@ static NSUInteger kCustomProtectedFileSelected = 1;
     [MSUserPolicy userPolicyWithSerializedPolicy:pl
                                           userId:self.userId
                           authenticationCallback:self
+                                 consentCallback:self.consentManager
                                          options:Default
                                  completionBlock:^(MSUserPolicy *userPolicy, NSError *error)
      {
@@ -631,6 +635,10 @@ static NSUInteger kCustomProtectedFileSelected = 1;
     [super viewDidLoad];
     
     [self setupAppSupportedRights];
+    
+    // This class implements MSConsentCallback protocol
+    self.consentManager = [[MSConsentManager alloc] initWithMainVC:self];
+    
     // The default encoding for the text is UTF8
     self.stringEncoding = NSUTF8StringEncoding;
     
