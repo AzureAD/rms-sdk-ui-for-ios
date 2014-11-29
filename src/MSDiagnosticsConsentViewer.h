@@ -27,6 +27,8 @@
 
 - (void)showDiagnosticsConsent;
 
+- (void)cancelDiagnosticsConsent;
+
 - (BOOL)alertViewActive;
 
 @property (assign, nonatomic) id <MSDiagnosticsConsentDelegate> delegate;

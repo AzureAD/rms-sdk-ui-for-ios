@@ -56,6 +56,15 @@
     [self.alertView show];
 }
 
+- (void)cancelDiagnosticsConsent
+{
+    if (self.alertView.visible == YES)
+    {
+        NSLog(@"Will cancel Diagnostics Consent alert view");
+        [self.alertView dismissWithClickedButtonIndex:-1 animated:YES];
+    }
+}
+
 - (BOOL)alertViewActive
 {
     return self.alertView.visible;
@@ -63,13 +72,16 @@
 
 #pragma mark - UIAlertViewDelegate
 
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
     NSLog(@"User tapped button index %ld", (long)buttonIndex);
-    if (self.delegate != nil)
+    if (alertView == self.alertView)
     {
-        NSLog(@"Will call delegate's onDiagnosticsConsentActionTapped");
-        [self.delegate onDiagnosticsConsentActionTapped:buttonIndex];
+        if (self.delegate != nil)
+        {
+            NSLog(@"Will call delegate's onDiagnosticsConsentActionTapped");
+            [self.delegate onDiagnosticsConsentActionTapped:buttonIndex];
+        }
     }
 }
 
