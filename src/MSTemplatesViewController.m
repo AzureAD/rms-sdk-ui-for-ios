@@ -56,7 +56,7 @@ static const int32_t kCellTagStartingRange = 1000;
     });
 }
 
-- (NSUInteger)supportedInterfaceOrientations
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
     return UIInterfaceOrientationMaskAllButUpsideDown;
 }

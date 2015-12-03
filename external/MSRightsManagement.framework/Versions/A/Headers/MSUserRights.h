@@ -8,6 +8,12 @@
 #import <Foundation/Foundation.h>
 #import "MSSecureCodableObject.h"
 
+/*!
+ 
+ @class
+ @see documentation at - http://msdn.microsoft.com/en-us/library/dn790811(v=vs.85).aspx
+ 
+ */
 @interface MSUserRights : MSSecureCodableObject
 
 - (id)initWithUsers:(NSArray *)users

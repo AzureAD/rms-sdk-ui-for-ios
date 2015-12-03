@@ -1,18 +1,18 @@
-//
-//  MSAuthenticationCallback.h
-//  sdk-ios
-//
-//  Created by Vladimir Postel on 4/2/14.
-//  Copyright (c) 2014 Microsoft. All rights reserved.
-//
+/*
+ * Copyright (C) Microsoft Corporation. All rights reserved.
+ *
+ * FileName:     MSAuthenticationCallback.h
+ *
+ */
 
 #import <Foundation/Foundation.h>
 @class MSAuthenticationParameters;
 
 /*!
- @class
- @abstract
- MSAuthenticationCallback holds the necessary information to retrieve an access token.
+ 
+ @protocol
+ @see documentation at - http://msdn.microsoft.com/en-us/library/dn758312(v=vs.85).aspx
+ 
  */
 @protocol MSAuthenticationCallback <NSObject>
 
