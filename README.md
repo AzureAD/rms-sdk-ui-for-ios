@@ -1,8 +1,8 @@
-UI Library for Microsoft RMS SDK v4.1 for iOS
+UI Library for Microsoft RMS SDK v4.2 for iOS
 ==================
 
 
-The UI Library for Microsoft RMS SDK v4.1 for iOS provides the UI important to your interactive apps development. This library is optional and a developer may choose to build their own UI when using Microsoft RMS SDK v4.1.
+The UI Library for Microsoft RMS SDK v4.2 for iOS provides the UI important to your interactive apps development. This library is optional and a developer may choose to build their own UI when using Microsoft RMS SDK v4.2.
 
 ##Features
 
@@ -27,22 +27,22 @@ You must have downloaded and/or installed following software
 * OS X 10.9 and later is required for all iOS development.
 * Xcode versions (5.0.2 to 6.0.1)
 * Xcode is available through the Mac App Store.
-* The Microsoft Rights Management SDK 4.1 package for iOS.
+* The Microsoft Rights Management SDK 4.2 package for iOS.
 * Authentication library: We recommend that you use the [Azure AD Authentication Library (ADAL)](http://msdn.microsoft.com/en-us/library/jj573266.aspx). However, other authentication libraries that support OAuth 2.0 can be used as well.
 For more information see, [ADAL for iOS](https://github.com/AzureAD/azure-activedirectory-library-for-objc).
-Application under ./rms-sdk-ui-for-ios/samples/RMSSampleApp demonstrates a sample RMS complaint application that uses RMS SDK v4.1, this UI library and ADAL.
+Application under ./rms-sdk-ui-for-ios/samples/RMSSampleApp demonstrates a sample RMS complaint application that uses RMS SDK v4.2, this UI library and ADAL.
 
 ### Setting up development environment
 
-To develop your own RMS complaint iOS application using RMS SDK v4.1 please follow these steps. 
+To develop your own RMS complaint iOS application using RMS SDK v4.2 please follow these steps. 
 
-1. Download Microsoft RMS SDK v4.1 for iOS from [here](http://www.microsoft.com/en-ie/download/details.aspx?id=43674) and setup up your development environment following [this](http://msdn.microsoft.com/en-us/library/dn758308(v=vs.85).aspx) guidance. 
+1. Download Microsoft RMS SDK v4.2 for iOS from [here](http://www.microsoft.com/en-ie/download/details.aspx?id=43674) and setup up your development environment following [this](http://msdn.microsoft.com/en-us/library/dn758308(v=vs.85).aspx) guidance. 
 2. Import UI library project (uilib) under ./rms-sdk-ui-for-ios/ directory. 
 3. Setup ADAL project by following instructions [here](https://github.com/AzureAD/azure-activedirectory-library-for-objc/blob/master/README.md) and import it.
-4. Add library reference of RMS SDK v4.1 project to your application project.
+4. Add library reference of RMS SDK v4.2 project to your application project.
 5. Add library reference of uilib project to your application project.
 6. Add library reference of ADAL project to your application project.
-Note For more information about the RMS SDK v4.1 please visit developer guidance, code examples and API reference. Read the What's new topic for information about API updates, release notes, and frequently asked questions (FAQ).
+Note For more information about the RMS SDK v4.2 please visit developer guidance, code examples and API reference. Read the What's new topic for information about API updates, release notes, and frequently asked questions (FAQ).
 
 
 ## Sample Usage
@@ -100,7 +100,7 @@ Sample application included in the repository demonstrates the usage of this lib
 }
 ```
 
-**Step 3 : Create UserPolicy from TemplateDescriptor chosen in step 3 using MSIPC SDK v4.1 API**
+**Step 3 : Create UserPolicy from TemplateDescriptor chosen in step 3 using MSIPC SDK v4.2 API**
 ```iOS
 #pragma mark - MSPolicyPickerDelegate implementation
 // Called after the user selects a template
