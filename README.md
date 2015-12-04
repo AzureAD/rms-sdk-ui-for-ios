@@ -25,7 +25,7 @@ You must have downloaded and/or installed following software
 
 * Git
 * OS X 10.9 and later is required for all iOS development.
-* Xcode versions (5.0.2 to 6.0.1)
+* Xcode versions (5.0.2 to 7.1)
 * Xcode is available through the Mac App Store.
 * The Microsoft Rights Management SDK 4.2 package for iOS.
 * Authentication library: We recommend that you use the [Azure AD Authentication Library (ADAL)](http://msdn.microsoft.com/en-us/library/jj573266.aspx). However, other authentication libraries that support OAuth 2.0 can be used as well.
