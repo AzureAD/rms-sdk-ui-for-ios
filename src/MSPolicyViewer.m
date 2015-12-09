@@ -15,7 +15,7 @@
  */
 
 #import <QuartzCore/QuartzCore.h>
-#import <MSRightsManagement/MSProtection.h>
+#import <MSRightsManagement/MSRightsManagement.h>
 
 #import "MSModalPopover.h"
 #import "MSPolicyViewer.h"

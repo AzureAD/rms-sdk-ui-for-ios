@@ -3,33 +3,15 @@
  *
  * FileName:     MSProtection.h
  *
+ * This class is used for a common operations in the SDK, for instance: reset state that clears all cache
+ *
  */
 
 #import <Foundation/Foundation.h>
 
-#import "MSAsyncControl.h"
-#import "MSAuthenticationCallback.h"
-#import "MSAuthenticationParameters.h"
-#import "MSConsent.h"
-#import "MSConsentCallback.h"
-#import "MSCustomProtectedData.h"
-#import "MSMutableProtectedData.h"
-#import "MSMutableCustomProtectedData.h"
-#import "MSOfflineCacheLifetimeConstants.h"
-#import "MSPolicyDescriptor.h"
-#import "MSProtectedData.h"
-#import "MSRight.h"
-#import "MSRole.h"
-#import "MSSdkErrorCodes.h"
-#import "MSSecureCodableObject.h"
-#import "MSTemplateDescriptor.h"
-#import "MSUserRights.h"
-#import "MSUserRoles.h"
-#import "MSUserPolicy.h"
 
+@interface MSProtection : NSObject
 
++ (void)resetStateWithCompletionBlock:(void(^)())completionBlock;
 
-
-
-
-
+@end

@@ -12,6 +12,7 @@
 @class MSAsyncControl;
 @class MSPolicyDescriptor;
 @class MSTemplateDescriptor;
+@class MSLicenseMetadata;
 @protocol MSAuthenticationCallback;
 @protocol MSConsentCallback;
 
@@ -69,6 +70,7 @@ typedef NS_ENUM(NSUInteger, MSUserPolicyType) {
 + (MSAsyncControl *)userPolicyWithTemplateDescriptor:(MSTemplateDescriptor *)templateDescriptor
                                               userId:(NSString *)userId
                                        signedAppData:(NSDictionary *)signedAppData
+                                     licenseMetadata:(MSLicenseMetadata *)licenseMetadata
                               authenticationCallback:(id<MSAuthenticationCallback>)authenticationCallback
                                              options:(MSUserPolicyCreationOptions)options
                                      completionBlock:(void(^)(MSUserPolicy *userPolicy, NSError *error))completionBlock;
@@ -78,6 +80,11 @@ typedef NS_ENUM(NSUInteger, MSUserPolicyType) {
                             authenticationCallback:(id<MSAuthenticationCallback>)authenticationCallback
                                            options:(MSUserPolicyCreationOptions)options
                                    completionBlock:(void(^)(MSUserPolicy *userPolicy, NSError *error))completionBlock;
+
+- (MSAsyncControl *)registerForDocTracking:(BOOL)sendRegistrationNotificationMail
+                                    userId:(NSString *)userId
+                    authenticationCallback:(id<MSAuthenticationCallback>)authenticationCallback
+                           completionBlock:(void(^)(BOOL success, NSError *error))completionBlock;
 
 - (BOOL)accessCheck:(NSString *)right;
 

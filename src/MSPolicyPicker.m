@@ -14,7 +14,7 @@
  * PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.
  */
 
-#import <MSRightsManagement/MSProtection.h>
+#import <MSRightsManagement/MSRightsManagement.h>
 
 #import "MSPolicyPicker.h"
 #import "MSPolicyPickHelper.h"

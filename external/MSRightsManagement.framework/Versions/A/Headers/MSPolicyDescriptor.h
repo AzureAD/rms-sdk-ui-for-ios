@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "MSSecureCodableObject.h"
 
+@class MSLicenseMetadata;
 /*!
  
  @class
@@ -37,5 +38,7 @@
 @property(strong) NSMutableDictionary *encryptedAppData;
 
 @property(strong) NSMutableDictionary *signedAppData;
+
+@property(strong) MSLicenseMetadata *licenseMetadata;
 
 @end

@@ -15,7 +15,7 @@
  */
 
 // Protection imports
-#import <MSRightsManagement/MSProtection.h>
+#import <MSRightsManagement/MSRightsManagement.h>
 // Custom protection imports
 #import <MSRightsManagement/MSCustomProtection.h>
 
@@ -549,7 +549,7 @@ static NSInteger kCustomProtectedFileSelected = 1;
     // put in self PreferDeprecatedAlgorithms
     MSUserPolicyCreationOptions options = None;
     
-    [MSUserPolicy userPolicyWithTemplateDescriptor:templateDescriptor userId:self.userId signedAppData:nil authenticationCallback:self options:options completionBlock:^(MSUserPolicy *userPolicy, NSError *error) {
+    [MSUserPolicy userPolicyWithTemplateDescriptor:templateDescriptor userId:self.userId signedAppData:nil licenseMetadata:nil authenticationCallback:self options:options completionBlock:^(MSUserPolicy *userPolicy, NSError *error) {
         NSLog(@"User policy created");
         
         BOOL wasPreviouslyProtected = (self.userPolicy != nil);
