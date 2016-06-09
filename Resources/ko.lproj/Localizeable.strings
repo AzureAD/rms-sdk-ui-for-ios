@@ -38,7 +38,7 @@
 "EMAIL_PROTECTED_FILE_SUBJECT" = "파일이 안전하게 공유되었습니다.";
 
 /* Email body for sharing a protected file */
-"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>첨부한 파일은 안전하게 공유되었습니다.</p><p><a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">여기를 클릭</a>하여 Microsoft Rights Management에 무료로 등록하세요.<br />첨부 파일을 열기 전에 <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">여기</a>에서 Microsoft Rights Management 공유 앱을 설치하세요.</p><p>도움이 추가로 필요하면 <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">여기</a>를 클릭하세요.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\"></span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a>를 통한 안전한 파일 공유</p></body></html>";
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>첨부한 파일은 안전하게 공유되었습니다.</p><p><a href=\"https://go.microsoft.com/fwlink/?LinkId=309469\">여기를 클릭</a>하여 Microsoft Rights Management에 무료로 등록하세요.<br />첨부 파일을 열기 전에 <a href=\"https://go.microsoft.com/fwlink/?LinkId=309467\">여기</a>에서 Microsoft Rights Management 공유 앱을 설치하세요.</p><p>도움이 추가로 필요하면 <a href=\"https://go.microsoft.com/fwlink/?LinkId=311734\">여기</a>를 클릭하세요.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\"></span><a href=\"https://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a>를 통한 안전한 파일 공유</p></body></html>";
 
 /* Ad-hoc policy title for the consent dialog */
 "AD_HOC_POLICY_TITLE" = "사용자의 권한:";
