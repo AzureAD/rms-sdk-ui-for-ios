@@ -11,8 +11,6 @@
 		1C6E5F70198C644500F675A3 /* ADALiOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C6E5F6F198C644500F675A3 /* ADALiOS.bundle */; };
 		1C97BA60199142BE00705F17 /* libMSRightsManagementUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C97B9DD199082C900705F17 /* libMSRightsManagementUI.a */; };
 		1C97BA6A19918DFB00705F17 /* MSRightsManagementUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C97B9DF199082C900705F17 /* MSRightsManagementUIResources.bundle */; };
-		1C97BA911991A23400705F17 /* MSRightsManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C97BA901991A23400705F17 /* MSRightsManagement.framework */; };
-		1C97BA931991A24000705F17 /* MSRightsManagementResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C97BA921991A24000705F17 /* MSRightsManagementResources.bundle */; };
 		1CA4BE551989D5B000A8B963 /* MSPolicyEnforcer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4BE531989D5B000A8B963 /* MSPolicyEnforcer.m */; };
 		52B48ABB19ACEF45005C9F1B /* MSConsentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B48ABA19ACEF45005C9F1B /* MSConsentManager.m */; };
 		69EB85A4173BE06C00B3DA78 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69EB85A6173BE06C00B3DA78 /* Localizable.strings */; };
@@ -35,7 +33,6 @@
 		F56340F916D11C100056A107 /* lock_white.png in Resources */ = {isa = PBXBuildFile; fileRef = F56340F716D11C100056A107 /* lock_white.png */; };
 		F5B2EF451796A1C5004EA27B /* icon_57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B2EF431796A1C5004EA27B /* icon_57@2x.png */; };
 		F5B2EF461796A1C5004EA27B /* icon_72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B2EF441796A1C5004EA27B /* icon_72@2x.png */; };
-		F5D8202016CA354100765D15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D8201F16CA354100765D15 /* UIKit.framework */; };
 		F5D8202216CA354100765D15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D8202116CA354100765D15 /* Foundation.framework */; };
 		F5D8202416CA354100765D15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D8202316CA354100765D15 /* CoreGraphics.framework */; };
 		F5D8202C16CA354100765D15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D8202B16CA354100765D15 /* main.m */; };
@@ -48,6 +45,8 @@
 		F5E04ED7179574720083B7AB /* mail_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E04ED3179574720083B7AB /* mail_black@2x.png */; };
 		F5E04ED8179574720083B7AB /* mail_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E04ED4179574720083B7AB /* mail_white@2x.png */; };
 		F5E3689C16D0DFEF00A6AFE3 /* icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E3689B16D0DFEF00A6AFE3 /* icon_72.png */; };
+		F99EA1FF1D1B7B57000D0043 /* MSRightsManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99EA1FE1D1B7B57000D0043 /* MSRightsManagement.framework */; };
+		F99EA2011D1B7B67000D0043 /* MSRightsManagementResources.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = F99EA2001D1B7B67000D0043 /* MSRightsManagementResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,8 +77,6 @@
 		1C6E5F69198C643A00F675A3 /* ADALiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADALiOS.framework; path = ../../external/ADALiOS.framework; sourceTree = "<group>"; };
 		1C6E5F6F198C644500F675A3 /* ADALiOS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ADALiOS.bundle; path = ../../external/ADALiOS.framework/Versions/A/Resources/ADALiOS.bundle; sourceTree = "<group>"; };
 		1C97B9D6199082C900705F17 /* UILib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UILib.xcodeproj; path = ../../UILib.xcodeproj; sourceTree = "<group>"; };
-		1C97BA901991A23400705F17 /* MSRightsManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MSRightsManagement.framework; path = ../../external/MSRightsManagement.framework; sourceTree = "<group>"; };
-		1C97BA921991A24000705F17 /* MSRightsManagementResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MSRightsManagementResources.bundle; path = ../../external/MSRightsManagement.framework/Versions/A/Resources/MSRightsManagementResources.bundle; sourceTree = "<group>"; };
 		1CA4BE531989D5B000A8B963 /* MSPolicyEnforcer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSPolicyEnforcer.m; path = IPApp/MSPolicyEnforcer.m; sourceTree = SOURCE_ROOT; };
 		1CA4BE541989D5B000A8B963 /* MSPolicyEnforcer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSPolicyEnforcer.h; path = IPApp/MSPolicyEnforcer.h; sourceTree = SOURCE_ROOT; };
 		523169F419D5E94B0082F161 /* RMSSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RMSSampleApp.entitlements; sourceTree = "<group>"; };
@@ -161,6 +158,8 @@
 		F5E04ED3179574720083B7AB /* mail_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mail_black@2x.png"; path = "IPApp/Icons/mail_black@2x.png"; sourceTree = SOURCE_ROOT; };
 		F5E04ED4179574720083B7AB /* mail_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mail_white@2x.png"; path = "IPApp/Icons/mail_white@2x.png"; sourceTree = SOURCE_ROOT; };
 		F5E3689B16D0DFEF00A6AFE3 /* icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_72.png; path = Icons/icon_72.png; sourceTree = "<group>"; };
+		F99EA1FE1D1B7B57000D0043 /* MSRightsManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MSRightsManagement.framework; path = "../../../AD-IP-rms-sdk-for-apple/build/Release-iphoneos/MSRightsManagement.framework"; sourceTree = "<group>"; };
+		F99EA2001D1B7B67000D0043 /* MSRightsManagementResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MSRightsManagementResources.bundle; path = "../../../AD-IP-rms-sdk-for-apple/build/Release-iphoneos/MSRightsManagementResources.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,12 +167,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F99EA2011D1B7B67000D0043 /* MSRightsManagementResources.bundle in Frameworks */,
+				F99EA1FF1D1B7B57000D0043 /* MSRightsManagement.framework in Frameworks */,
 				1C97BA60199142BE00705F17 /* libMSRightsManagementUI.a in Frameworks */,
 				BE89A93218A932B800145B2C /* libresolv.dylib in Frameworks */,
 				90F78A0E1858DA7000A3C7D9 /* CoreData.framework in Frameworks */,
 				BE69140D171351F200F7C159 /* Security.framework in Frameworks */,
-				1C97BA911991A23400705F17 /* MSRightsManagement.framework in Frameworks */,
-				F5D8202016CA354100765D15 /* UIKit.framework in Frameworks */,
 				F5D8202216CA354100765D15 /* Foundation.framework in Frameworks */,
 				F5D8202416CA354100765D15 /* CoreGraphics.framework in Frameworks */,
 				1C6E5F6C198C643A00F675A3 /* ADALiOS.framework in Frameworks */,
@@ -216,8 +215,8 @@
 		F5D8201E16CA354100765D15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1C97BA921991A24000705F17 /* MSRightsManagementResources.bundle */,
-				1C97BA901991A23400705F17 /* MSRightsManagement.framework */,
+				F99EA2001D1B7B67000D0043 /* MSRightsManagementResources.bundle */,
+				F99EA1FE1D1B7B57000D0043 /* MSRightsManagement.framework */,
 				1C6E5F6F198C644500F675A3 /* ADALiOS.bundle */,
 				1C6E5F69198C643A00F675A3 /* ADALiOS.framework */,
 				BE89A93118A932B800145B2C /* libresolv.dylib */,
@@ -433,7 +432,6 @@
 				F508374D16CD3AEC00A420F3 /* icon_57.png in Resources */,
 				F5E3689C16D0DFEF00A6AFE3 /* icon_72.png in Resources */,
 				F5B2EF451796A1C5004EA27B /* icon_57@2x.png in Resources */,
-				1C97BA931991A24000705F17 /* MSRightsManagementResources.bundle in Resources */,
 				F5B2EF461796A1C5004EA27B /* icon_72@2x.png in Resources */,
 				F5E04ED5179574720083B7AB /* lock_black@2x.png in Resources */,
 				F5E04ED6179574720083B7AB /* lock_white@2x.png in Resources */,
