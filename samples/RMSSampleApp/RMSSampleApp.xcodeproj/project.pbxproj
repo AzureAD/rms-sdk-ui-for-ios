@@ -48,7 +48,6 @@
 		F5E04ED7179574720083B7AB /* mail_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E04ED3179574720083B7AB /* mail_black@2x.png */; };
 		F5E04ED8179574720083B7AB /* mail_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E04ED4179574720083B7AB /* mail_white@2x.png */; };
 		F5E3689C16D0DFEF00A6AFE3 /* icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E3689B16D0DFEF00A6AFE3 /* icon_72.png */; };
-
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,7 +161,6 @@
 		F5E3689B16D0DFEF00A6AFE3 /* icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_72.png; path = Icons/icon_72.png; sourceTree = "<group>"; };
 		F99EA2161D1C8EFF000D0043 /* MSRightsManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MSRightsManagement.framework; path = ../../external/MSRightsManagement.framework; sourceTree = "<group>"; };
 		F99EA21A1D1C8F24000D0043 /* MSRightsManagementResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MSRightsManagementResources.bundle; path = ../../external/MSRightsManagement.framework/Versions/A/Resources/MSRightsManagementResources.bundle; sourceTree = "<group>"; };
-		F99EA21C1D1C8F49000D0043 /* MSRightsManagement */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = MSRightsManagement; path = ../../external/MSRightsManagement.framework/Versions/A/MSRightsManagement; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,7 +216,6 @@
 		F5D8201E16CA354100765D15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F99EA21C1D1C8F49000D0043 /* MSRightsManagement */,
 				F99EA21A1D1C8F24000D0043 /* MSRightsManagementResources.bundle */,
 				F99EA2161D1C8EFF000D0043 /* MSRightsManagement.framework */,
 				1C6E5F6F198C644500F675A3 /* ADALiOS.bundle */,
