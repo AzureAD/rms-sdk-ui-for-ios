@@ -21,6 +21,10 @@ All code is licensed under MICROSOFT SOFTWARE LICENSE TERMS, MICROSOFT RIGHTS MA
 
 If you find a security issue with our libraries or services please report it to [secure@microsoft.com](mailto:secure@microsoft.com) with as much detail as possible. Your submission may be eligible for a bounty through the [Microsoft Bounty](http://aka.ms/bugbounty) program. Please do not post security issues to GitHub Issues or any other public site. We will contact you shortly upon receiving the information. We encourage you to get notifications of when security incidents occur by visiting [this page](https://technet.microsoft.com/en-us/security/dd252948) and subscribing to Security Advisory Alerts.
 
+## We Value and Adhere to the Microsoft Open Source Code of Conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
 
 ## How to use this library
 
@@ -167,22 +171,6 @@ Sample application included in the repository demonstrates the usage of this lib
 
     self.currentConsentsCompletionBlock(self.currentConsents);
 }
-
-## License
-
-Copyright © Microsoft Corporation, All Rights Reserved
-
-Licensed under MICROSOFT SOFTWARE LICENSE TERMS, 
-MICROSOFT RIGHTS MANAGEMENT SERVICE SDK UI LIBRARIES;
-You may not use this file except in compliance with the License.
-See the license for specific language governing permissions and limitations.
-You may obtain a copy of the license (RMS SDK UI libraries - EULA.DOCX) at the 
-root directory of this project.
-
-THIS CODE IS PROVIDED AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS
-OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION
-ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A
-PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.
 
 
 
