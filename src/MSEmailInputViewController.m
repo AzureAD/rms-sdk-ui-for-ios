@@ -144,14 +144,14 @@
 {
     NSLog(@"Privacy tapped..");
     // open the link in Safari app and moves our app to the background
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://go.microsoft.com/fwlink/?LinkId=317563"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://go.microsoft.com/fwlink/?LinkId=317563"]];
 }
 
 - (IBAction)onHelpTapped:(id)sender
 {
     NSLog(@"Help tapped..");
     // open the link in Safari app and moves our app to the background
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://go.microsoft.com/fwlink/?LinkId=324513"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://go.microsoft.com/fwlink/?LinkId=324513"]];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
