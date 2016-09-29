@@ -1,98 +1,146 @@
+/* OK button text */
+"OK_BUTTON_TEXT" = "OK";
+
+/* Cancel button text */
+"CANCEL_BUTTON_TEXT" = "Cancel";
+
+/* Owner message format in the policy view, to be blended with the owner name and the filename to be shared */
+"OWNER_MESSAGE_FORMAT" = "%@ has shared this file with you. You are expected to honor these permissions:";
+
+/* Message to show the user when no open in options exist */
+"NO_OPEN_IN_OPTIONS_TEXT" =  "There is no application installed on your device which can open %@";
+
+/* Message to show the user when audited extraction right is not allowed */
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "This file can not be opened as the owner has not allowed to open the file in an application other than RMS sharing application";
+
+/* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
+"NO_MAIL_ACCOUNTS_TEXT" = "No mail accounts were found. Please go to Settings->Mail and add your mail account";
+
+/* Message to indicate that the pfile is corrupted and could not be opened */
+"COULD_NOT_OPEN_CORRUPTED_PFILE_TEXT" = "The file seems to be corrupted. You can ask sender to protect it and send again";
+
+/* Back button text when a protected document view controller is presented in create document state */
+"PROTECTED_DOCUMENT_VC_PERMISSIONS_BACK_BUTTON_TEXT" = "Permissions";
+
+/* Share Protected screen title */
+"SHARE_PROTECTED_TITLE" = "Share Protected";
+
+/* Share menu title */
+"SHARE_MENU_TITLE" = "How would you like to share this file?";
+
+/* Email button title */
+"EMAIL_BUTTON_TITLE" = "Email";
+
+/* Open in... button title */
+"OPEN_IN_BUTTON_TITLE" = "Open in Another App";
+
+/* Email subject for sharing a protected file */
+"EMAIL_PROTECTED_FILE_SUBJECT" = "I have securely shared file(s) with you";
+
+/* Email body for sharing a protected file */
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>I have securely shared the attached file(s) with you.</p><p>Sign up for Microsoft Rights Management <a href=\"https://go.microsoft.com/fwlink/?LinkId=309469\">here</a> for free.<br />Before opening the attachment, install the Microsoft Rights Management sharing app from <a href=\"https://go.microsoft.com/fwlink/?LinkId=309467\">here</a>.</p><p>Need more help? Click <a href=\"https://go.microsoft.com/fwlink/?LinkId=311734\">here</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Securely sharing your files with </span><a href=\"https://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
+
+/* Ad-hoc policy title for the consent dialog */
+"AD_HOC_POLICY_TITLE" = "Your permissions:";
+
+/* A message to show when the text did not loaded completely because it is too long */
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "The text was partially loaded because it is too long. To view the full text please open the file on your PC using RMS sharing app.";
+
 /******************
  * Error Viewer
  ******************/
 
 /* The title for the error viewer */
-"ErrorTitle" = "Windows Azure AD Rights Management SDK қатесі";
+"ErrorTitle" = "Windows Azure AD Rights Management SDK Error";
 
 /* The cancel button text of the error viewer */
-"ErrorCancelButton" = "Бас тарту";
+"ErrorCancelButton" = "Cancel";
 
 /* The report e-mail button text of the error viewer */
-"ErrorReportButton" = "Эл. хабар жіберу";
+"ErrorReportButton" = "Send e-mail";
 
 /* The general error text which displayed in the error viewer */
-"ErrorMessage" = "Windows Azure AD Rights Management SDK жинағында қате табылды. Осы электрондық хабарды жіберу арқылы өнімімізді жақсартуға көмектесіңіз.";
+"ErrorMessage" = "You've found a problem with the Windows Azure AD Rights Management SDK. Please help us improve our product by sending this e-mail.";
 
 /******************
  * Consent Viewer
  ******************/
 
 /* The message of the consent viewer */
-"ConsentMessage" = "Кешірім сұраймыз. Қате орын алды. Мәселені түзету үшін қате журналдарын жібере аласыз ба?";
+"ConsentMessage" = "We're sorry. An error has occurred. Can you send us the error logs so we can fix the problem?";
 
 /* The OK button text of the consent viewer */
 "ConsentOKButton" = "OK";
 
 /* The informative text of the consent viewer in OS X */
-"ConsentInformativeText_OSX" = "Егер \"Қателер журналдарын жіберу\" опциясы таңдалса, диагностикалық ақпаратты қамтитын қателер журналдары Microsoft корпорациясына жіберіледі.";
+"ConsentInformativeText_OSX" = "If you choose Send Error Logs, error logs containing diagnostic information will be sent to Microsoft.";
 
 /* The Send button text of the consent viewer in OS X */
-"ConsentSendButton" = "Қателер журналдарын жіберу";
+"ConsentSendButton" = "Send Error Logs";
 
 /******************
  * Policy Picker
  ******************/
 
 /* The 'no protection' option text in the policy picker */
-"TextUnrestrictedAccess" = "Қорғау жоқ";
+"TextUnrestrictedAccess" = "No Protection";
 
 /* The 'no permissions' option text in the policy picker */
-"TextNoPermissions" = "Рұқсаттар жоқ";
+"TextNoPermissions" = "No Permissions";
 
 /* The 'Custom Permissions' option (aka ad-hoc publishing) text in the policy picker */
-"TextCustomRights" = "Теңшелетін рұқсаттар...";
+"TextCustomRights" = "Custom Permissions...";
 
 /* The label of the 'remove protection' button */
-"RemoveProtection" = "Жою";
+"RemoveProtection" = "Remove";
 
 /********************************
  * TemplatesViewController - OSX
  ********************************/
 
 /* The 'Select Permission' label in the policy picker in OSX */
-"PolicyPickSelectPermissionLabel" = "Рұқсатты таңдау:";
+"PolicyPickSelectPermissionLabel" = "Select Permission:";
 
 /* The 'Choose Protection' label in the policy picker in OSX */
-"PolicyPickChooseProtectionLabel" = "Қорғанысты таңдау";
+"PolicyPickChooseProtectionLabel" = "Choose Protection";
 
 /* The 'Apply' button in the policy picker in OSX */
-"PolicyPickApplyButton" = "Қолдану";
+"PolicyPickApplyButton" = "Apply";
 
 /***********************
  * Custom Policy Picker
  ***********************/
 
 /* The title for the custom policy picker view */
-"CustomPolicyMainTitle" = "қорғауды қосу";
+"CustomPolicyMainTitle" = "add protection";
 
-/* The users’ email input field */
-"CustomPolicyUsersEmailFieldTitle" = "Пайдаланушылар:";
+/* The users‚Äö√Ñ√¥ email input field */
+"CustomPolicyUsersEmailFieldTitle" = "Users:";
 
-/* Invalid input error message for the users’ email input field */
-"CustomPolicyInvalidInputLabel" = "Келесі электрондық пошта мекенжайлары жарамсыз немесе электрондық пошта провайдерлеріне қолдау көрсетілмейді";
+/* Invalid input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyInvalidInputLabel" = "The following email addresses are invalid or use email providers that are not supported";
 
-/* Empty input error message for the users’ email input field */
-"CustomPolicyEmptyInputLabel" = "Кем дегенде бір пайдаланушыны көрсетіңіз";
+/* Empty input error message for the users‚Äö√Ñ√¥ email input field */
+"CustomPolicyEmptyInputLabel" = "Please specify at least one user";
 
-/* The label for the ‘Allow devices consumption' checkbox */
-"AllowDeviceConsumption" = "Құрылғылармен тұтынуды рұқсат ету";
+/* The label for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumption" = "Allow consumption with devices";
 
-/* The help tooltip for the ‘Allow devices consumption' checkbox */
-"AllowDeviceConsumptionHelp" = "Мобильді құрылғы пайдаланушыларына файлдарды көру үшін Microsoft RMS қолданбасын орнату қажет";
+/* The help tooltip for the ‚Äö√Ñ√≤Allow devices consumption' checkbox */
+"AllowDeviceConsumptionHelp" = "Mobile device users will need to install the Microsoft RMS application to view files";
 
 /* The role and rights picker view */
-"CustomPolicyPermissions" = "Рұқсаттар:";
+"CustomPolicyPermissions" = "Permissions:";
 
-/* The label for the ‘Allow offline consumption' checkbox */
-"CustomPolicyOfflineCheckboxLabel" = "Пайдаланушылар бұл файлды әр ашқан сайын жүйеге кіруі қажет болады";
+/* The label for the ‚Äö√Ñ√≤Allow offline consumption' checkbox */
+"CustomPolicyOfflineCheckboxLabel" = "Users must login every time they open this file";
 
-/* The label for the ‘Valid until' checkbox */
-"CustomPolicyValidUntilCheckboxLabel" = "Мазмұн мерзімінің бітуі";
+/* The label for the ‚Äö√Ñ√≤Valid until' checkbox */
+"CustomPolicyValidUntilCheckboxLabel" = "Content expires on";
 
 /* Links */
-"PrivacyLink" = "Құпиялылық";
-"HelpLink" = "Анықтама";
+"PrivacyLink" = "Privacy";
+"HelpLink" = "Help";
 
 
 /******************
@@ -100,117 +148,99 @@
  ******************/
 
 /* Generic name for no-protection policy */
-"NoProtectionPolicyName" = "Қорғау жоқ";
+"NoProtectionPolicyName" = "No protection";
 
 /* Generic Description of no-protection policy */
-"NoProtectionPolicyDescription" = "Бұл мазмұн қорғалмаған.";
+"NoProtectionPolicyDescription" = "This content isn't protected.";
 
 /* Generic name for an ad-hoc protection policy */
-"AdhocPolicyName" = "ШЕКТЕУЛІ ҚАТЫНАС";
+"AdhocPolicyName" = "RESTRICTED ACCESS";
 
 /* Generic Description of an ad-hoc protection policy */
-"AdhocPolicyDescription" = "Рұқсат қазіргі уақытта шектеулі. Бұл мазмұнға тек көрсетілген пайдаланушылар қатынаса алады.";
+"AdhocPolicyDescription" = "Permission is currently restricted. Only specified users can access this content.";
 
 /******************
  * Policy Viewer
  ******************/
 
 /* The title for the permissions section */
-"PolicyPermissionsTitle" = "Пайдалану құқықтары";
+"PolicyPermissionsTitle" = "Use rights";
 
 /* The title for the policy template secion */
-"PolicyTemplatesTitle" = "Рұқсаттарыңыз";
+"PolicyTemplatesTitle" = "Your permissions";
 
 /* The title for the 'granted by' email section */
-"PolicyGrantedByTitle" = "Беруші";
+"PolicyGrantedByTitle" = "Granted by";
 
 /* The label for the 'edit permissions' button */
-"EditPermissions" = "Рұқсаттарды өңдеу";
+"EditPermissions" = "Edit Permissions";
 
 /* The label for the 'edit' button */
-"EditButton" = "Өңдеу";
+"EditButton" = "Edit";
 
 /* Policy Viewer Titles */
-"NonOwnerContent" = "Осы файл үшін келесі рұқсаттарыңыз бар:";
-"OwnerContent" = "Осы файлға келесі рұқсаттарды орнаттыңыз:";
-"RoleContent" = "Сіз осы файл үшін %@. Рұқсаттарыңыз:";
+"NonOwnerContent" = "You have the following permissions for this file:";
+"OwnerContent" = "You have set the following permissions on this file:";
+"RoleContent" = "You are a %@ for this file. Your permissions are:";
 
 /* Role names */
-"ViewerRole" = "Қарап шығу құралы";
-"ReviewerRole" = "Сараптаушы";
-"CoAuthorRole" = "Серіктес автор";
-"CoOwnerRole" = "Ортақ иеленуші";
+"ViewerRole" = "Viewer";
+"ReviewerRole" = "Reviewer";
+"CoAuthorRole" = "Co-author";
+"CoOwnerRole" = "Co-owner";
 
 /* The title for the policy template section in OSX */
-"PolicyTemplatesTitle_OSX" = "Рұқсаттарыңыз:";
-
-/******************
- * Error messages
- ******************/
-
-"Error_General" = "Windows Azure AD Rights Management жүйесімен байланысу кезінде ақаулық пайда болды. Егер ақаулық жойылмаса, әкімшіге хабарласыңыз.";
-
-"Error_CommunicationIssue" = "Жүйеге кіру кезінде қате пайда болды. Интернет қосылымын тексеріп, әрекетті қайталаңыз.";
-
-"Error_DeviceRejected" = "Құрылғының Windows Azure AD Rights Management пайдалануға рұқсаты жоқ. Қосымша ақпарат алу үшін әкімшіңізге хабарласыңыз.";
-
-"Error_ConsumptionRights" = "Бұл мазмұнды көруге рұқсаттарыңыз жоқ. Рұқсат сұрау үшін мазмұн иесіне хабарласыңыз.";
-
-"Error_ConsumptionRightsEmailURL" = "Бұл мазмұнды көруге рұқсат жоқ. Рұқсат сұрау үшін, %@ хабарласыңыз.";
-
-"Error_ConsumptionRightsGeneralURL" = "Бұл мазмұнды көруге рұқсат жоқ. Рұқсат сұрау үшін, %@ торабына өтіңіз.";
-
-"Error_RMS_OnPremServersNotSupported" = "Жергілікті AD RMS серверіңіз құрылғыңызға қолдау көрсетпейді, сондықтан бұл мазмұнның кодын ашу мүмкін емес. Қосымша ақпарат алу үшін әкімшіңізге хабарласыңыз.";
-
-"Error_UnsupportedSdkVersion" = "Осы бағдарламада пайдаланылатын RMS бағдарламалық құралын жаңарту керек. Бұл бағдарламаны алу үшін, техникалық қолдау қызметіне немесе жаңартуды сұрау үшін әкімшіңізге хабарласыңыз.";
-
-"Error_InvalidParameter" = "Windows Azure AD Rights Management пайдаланатын бағдарламада күтпеген әрекет жасалды. Бұл бағдарлама туралы техникалық қолдау қызметіне хабарласыңыз.";
-
-"Error_InvalidPL" = "Windows Azure AD Rights Management пайдаланатын бағдарламада күтпеген әрекет жасалды. Бұл бағдарлама туралы техникалық қолдау қызметіне хабарласыңыз.";
-
-"Error_ServiceUnavailability" = "Windows Azure AD Rights Management жүйесімен байланысу кезінде ақаулық пайда болды. Егер ақаулық жойылмаса, әкімшіге хабарласыңыз.";
-
-"Error_PublishingLicenseExpired" = "Бұл мазмұнды көре алмайсыз, себебі уақыт шектеуі аяқталды. Бұл мазмұнды жаңарту үшін мазмұн иесіне немесе әкімшіңізге хабарласыңыз.";
-
-"Error_PublishingLicenseExpiredEmailURL" = "Берілген уақыттың аяқталуына байланысты осы мазмұнды көрсету мүмкін емес. Осы мазмұнды жаңарту үшін %@ немесе әкімшіге хабарласыңыз.";
-
-"Error_PublishingLicenseExpiredGeneralURL" = "Берілген уақыттың аяқталуына байланысты осы мазмұнды көрсету мүмкін емес. Осы мазмұнды жаңарту үшін %@ кіріңіз немесе әкімшіге хабарласыңыз.";
-
-"Error_NoPublishingRights" = "Өкінішке орай, осы ұйым үшін жаңа қорғалған мазмұнды жасауға рұқсатыңыз жоқ. Басқа пайдаланушы ретінде кіріп көріңіз немесе қосымша рұқсаттарды алу үшін әкімшіге хабарласыңыз.";
-
-"Error_REST_ServiceNotEnabled" = "Windows Azure AD Rights Management жүйесі ұйымыңыз үшін қосылмаған. Қосымша мәліметтерді алу үшін әкімшіге хабарласыңыз.";
-
-"Error_Auth_Already_In_Progress" = "Өкінішке орай, жүйеге кіру әрекеті жасалуда, әрекетті қайталаудан бұрын алдыңғы әрекетіңізді аяқтаңыз.";
-
-"Error_Auth_Failed_Bad_Token" = "Түпнұсқалық растама орындалмады, кіру таңбалауышы жарамсыз.";
+"PolicyTemplatesTitle_OSX" = "Your permissions are:";
 
 /******************
  * Common Rights
  ******************/
 
-"Owner" = "Толық басқару";
+"Owner" = "Full Control";
 
-"View" = "Көру";
+"View" = "View";
 
 /****************************
  * Editable Document Rights
  ****************************/
 
-"Edit" = "Өңдеу";
+"Edit" = "Edit";
 
-"Export" = "Басқаша сақтау";
+"Export" = "Save as";
 
-"Extract" = "Көшіру";
+"Extract" = "Copy";
 
-"Print" = "Басып шығару";
+"Print" = "Print";
+
+"Comment" = "Comment";
 
 /******************
  * Email Rights
  ******************/
 
-"Reply" = "Жауап беру";
+"Reply" = "Reply";
 
-"ReplyAll" = "Барлығына жауап беру";
+"ReplyAll" = "Reply All";
 
-"Forward" = "Қайта жіберу";
+"Forward" = "Forward";
+
+/****************************
+ * Diagnostics Consent View
+ ****************************/
+
+/* The title for the diagnostics consent alert view */
+"DiagnosticsConsentTitle" = "Improve RMS";
+
+/* The description text for the diagnostics consent */
+"DiagnosticsConsentText" = "Send information to help improve RMS? The information will not be used to identify or contact you.";
+
+/* The 'yes' button text of the diagnostics consent alert view */
+"DiagnosticsConsentYesButton" = "Yes";
+
+/* The 'no thanks' button text of the diagnostics consent alert view */
+"DiagnosticsConsentNoButton" = "No thanks";
+
+/* The 'learn more' button text of the diagnostics consent alert view */
+"DiagnosticsConsentLearnButton" = "Learn More";
+
 

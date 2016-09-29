@@ -11,7 +11,7 @@
 "NO_OPEN_IN_OPTIONS_TEXT" =  "在您的设备上没有安装可打开 %@ 的应用程序";
 
 /* Message to show the user when audited extraction right is not allowed */
-"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "\"文件无法打开是因为不允许所有者在除 RMS 共享应用程序之外的应用程序中打开文件\n\"";
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "\"文件无法打开是因为不允许所有者在除 RMS 共享应用程序之外的应用程序中打开文件\"";
 
 /* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
 "NO_MAIL_ACCOUNTS_TEXT" = "未找到邮件账户。请转至设置 -> 邮件，添加您的邮件帐户";
@@ -38,7 +38,7 @@
 "EMAIL_PROTECTED_FILE_SUBJECT" = "我已安全地与您共享了文件";
 
 /* Email body for sharing a protected file */
-"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>我已与您安全地共享了附加文件。</p><p>免费<a href=\"https://go.microsoft.com/fwlink/?LinkId=309469\">在此</a> 注册 Microsoft Rights Management。<br />在打开附件之前，请从<a href=\"https://go.microsoft.com/fwlink/?LinkId=309467\">此处</a>安装 Microsoft Rights Management 共享应用程序。</p><p>需要更多帮助？请单击<a href=\"https://go.microsoft.com/fwlink/?LinkId=311734\">此处</a>。</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">使用<a href=\"https://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a>安全共享您的文件</span></p></body></html>";
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>我已与您安全地共享了附加文件。</p><p>免费<a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">在此</a> 注册 Microsoft Rights Management。<br />在打开附件之前，请从<a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">此处</a>安装 Microsoft Rights Management 共享应用程序。</p><p>需要更多帮助？请单击<a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">此处</a>。</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">使用<a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a>安全共享您的文件</span></p></body></html>";
 
 /* Ad-hoc policy title for the consent dialog */
 "AD_HOC_POLICY_TITLE" = "您的权限：";

@@ -53,7 +53,7 @@
 /* Class = "IBUILabel"; text = "Template"; ObjectID = "eWb-FU-XFE"; */
 "eWb-FU-XFE.text" = "Plantilla";
 
-/* Class = "IBUILabel"; text = "Enter your organizational email address"; ObjectID = "hOy-kG-IDD"; */
+/* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "hOy-kG-IDD"; */
 "hOy-kG-IDD.text" = "Escriba la dirección de correo electrónico de su organización";
 
 /* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */

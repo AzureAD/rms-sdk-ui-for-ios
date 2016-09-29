@@ -29,7 +29,7 @@
 /* Class = "IBUITextField"; placeholder = "someone@example.com"; ObjectID = "UAd-fS-8As"; */
 "UAd-fS-8As.placeholder" = "proverka@example.com";
 
-/* Class = "IBUILabel"; text = "Enter your organizational email address"; ObjectID = "UG3-sj-cQ9"; */
+/* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "UG3-sj-cQ9"; */
 "UG3-sj-cQ9.text" = "Введите адрес электронной почты организации";
 
 /* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "UkI-7g-c1c"; */

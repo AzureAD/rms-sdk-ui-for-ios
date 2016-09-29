@@ -29,7 +29,7 @@
 /* Class = "IBUITextField"; placeholder = "someone@example.com"; ObjectID = "UAd-fS-8As"; */
 "UAd-fS-8As.placeholder" = "someone@example.com";
 
-/* Class = "IBUILabel"; text = "Enter your organizational email address"; ObjectID = "UG3-sj-cQ9"; */
+/* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "UG3-sj-cQ9"; */
 "UG3-sj-cQ9.text" = "Πληκτρολογήστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου του οργανισμού σας";
 
 /* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "UkI-7g-c1c"; */
@@ -66,7 +66,7 @@
 "vrv-kd-Zy8.title" = "Άκυρο";
 
 /* Class = "IBUILabel"; text = "By choosing accept, you authorize this application to connect to the following services"; ObjectID = "xsy-aH-UeL"; */
-"xsy-aH-UeL.text" = "Αν αποδεχτείτε, εξουσιοδοτείτε την εφαρμογή για να συνδέεται με τις ακόλουθες υπηρεσίες";
+"xsy-aH-UeL.text" = "Επιλέγοντας \"Αποδοχή\", εξουσιοδοτείτε την εφαρμογή για να συνδέεται με τις ακόλουθες υπηρεσίες";
 
 /* Class = "IBUINavigationItem"; title = "Permissions"; ObjectID = "zx6-iM-rZM"; */
 "zx6-iM-rZM.title" = "Δικαιώματα";

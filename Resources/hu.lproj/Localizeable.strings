@@ -11,7 +11,7 @@
 "NO_OPEN_IN_OPTIONS_TEXT" =  "Az eszközön nincs telepítve olyan alkalmazás, amellyel megnyithatná: %@";
 
 /* Message to show the user when audited extraction right is not allowed */
-"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Ezt a fájlt nem lehet megnyitni, mert a tulajdonos csak az RMS-megosztó alkalmazásban történő megnyitását engedélyezte";
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Ezt a fájlt nem lehet megnyitni, mert a tulajdonos csak az RMS megosztó alkalmazásban történő megnyitását engedélyezte.";
 
 /* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
 "NO_MAIL_ACCOUNTS_TEXT" = "Nincsenek e-mail fiókok. Lépjen a Beállítások->Levelezés lehetőségre, és adja hozzá e-mail fiókját";
@@ -38,13 +38,13 @@
 "EMAIL_PROTECTED_FILE_SUBJECT" = "Biztonságos módszerrel osztottam meg fájl(oka)t Önnel";
 
 /* Email body for sharing a protected file */
-"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Biztonságosan osztottam meg Önnel a mellékelt fájl(oka)t.</p><p>Iratkozzon fel a Microsoft Rights Management szolgáltatásra ingyenesen <a href=\"https://go.microsoft.com/fwlink/?LinkId=309469\">itt</a>.<br />A melléklet megnyitása előtt telepítse a Microsoft Rights Management megosztóalkalmazást <a href=\"https://go.microsoft.com/fwlink/?LinkId=309467\">innen</a>.</p><p>Segítségre van szüksége? Kattintson <a href=\"https://go.microsoft.com/fwlink/?LinkId=311734\">ide</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Fájlok biztonságos megosztása a </span><a href=\"https://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management segítségével</a></p></body></html>";
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Biztonságosan osztottam meg Önnel a mellékelt fájl(oka)t.</p><p>Iratkozzon fel a Microsoft Rights Management szolgáltatásra ingyenesen <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">itt</a>.<br />A melléklet megnyitása előtt telepítse a Microsoft Rights Management megosztóalkalmazást <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">innen</a>.</p><p>Segítségre van szüksége? Kattintson <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">ide</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Fájlok biztonságos megosztása a </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management segítségével</a></p></body></html>";
 
 /* Ad-hoc policy title for the consent dialog */
 "AD_HOC_POLICY_TITLE" = "Engedélyei:";
 
 /* A message to show when the text did not loaded completely because it is too long */
-"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "A szöveg betöltése csak részlegesen valósult meg, mert a szöveg túl hosszú. A teljes szöveg megnyitásához használja az RMS megosztóalkalmazást számítógépén.";
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "A szöveg betöltése csak részlegesen valósult meg, mert a szöveg túl hosszú. A teljes szöveg megnyitásához használja az RMS megosztó alkalmazást számítógépén.";
 
 /******************
  * Error Viewer

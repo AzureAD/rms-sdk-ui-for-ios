@@ -6,7 +6,7 @@
 "0ta-3O-tVe.title" = "Masuk";
 
 /* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "4Dp-5k-jMW"; */
-"4Dp-5k-jMW.text" = "Penggunaan dokumen yang dilindungi dengan Pengelola Hak Microsoft dapat dilacak oleh pengirim dan/atau administrator TI organisasinya.";
+"4Dp-5k-jMW.text" = "Penggunaan dokumen yang dilindungi dengan Microsoft Rights Management dapat dilacak oleh pengirim dan/atau administrator TI organisasinya.";
 
 /* Class = "IBUIBarButtonItem"; title = "Accept"; ObjectID = "52M-Io-zmT"; */
 "52M-Io-zmT.title" = "Terima";
@@ -53,7 +53,7 @@
 /* Class = "IBUILabel"; text = "Template"; ObjectID = "eWb-FU-XFE"; */
 "eWb-FU-XFE.text" = "Template";
 
-/* Class = "IBUILabel"; text = "Enter your organizational email address"; ObjectID = "hOy-kG-IDD"; */
+/* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "hOy-kG-IDD"; */
 "hOy-kG-IDD.text" = "Masukkan alamat surel organisasi Anda";
 
 /* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */

@@ -11,7 +11,7 @@
 "NO_OPEN_IN_OPTIONS_TEXT" =  "Nu există nicio aplicație instalată pe dispozitivul dvs. care să poată deschide %@";
 
 /* Message to show the user when audited extraction right is not allowed */
-"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Acest fișier nu poate fi deschis, deoarece proprietarul nu a permis deschiderea fișierului în altă aplicație decât aplicația de partajare RMS";
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Acest fișier nu poate fi deschis, deoarece proprietarul nu a permis deschiderea acestuia în altă aplicație decât RMS Sharing";
 
 /* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
 "NO_MAIL_ACCOUNTS_TEXT" = "Nu s-au găsit conturi de e-mail. Accesați Setări->Mail și adăugați-vă contul de e-mail";
@@ -38,13 +38,13 @@
 "EMAIL_PROTECTED_FILE_SUBJECT" = "Am partajat în siguranță fișiere cu dvs.";
 
 /* Email body for sharing a protected file */
-"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Am partajat în siguranță fișierele atașate cu dvs.</p><p>Înscrieți-vă pentru Microsoft Rights Management <a href=\"https://go.microsoft.com/fwlink/?LinkId=309469\">aici</a> gratuit.<br />Înainte de a deschide atașarea, instalați aplicația de partajare Microsoft Rights Management de <a href=\"https://go.microsoft.com/fwlink/?LinkId=309467\">aici</a>.</p><p>Aveți nevoie de ajutor suplimentar? Faceți clic <a href=\"https://go.microsoft.com/fwlink/?LinkId=311734\">aici</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Partajarea în siguranță a fișierelor cu </span><a href=\"https://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Am partajat în siguranță fișierele atașate cu dvs.</p><p>Înscrieți-vă pentru Microsoft Rights Management <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">aici</a> gratuit.<br />Înainte de a deschide atașarea, instalați aplicația de partajare Microsoft Rights Management de <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">aici</a>.</p><p>Aveți nevoie de ajutor suplimentar? Faceți clic <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">aici</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Partajarea în siguranță a fișierelor cu </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
 
 /* Ad-hoc policy title for the consent dialog */
 "AD_HOC_POLICY_TITLE" = "Permisiunile dvs.:";
 
 /* A message to show when the text did not loaded completely because it is too long */
-"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Textul a fost încărcat parțial, deoarece este prea lung. Pentru a vizualiza textul complet, deschideți fișierul pe PC folosind aplicația de partajare RMS.";
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Textul a fost încărcat parțial, deoarece este prea lung. Pentru a vizualiza textul complet, deschideți fișierul pe PC, folosind aplicația RMS Sharing.";
 
 /******************
  * Error Viewer

@@ -11,7 +11,7 @@
 "NO_OPEN_IN_OPTIONS_TEXT" =  "Não há aplicativos instalados no seu dispositivo que possa abrir o %@";
 
 /* Message to show the user when audited extraction right is not allowed */
-"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Esse arquivo não pode ser aberto porque o proprietário não permitiu a abertura em um aplicativo diferente do aplicativo de compartilhamento RMS";
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "O arquivo não pode ser aberto porque o proprietário não autorizou que o arquivo seja aberto em outro aplicativo além do aplicativo de RMS sharing";
 
 /* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
 "NO_MAIL_ACCOUNTS_TEXT" = "Nenhuma conta de email encontrada. Vá para Configurações->Correio e adicione sua conta de email";
@@ -38,13 +38,13 @@
 "EMAIL_PROTECTED_FILE_SUBJECT" = "Eu compartilhei com segurança o(s) arquivo(s)";
 
 /* Email body for sharing a protected file */
-"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Eu compartilhei com segurança o(s) arquivo(s) anexado(s).</p><p>Inscreva-se no Microsoft Rights Management <a href=\"https://go.microsoft.com/fwlink/?LinkId=309469\">aqui</a> gratuitamente.<br />Antes de abrir o anexo, instale o aplicativo de compartilhamento Microsoft Rights Management <a href=\"https://go.microsoft.com/fwlink/?LinkId=309467\">aqui</a>.</p><p>Precisa de mais ajuda? Clique <a href=\"https://go.microsoft.com/fwlink/?LinkId=311734\">aqui</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Compartilhe com segurança seus arquivos com o </span><a href=\"https://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Eu compartilhei com segurança o(s) arquivo(s) anexado(s).</p><p>Inscreva-se no Microsoft Rights Management <a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">aqui</a> gratuitamente.<br />Antes de abrir o anexo, instale o aplicativo de compartilhamento Microsoft Rights Management <a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">aqui</a>.</p><p>Precisa de mais ajuda? Clique <a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">aqui</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">Compartilhe com segurança seus arquivos com o </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
 
 /* Ad-hoc policy title for the consent dialog */
 "AD_HOC_POLICY_TITLE" = "Suas permissões:";
 
 /* A message to show when the text did not loaded completely because it is too long */
-"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "O texto foi parcialmente carregado porque é muito longo. Para ver o texto completo, abre o arquivo em seu computador usando o aplicativo de compartilhamento RMS.";
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "O texto foi carregado parcialmente porque é muito longo. Para exibir o texto completo, abra o arquivo em seu PC usando o aplicativo RMS sharing.";
 
 /******************
  * Error Viewer

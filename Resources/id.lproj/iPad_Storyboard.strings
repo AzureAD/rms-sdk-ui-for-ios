@@ -29,11 +29,11 @@
 /* Class = "IBUITextField"; placeholder = "someone@example.com"; ObjectID = "UAd-fS-8As"; */
 "UAd-fS-8As.placeholder" = "someone@example.com";
 
-/* Class = "IBUILabel"; text = "Enter your organizational email address"; ObjectID = "UG3-sj-cQ9"; */
+/* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "UG3-sj-cQ9"; */
 "UG3-sj-cQ9.text" = "Masukkan alamat surel organisasi Anda";
 
 /* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "UkI-7g-c1c"; */
-"UkI-7g-c1c.text" = "Penggunaan dokumen yang dilindungi dengan Pengelola Hak Microsoft dapat dilacak oleh pengirim dan/atau administrator TI organisasinya.";
+"UkI-7g-c1c.text" = "Penggunaan dokumen yang dilindungi dengan Microsoft Rights Management dapat dilacak oleh pengirim dan/atau administrator TI organisasinya.";
 
 /* Class = "IBUIButton"; normalTitle = "Privacy"; ObjectID = "dCR-LG-ZLI"; */
 "dCR-LG-ZLI.normalTitle" = "Privasi";

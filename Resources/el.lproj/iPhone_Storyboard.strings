@@ -30,7 +30,7 @@
 "NAH-4u-FQQ.normalTitle" = "Επεξεργασία";
 
 /* Class = "IBUILabel"; text = "By choosing accept, you authorize this application to connect to the following services"; ObjectID = "ONi-9S-NEr"; */
-"ONi-9S-NEr.text" = "Αν αποδεχτείτε, εξουσιοδοτείτε την εφαρμογή για να συνδέεται με τις ακόλουθες υπηρεσίες";
+"ONi-9S-NEr.text" = "Επιλέγοντας \"Αποδοχή\", εξουσιοδοτείτε την εφαρμογή για να συνδέεται με τις ακόλουθες υπηρεσίες";
 
 /* Class = "IBUITextField"; placeholder = "someone@example.com"; ObjectID = "Qvd-fp-jj8"; */
 "Qvd-fp-jj8.placeholder" = "someone@example.com";
@@ -53,7 +53,7 @@
 /* Class = "IBUILabel"; text = "Template"; ObjectID = "eWb-FU-XFE"; */
 "eWb-FU-XFE.text" = "Πρότυπο";
 
-/* Class = "IBUILabel"; text = "Enter your organizational email address"; ObjectID = "hOy-kG-IDD"; */
+/* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "hOy-kG-IDD"; */
 "hOy-kG-IDD.text" = "Πληκτρολογήστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου του οργανισμού σας";
 
 /* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
