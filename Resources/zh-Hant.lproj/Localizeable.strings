@@ -38,7 +38,7 @@
 "EMAIL_PROTECTED_FILE_SUBJECT" = "我已安全地與您共用檔案";
 
 /* Email body for sharing a protected file */
-"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>我已安全地與你共用檔案。</p><p>在<a href=\"https://go.microsoft.com/fwlink/?LinkId=309469\">這裡</a>免費註冊 Microsoft Rights Management。<br />開啟附加檔案前，請先從<a href=\"https://go.microsoft.com/fwlink/?LinkId=309467\">這裡</a>安裝 Microsoft Rights Management 共用應用程式。</p><p>需要進一步協助嗎? 請按一下<a href=\"https://go.microsoft.com/fwlink/?LinkId=311734\">這裡</a>。</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">使用</span><a href=\"https://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a>安全地共用您的檔案</p></body></html>";
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>我已安全地與你共用檔案。</p><p>在<a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">這裡</a>免費註冊 Microsoft Rights Management。<br />開啟附加檔案前，請先從<a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">這裡</a>安裝 Microsoft Rights Management 共用應用程式。</p><p>需要進一步協助嗎? 請按一下<a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">這裡</a>。</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">使用</span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a>安全地共用您的檔案</p></body></html>";
 
 /* Ad-hoc policy title for the consent dialog */
 "AD_HOC_POLICY_TITLE" = "您的權限:";

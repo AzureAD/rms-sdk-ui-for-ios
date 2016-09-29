@@ -1,6 +1,0 @@
-framework module AriaObjC {
-  umbrella header "AriaObjC.h"
-
-  export *
-  module * { export * }
-}

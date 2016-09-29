@@ -44,7 +44,7 @@
 "AD_HOC_POLICY_TITLE" = "Your permissions:";
 
 /* A message to show when the text did not loaded completely because it is too long */
-"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "The text was partially loaded because it is too long. To view the full text please open the file on your PC using RMS.";
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "The text was partially loaded because it is too long. To view the full text please open the file on your PC using RMS sharing app.";
 
 /******************
  * Error Viewer
