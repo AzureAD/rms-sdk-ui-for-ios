@@ -40,7 +40,6 @@
 /* Email body for sharing a protected file */
 "EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>Ho condiviso in modo sicuro i file allegati.</p><p>Per iscriversi gratuitamente a Microsoft Rights Management, <a href=\"https://go.microsoft.com/fwlink/?LinkId=309469\">fare clic qui</a>.<br />Prima di aprire l'allegato, installare l'app Microsoft Rights Management sharing da <a href=\"https://go.microsoft.com/fwlink/?LinkId=309467\">qui</a>.</p><p>Per altre informazioni, vedere l'argomento relativo alla <a href=\"https://go.microsoft.com/fwlink/?LinkId=311734\">here</a>.</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">condivisione dei file in modo sicuro con </span><a href=\"https://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a></p></body></html>";
 
-
 /* Ad-hoc policy title for the consent dialog */
 "AD_HOC_POLICY_TITLE" = "Autorizzazioni utente:";
 
@@ -233,7 +232,7 @@
 "DiagnosticsConsentTitle" = "Migliora RMS";
 
 /* The description text for the diagnostics consent */
-"DiagnosticsConsentText" = "È possibile inviare informazioni per contribuire a migliorare RMS. Queste informazioni non verranno usate per identificare l'utente o per contattarlo.";
+"DiagnosticsConsentText" = "È possibile inviare informazioni per contribuire a migliorare RMS. Queste informazioni non verranno usate per identificare l\\'utente o per contattarlo.";
 
 /* The 'yes' button text of the diagnostics consent alert view */
 "DiagnosticsConsentYesButton" = "Sì";

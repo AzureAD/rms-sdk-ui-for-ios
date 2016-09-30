@@ -11,7 +11,7 @@
 "NO_OPEN_IN_OPTIONS_TEXT" =  "Não há aplicativos instalados no seu dispositivo que possa abrir o %@";
 
 /* Message to show the user when audited extraction right is not allowed */
-"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "O arquivo não pode ser aberto porque o proprietário não autorizou que o arquivo seja aberto em outro aplicativo além do aplicativo de RMS sharing";
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Esse arquivo não pode ser aberto porque o proprietário não permitiu a abertura em um aplicativo diferente do aplicativo de compartilhamento RMS";
 
 /* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
 "NO_MAIL_ACCOUNTS_TEXT" = "Nenhuma conta de email encontrada. Vá para Configurações->Correio e adicione sua conta de email";
