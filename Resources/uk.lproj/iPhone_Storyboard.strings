@@ -54,7 +54,7 @@
 "eWb-FU-XFE.text" = "Шаблон";
 
 /* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "hOy-kG-IDD"; */
-"hOy-kG-IDD.text" = "Введіть свою адресу електронної пошти в організації";
+"hOy-kG-IDD.text" = "Робочий або навчальний обліковий запис";
 
 /* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
 "hpP-GZ-xjz.text" = "Назва";

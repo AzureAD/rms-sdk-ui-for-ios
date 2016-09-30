@@ -54,7 +54,7 @@
 "eWb-FU-XFE.text" = "Malli";
 
 /* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "hOy-kG-IDD"; */
-"hOy-kG-IDD.text" = "Anna organisaatiosähköpostiosoitteesi";
+"hOy-kG-IDD.text" = "Työ- tai koulutili";
 
 /* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
 "hpP-GZ-xjz.text" = "Otsikko";

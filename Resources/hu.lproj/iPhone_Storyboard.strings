@@ -54,7 +54,7 @@
 "eWb-FU-XFE.text" = "Sablon";
 
 /* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "hOy-kG-IDD"; */
-"hOy-kG-IDD.text" = "Adja meg a szervezeti e-mail címét.";
+"hOy-kG-IDD.text" = "Munkahelyi vagy iskolai fiók";
 
 /* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
 "hpP-GZ-xjz.text" = "Cím";

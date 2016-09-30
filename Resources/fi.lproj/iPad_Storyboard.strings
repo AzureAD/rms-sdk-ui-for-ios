@@ -30,7 +30,7 @@
 "UAd-fS-8As.placeholder" = "joku@example.com";
 
 /* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "UG3-sj-cQ9"; */
-"UG3-sj-cQ9.text" = "Anna organisaatiosähköpostiosoitteesi";
+"UG3-sj-cQ9.text" = "Työ- tai koulutili";
 
 /* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "UkI-7g-c1c"; */
 "UkI-7g-c1c.text" = "Lähettäjä ja/tai hänen organisaationsa IT-järjestelmänvalvoja saattaa seurata Microsoft Rights Managementillä suojattujen tiedostojen käyttöä.";

@@ -30,7 +30,7 @@
 "UAd-fS-8As.placeholder" = "jemand@example.com";
 
 /* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "UG3-sj-cQ9"; */
-"UG3-sj-cQ9.text" = "Geben Sie Ihre E-Mail-Adresse bei Ihrer Organisation ein.";
+"UG3-sj-cQ9.text" = "Geschäfts- oder Schulkonto";
 
 /* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "UkI-7g-c1c"; */
 "UkI-7g-c1c.text" = "Die Verwendung von Dokumenten, die durch Microsoft Rights Management geschützt sind, kann vom Absender oder vom IT-Administrator der Organisation des Absenders nachverfolgt werden.";

@@ -54,7 +54,7 @@
 "eWb-FU-XFE.text" = "Modelo";
 
 /* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "hOy-kG-IDD"; */
-"hOy-kG-IDD.text" = "Introduza o seu endereço de e-mail empresarial";
+"hOy-kG-IDD.text" = "Conta escolar ou profissional";
 
 /* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
 "hpP-GZ-xjz.text" = "Título";

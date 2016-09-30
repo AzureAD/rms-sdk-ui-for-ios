@@ -54,7 +54,7 @@
 "eWb-FU-XFE.text" = "แม่แบบ";
 
 /* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "hOy-kG-IDD"; */
-"hOy-kG-IDD.text" = "ป้อนที่อยู่อีเมลองค์กรของคุณ";
+"hOy-kG-IDD.text" = "บัญชีที่ทำงานหรือโรงเรียน";
 
 /* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
 "hpP-GZ-xjz.text" = "ชื่อเรื่อง";

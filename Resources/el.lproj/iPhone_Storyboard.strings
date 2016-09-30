@@ -54,7 +54,7 @@
 "eWb-FU-XFE.text" = "Πρότυπο";
 
 /* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "hOy-kG-IDD"; */
-"hOy-kG-IDD.text" = "Πληκτρολογήστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου του οργανισμού σας";
+"hOy-kG-IDD.text" = "Εταιρικός ή σχολικός λογαριασμός";
 
 /* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
 "hpP-GZ-xjz.text" = "Τίτλος";

@@ -54,7 +54,7 @@
 "eWb-FU-XFE.text" = "Predložak";
 
 /* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "hOy-kG-IDD"; */
-"hOy-kG-IDD.text" = "Unesite adresu e-pošte svoje tvrtke ili ustanove";
+"hOy-kG-IDD.text" = "Račun tvrtke ili obrazovne ustanove";
 
 /* Class = "IBUILabel"; text = "Title"; ObjectID = "hpP-GZ-xjz"; */
 "hpP-GZ-xjz.text" = "Naslov";

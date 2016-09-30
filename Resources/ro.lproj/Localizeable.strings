@@ -11,7 +11,7 @@
 "NO_OPEN_IN_OPTIONS_TEXT" =  "Nu există nicio aplicație instalată pe dispozitivul dvs. care să poată deschide %@";
 
 /* Message to show the user when audited extraction right is not allowed */
-"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Acest fișier nu poate fi deschis, deoarece proprietarul nu a permis deschiderea fișierului în altă aplicație decât aplicația de partajare RMS";
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Acest fișier nu poate fi deschis, deoarece proprietarul nu a permis deschiderea acestuia în altă aplicație decât RMS Sharing";
 
 /* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
 "NO_MAIL_ACCOUNTS_TEXT" = "Nu s-au găsit conturi de e-mail. Accesați Setări->Mail și adăugați-vă contul de e-mail";
@@ -44,7 +44,7 @@
 "AD_HOC_POLICY_TITLE" = "Permisiunile dvs.:";
 
 /* A message to show when the text did not loaded completely because it is too long */
-"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Textul a fost încărcat parțial, deoarece este prea lung. Pentru a vizualiza textul complet, deschideți fișierul pe PC folosind aplicația de partajare RMS.";
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "Textul a fost încărcat parțial, deoarece este prea lung. Pentru a vizualiza textul complet, deschideți fișierul pe PC, folosind aplicația RMS Sharing.";
 
 /******************
  * Error Viewer

@@ -30,7 +30,7 @@
 "UAd-fS-8As.placeholder" = "valaki@example.com";
 
 /* Class = "IBUILabel"; text = "Work or school account"; ObjectID = "UG3-sj-cQ9"; */
-"UG3-sj-cQ9.text" = "Adja meg a szervezeti e-mail címét.";
+"UG3-sj-cQ9.text" = "Munkahelyi vagy iskolai fiók";
 
 /* Class = "IBUILabel"; text = "Use of documents that are protected by Microsoft Rights Management might be tracked by the sender and/or by their organization's IT administrator."; ObjectID = "UkI-7g-c1c"; */
 "UkI-7g-c1c.text" = "A Microsoft Rights Management által védett dokumentumok használatát nyomon követheti a feladó, illetve annak szervezeti rendszergazdája.";

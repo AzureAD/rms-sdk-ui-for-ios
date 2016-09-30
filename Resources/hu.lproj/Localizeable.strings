@@ -11,7 +11,7 @@
 "NO_OPEN_IN_OPTIONS_TEXT" =  "Az eszközön nincs telepítve olyan alkalmazás, amellyel megnyithatná: %@";
 
 /* Message to show the user when audited extraction right is not allowed */
-"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Ezt a fájlt nem lehet megnyitni, mert a tulajdonos csak az RMS-megosztó alkalmazásban történő megnyitását engedélyezte";
+"NO_AUDITED_EXTRACTION_RIGHT_TEXT" = "Ezt a fájlt nem lehet megnyitni, mert a tulajdonos csak az RMS megosztó alkalmazásban történő megnyitását engedélyezte.";
 
 /* Message that will be shown when the user tries to share in email but has no mail accounts on his devices */
 "NO_MAIL_ACCOUNTS_TEXT" = "Nincsenek e-mail fiókok. Lépjen a Beállítások->Levelezés lehetőségre, és adja hozzá e-mail fiókját";
@@ -44,7 +44,7 @@
 "AD_HOC_POLICY_TITLE" = "Engedélyei:";
 
 /* A message to show when the text did not loaded completely because it is too long */
-"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "A szöveg betöltése csak részlegesen valósult meg, mert a szöveg túl hosszú. A teljes szöveg megnyitásához használja az RMS megosztóalkalmazást számítógépén.";
+"TEXT_WAS_LOADED_PARTIALLY_MESSAGE" = "A szöveg betöltése csak részlegesen valósult meg, mert a szöveg túl hosszú. A teljes szöveg megnyitásához használja az RMS megosztó alkalmazást számítógépén.";
 
 /******************
  * Error Viewer
