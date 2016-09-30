@@ -38,7 +38,8 @@
 "EMAIL_PROTECTED_FILE_SUBJECT" = "ファイルをセキュリティ保護付きで共有しました";
 
 /* Email body for sharing a protected file */
-"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>添付のファイルをセキュリティ保護付きで共有しました。</p><p><a href=\"http://go.microsoft.com/fwlink/?LinkId=309469\">こちら</a>から無料で Microsoft Rights Management にサインアップしましょう。<br />添付ファイルを開く前に、Microsoft Rights Management 共有アプリを<a href=\"http://go.microsoft.com/fwlink/?LinkId=309467\">こちら</a>からインストールしてください。</p><p>詳細情報が必要な場合は、<a href=\"http://go.microsoft.com/fwlink/?LinkId=311734\">こちら</a>をクリックしてください。</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">ファイルを </span><a href=\"http://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a>で安全に共有する</p></body></html>";
+"EMAIL_PROTECTED_FILE_BODY" = "<!DOCTYPE html><html><head/><body style=\"font-family:Calibri;\"><p>添付のファイルをセキュリティ保護付きで共有しました。</p><p><a href=\"https://go.microsoft.com/fwlink/?LinkId=309469\">こちら</a>から無料で Microsoft Rights Management にサインアップしましょう。<br />添付ファイルを開く前に、Microsoft Rights Management 共有アプリを<a href=\"https://go.microsoft.com/fwlink/?LinkId=309467\">こちら</a>からインストールしてください。</p><p>詳細情報が必要な場合は、<a href=\"https://go.microsoft.com/fwlink/?LinkId=311734\">こちら</a>をクリックしてください。</p><hr width=\"75%\" align=\"left\"/><p><span style=\"font-size:12.0pt;color:#7F7F7F;\">ファイルを </span><a href=\"https://go.microsoft.com/fwlink/?LinkId=309468\" style=\"font-size:12.0pt;color:#7F7F7F;font-weight:bold;text-decoration:none;\">Microsoft Rights Management</a>で安全に共有する</p></body></html>";
+
 
 /* Ad-hoc policy title for the consent dialog */
 "AD_HOC_POLICY_TITLE" = "アクセス許可:";
