@@ -230,9 +230,6 @@
 		F5798462182A72320024D12C /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizeable.strings; sourceTree = "<group>"; };
 		F5E04ED917957BF90083B7AB /* permitted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "permitted@2x.png"; path = "assets/ios/permitted@2x.png"; sourceTree = "<group>"; };
 		F5E04EDA17957BF90083B7AB /* restricted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "restricted@2x.png"; path = "assets/ios/restricted@2x.png"; sourceTree = "<group>"; };
-		F9AC803D1D9DB3E100885212 /* sr-Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sr-Latn"; path = "Resources/sr-Latn.lproj/iPad_Storyboard.strings"; sourceTree = "<group>"; };
-		F9F88E0E1D9DBAD7003CCA41 /* sr-Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sr-Latn"; path = "Resources/sr-Latn.lproj/iPhone_Storyboard.strings"; sourceTree = "<group>"; };
-		F9F88E0F1D9DBB31003CCA41 /* sr-Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sr-Latn"; path = "sr-Latn.lproj/Localizeable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,7 +438,6 @@
 			knownRegions = (
 				en,
 				Base,
-				"fo-FO",
 				"pt-PT",
 				fr,
 				ja,
@@ -467,22 +463,12 @@
 				sk,
 				th,
 				uk,
-				eu,
 				id,
 				ms,
 				vi,
 				pt,
-				bg,
-				ca,
-				et,
-				gl,
 				hi,
-				kk,
-				lt,
-				lv,
-				sl,
 				"sr-Cyrl",
-				"sr-Latn",
 			);
 			mainGroup = 6918E3971633FAD80054C586;
 			productRefGroup = 6918E3A31633FAD80054C586 /* Products */;
@@ -662,7 +648,6 @@
 				69F6D53F173AA99200BD4FC8 /* nb */,
 				F5798462182A72320024D12C /* pt */,
 				521E96B519D21C7D00DAA31F /* hi */,
-				F9F88E0F1D9DBB31003CCA41 /* sr-Latn */,
 			);
 			name = Localizeable.strings;
 			path = Resources;
@@ -703,7 +688,6 @@
 				69F6D571173AACCB00BD4FC8 /* nb */,
 				F5798460182A72320024D12C /* pt */,
 				521E96B719D2212C00DAA31F /* hi */,
-				F9AC803D1D9DB3E100885212 /* sr-Latn */,
 			);
 			name = iPad_Storyboard.storyboard;
 			sourceTree = "<group>";
@@ -743,7 +727,6 @@
 				69F6D59A173B600700BD4FC8 /* vi */,
 				F5798461182A72320024D12C /* pt */,
 				521E96B619D2212500DAA31F /* hi */,
-				F9F88E0E1D9DBAD7003CCA41 /* sr-Latn */,
 			);
 			name = iPhone_Storyboard.storyboard;
 			sourceTree = "<group>";
